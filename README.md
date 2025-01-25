@@ -1,11 +1,21 @@
+<div align="center">
+
+<!-- title -->
+
+<!--lint ignore no-dead-urls-->
+
 # Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
----
+<!-- description -->
 
-> A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology.
+*A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology.*
 
-<div align="center">
-  <img src="resources/images/image.jpeg" alt="Awesome AI Agents Logo" width="512">
+<!-- image -->
+
+<a href="" target="_blank" rel="noopener noreferrer">
+  <img src="resources/images/image.jpeg" alt="Awesome AI Agents Logo" width= "256" height="256">
+</a>
+
 </div>
 
 ---
@@ -24,13 +34,13 @@
 ## Core Frameworks
 Frameworks for building and managing AI agents.
 
-| Framework | Stars | Key Features | 
-|-----------|-------|--------------|
-| [AutoGen](https://github.com/microsoft/autogen) | ![](https://img.shields.io/github/stars/microsoft/autogen) | Multi-agent conversations, GPT-4 integration, customizable workflows |
-| [MetaGPT](https://github.com/geekan/MetaGPT) | ![](https://img.shields.io/github/stars/geekan/MetaGPT) | Simulates software company workflows, role-based agents |
-| [CrewAI](https://github.com/joaomdmoura/crewai) | ![](https://img.shields.io/github/stars/joaomdmoura/crewai) | Role-based agent orchestration, task delegation |
-| [LangChain](https://github.com/langchain-ai/langchain) | ![](https://img.shields.io/github/stars/langchain-ai/langchain) | Tool integration, memory management, agent chaining |
-| [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | ![](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI) | Open-source AGI framework, multi-modal agents |
+| Framework                                                  | Stars                                                                | Key Features                                                         | 
+|------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
+| [AutoGen](https://github.com/microsoft/autogen)            | ![](https://img.shields.io/github/stars/microsoft/autogen)           | Multi-agent conversations, GPT-4 integration, customizable workflows |
+| [MetaGPT](https://github.com/geekan/MetaGPT)               | ![](https://img.shields.io/github/stars/geekan/MetaGPT)              | Simulates software company workflows, role-based agents              |
+| [CrewAI](https://github.com/joaomdmoura/crewai)            | ![](https://img.shields.io/github/stars/joaomdmoura/crewai)          | Role-based agent orchestration, task delegation                      |
+| [LangChain](https://github.com/langchain-ai/langchain)     | ![](https://img.shields.io/github/stars/langchain-ai/langchain)      | Tool integration, memory management, agent chaining                  |
+| [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | ![](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI) | Open-source AGI framework, multi-modal agents                        |
 
 ---
 
@@ -86,11 +96,11 @@ Key research papers, benchmarks, and surveys on AI agents.
 Join the conversation and stay updated on AI agent developments.
 
 ### Communities
-- 🎮 [AI Agent Discord Communities](#) - Join discussions on AI agent frameworks.
-- 📅 [Agentic AI Meetups](#) - Attend local or virtual meetups.
+- 🎮 [AI Agent Discord Communities]() - Join discussions on AI agent frameworks.
+- 📅 [Agentic AI Meetups]() - Attend local or virtual meetups.
 
 ### Newsletters
-- 📰 [AI Agent Weekly](#) - Weekly roundup of AI agent news and updates.
+- 📰 [AI Agent Weekly]() - Weekly roundup of AI agent news and updates.
 
 ---
 
