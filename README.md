@@ -1,6 +1,12 @@
 # Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+---
+
 > A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology.
+
+<div align="center">
+  <img src="resources/images/image.jpeg" alt="Awesome AI Agents Logo" width="512">
+</div>
 
 ---
 
@@ -11,6 +17,7 @@
 - [Research & Benchmarks](#research--benchmarks)
 - [Community Resources](#community-resources)
 - [Contributing](#contributing)
+
 
 ---
 
