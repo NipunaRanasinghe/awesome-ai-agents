@@ -4,7 +4,7 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Check Links](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml/badge.svg)](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml)
 
 <!-- description -->
 
