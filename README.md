@@ -41,6 +41,7 @@ Frameworks for building and managing AI agents.
 | [CrewAI](https://github.com/joaomdmoura/crewai)            | ![](https://img.shields.io/github/stars/joaomdmoura/crewai)          | Role-based agent orchestration, task delegation                      |
 | [LangChain](https://github.com/langchain-ai/langchain)     | ![](https://img.shields.io/github/stars/langchain-ai/langchain)      | Tool integration, memory management, agent chaining                  |
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | ![](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI) | Open-source AGI framework, multi-modal agents                        |
+| [Upsonic](https://github.com/upsonic/upsonic)              | ![](https://img.shields.io/github/stars/upsonic/upsonic)             | Reliability layer, model context protocol, task orianted             |
 
 ---
 
