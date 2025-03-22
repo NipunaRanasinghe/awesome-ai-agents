@@ -175,10 +175,4 @@ For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
 
 ---
 
-## License
-
-This project is licensed under the [MIT License](LICENSE). Feel free to use, modify, and distribute it as needed.
-
----
-
 **Star this repository** to show your support and stay updated on the latest AI agent resources!
