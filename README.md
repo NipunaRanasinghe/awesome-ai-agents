@@ -43,6 +43,8 @@ Frameworks for building and managing AI agents.
 | [Upsonic](https://github.com/upsonic/upsonic)              | ![](https://img.shields.io/github/stars/upsonic/upsonic)             | Reliability layer, model context protocol, task-oriented             |
 | [AgentVerse](https://github.com/OpenBMB/AgentVerse)        | ![](https://img.shields.io/github/stars/OpenBMB/AgentVerse)          | Multi-agent simulation environments for research                     |
 | [ChatDev](https://github.com/OpenBMB/ChatDev)              | ![](https://img.shields.io/github/stars/OpenBMB/ChatDev)             | Collaborative agents for software development                        |
+| [AGiXT](https://github.com/AGiXT/AGiXT)                    | ![](https://img.shields.io/github/stars/AGiXT/AGiXT)                 | Advanced AI automation platform with adaptive memory                 |
+| [Agent-LLM](https://github.com/Agent-LLM/Agent-LLM)        | ![](https://img.shields.io/github/stars/Agent-LLM/Agent-LLM)         | Framework for building autonomous language agents                    |
 
 ---
 
@@ -54,8 +56,9 @@ Agents designed for specific tasks or industries.
 |---------------------------------------------------------|------------------------------------------------------------------|-------------------------------------------------|
 | [SWE-agent](https://github.com/princeton-nlp/SWE-agent) | ![](https://img.shields.io/github/stars/princeton-nlp/SWE-agent) | AI agent for software engineering tasks.        |
 | [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)  | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)  | Assists in writing and debugging code.          |
-| [OpenDevin](https://github.com/OpenDevin/OpenDevin)     | ![](https://img.shields.io/github/stars/OpenDevin/OpenDevin)     | Open-source Devin alternative for coding tasks. |
+| [OpenDevin](https://github.com/OpenDevin/OpenDevin)     | ![](https://img.shields.io/github/stars/OpenDevin/OpenDevin)     | Open-source alternative for coding tasks.       |
 | [CodeAgent](https://github.com/codeagent-ai/codeagent)  | ![](https://img.shields.io/github/stars/codeagent-ai/codeagent)  | Autonomous coding assistant for developers.     |
+| [Jules](https://github.com/google/jules)                | ![](https://img.shields.io/github/stars/google/jules)            | AI agent for fixing coding errors.              |
 
 ### Research Agents
 | Name                                                            | Stars                                                               | Description                                             |
