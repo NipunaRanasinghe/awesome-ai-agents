@@ -171,7 +171,7 @@ Your contributions are welcome! Here’s how to get started:
     - Includes a brief description and link.
 4. Submit a pull request with a clear description of your changes.
 
-For more details, see the [CONTRIBUTING.md](docs/CONTRIBUTING.md) guide.
+For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
 
 ---
 
