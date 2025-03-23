@@ -20,27 +20,39 @@
 
 ---
 
-## Contents
+## Contributors 😍
 
-- [Core Frameworks](#core-frameworks)
-- [Specialized Agents](#specialized-agents)
-    - [Coding Agents](#coding-agents)
-    - [Research Agents](#research-agents)
-    - [Creative Agents](#creative-agents)
-- [Agent Operations](#agent-operations)
-    - [Memory](#memory)
-    - [Evaluation](#evaluation)
-    - [Deployment](#deployment)
-- [Research & Benchmarks](#research--benchmarks)
-    - [Papers](#papers)
-    - [Benchmarks](#benchmarks)
-- [Community Resources](#community-resources)
-    - [Communities](#communities)
-    - [Newsletters](#newsletters)
+Many thanks to these AI whisperers:
+
+<a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents" />
+</a>
+
+**Star this repository** to show your support and stay updated on the latest AI agent resources!
 
 ---
 
-## Core Frameworks
+## Contents
+
+- [🌟 Core Frameworks](#-core-frameworks)
+- [🚀 Specialized Agents](#-specialized-agents)
+    - [💻 Coding Agents](#-coding-agents)
+    - [🔬 Research Agents](#-research-agents)
+    - [🎨 Creative Agents](#-creative-agents)
+- [⚙️ Agent Operations](#-agent-operations)
+    - [🧠 Memory](#-memory)
+    - [📊 Evaluation](#-evaluation)
+    - [🚀 Deployment](#-deployment)
+- [📚 Research & Benchmarks](#-research--benchmarks)
+    - [📄 Papers](#-papers)
+    - [📊 Benchmarks](#-benchmarks)
+- [🌐 Community Resources](#-community-resources)
+    - [👥 Communities](#-communities)
+    - [📰 Newsletters](#-newsletters)
+
+---
+
+## 🌟 Core Frameworks
 
 Frameworks for building and managing AI agents.
 
@@ -58,39 +70,39 @@ Frameworks for building and managing AI agents.
 
 ---
 
-## Specialized Agents
+## 🚀 Specialized Agents
 
 Agents designed for specific tasks or industries.
 
-### Coding Agents
+### 💻 Coding Agents
 
-| Name                                                    | Stars                                                            | Description                                 |
-|---------------------------------------------------------|------------------------------------------------------------------|---------------------------------------------|
-| [SWE-agent](https://github.com/princeton-nlp/SWE-agent) | ![](https://img.shields.io/github/stars/princeton-nlp/SWE-agent) | AI agent for software engineering tasks.    |
-| [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)  | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)  | Assists in writing and debugging code.      |
-| [OpenDevin](https://github.com/OpenDevin/OpenDevin)     | ![](https://img.shields.io/github/stars/OpenDevin/OpenDevin)     | Open-source alternative for coding tasks.   |
+| Name                                                    | Stars                                                            | Description                               |
+|---------------------------------------------------------|------------------------------------------------------------------|-------------------------------------------|
+| [SWE-agent](https://github.com/princeton-nlp/SWE-agent) | ![](https://img.shields.io/github/stars/princeton-nlp/SWE-agent) | AI agent for software engineering tasks.  |
+| [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)  | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)  | Assists in writing and debugging code.    |
+| [OpenDevin](https://github.com/OpenDevin/OpenDevin)     | ![](https://img.shields.io/github/stars/OpenDevin/OpenDevin)     | Open-source alternative for coding tasks. |
 
-### Research Agents
+### 🔬 Research Agents
 
-| Name                                                            | Stars                                                               | Description                                             |
-|-----------------------------------------------------------------|---------------------------------------------------------------------|---------------------------------------------------------|
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ![](https://img.shields.io/github/stars/assafelovic/gpt-researcher) | Autonomous agent for comprehensive online research.     |
-| [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative research.          |
+| Name                                                            | Stars                                                               | Description                                         |
+|-----------------------------------------------------------------|---------------------------------------------------------------------|-----------------------------------------------------|
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ![](https://img.shields.io/github/stars/assafelovic/gpt-researcher) | Autonomous agent for comprehensive online research. |
+| [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative research.      |
 
-### Creative Agents
+### 🎨 Creative Agents
 
-| Name                                                   | Stars                                                        | Description                                       |
-|--------------------------------------------------------|--------------------------------------------------------------|---------------------------------------------------|
-| [ShortGPT](https://github.com/RayVentura/ShortGPT)     | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | AI agent for generating short-form video content. |
-| [AI-town](https://github.com/a16z-infra/ai-town)       | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world populated by AI agents.             |
+| Name                                               | Stars                                                        | Description                                       |
+|----------------------------------------------------|--------------------------------------------------------------|---------------------------------------------------|
+| [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | AI agent for generating short-form video content. |
+| [AI-town](https://github.com/a16z-infra/ai-town)   | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world populated by AI agents.             |
 
 ---
 
-## Agent Operations
+## ⚙️ Agent Operations
 
 Tools and systems for managing AI agents.
 
-### Memory
+### 🧠 Memory
 
 | Name                                              | Stars                                                       | Description                                   |
 |---------------------------------------------------|-------------------------------------------------------------|-----------------------------------------------|
@@ -98,7 +110,7 @@ Tools and systems for managing AI agents.
 | [ChromaDB](https://github.com/chroma-core/chroma) | ![](https://img.shields.io/github/stars/chroma-core/chroma) | Vector database for agent memory and context. |
 | [Weaviate](https://github.com/weaviate/weaviate)  | ![](https://img.shields.io/github/stars/weaviate/weaviate)  | Scalable vector database for agent memory.    |
 
-### Evaluation
+### 📊 Evaluation
 
 | Name                                                            | Stars                                                             | Description                                        |
 |-----------------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------|
@@ -106,7 +118,7 @@ Tools and systems for managing AI agents.
 | [LangTrace](https://github.com/Scale3-Labs/langtrace)           | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)    | Monitoring and evaluation for agent workflows.     |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmark for evaluating agent capabilities.       |
 
-### Deployment
+### 🚀 Deployment
 
 | Name                                                       | Stars                                                                | Description                                      |
 |------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------|
@@ -116,11 +128,11 @@ Tools and systems for managing AI agents.
 
 ---
 
-## Research & Benchmarks
+## 📚 Research & Benchmarks
 
 Key research papers, benchmarks, and surveys on AI agents.
 
-### Papers
+### 📄 Papers
 
 | Title                                | Link                                      | Description                                      |
 |--------------------------------------|-------------------------------------------|--------------------------------------------------|
@@ -128,7 +140,7 @@ Key research papers, benchmarks, and surveys on AI agents.
 | Tool Learning with Foundation Models | [arXiv](https://arxiv.org/abs/2304.08354) | Explores tool usage in AI agents.                |
 | Multi-Agent Collaboration            | [arXiv](https://arxiv.org/abs/2308.08262) | Framework for collaborative multi-agent systems. |
 
-### Benchmarks
+### 📊 Benchmarks
 
 | Name                                                            | Stars                                                             | Description                                   |
 |-----------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
@@ -138,11 +150,11 @@ Key research papers, benchmarks, and surveys on AI agents.
 
 ---
 
-## Community Resources
+## 🌐 Community Resources
 
 Join the conversation and stay updated on AI agent developments.
 
-### Communities
+### 👥 Communities
 
 | Name                         | Link                                   | Description                                   |
 |------------------------------|----------------------------------------|-----------------------------------------------|
@@ -150,7 +162,7 @@ Join the conversation and stay updated on AI agent developments.
 | Agentic AI Meetups           | [Join](https://meetup.com/agentic-ai)  | Attend local or virtual meetups.              |
 | LangChain Community          | [Join](https://discord.gg/langchain)   | Active community for LangChain and AI agents. |
 
-### Newsletters
+### 📰 Newsletters
 
 | Name                 | Link                                     | Description                                           |
 |----------------------|------------------------------------------|-------------------------------------------------------|
@@ -172,7 +184,3 @@ Your contributions are welcome! Here’s how to get started:
 4. Submit a pull request with a clear description of your changes.
 
 For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
-
----
-
-**Star this repository** to show your support and stay updated on the latest AI agent resources!
