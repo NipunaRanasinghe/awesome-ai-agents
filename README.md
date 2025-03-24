@@ -20,18 +20,6 @@
 
 ---
 
-## Contributors 😍
-
-Many thanks to these AI whisperers:
-
-<a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents" />
-</a>
-
-**Star this repository** to show your support and stay updated on the latest AI agent resources!
-
----
-
 ## Contents
 
 - [🌟 Core Frameworks](#-core-frameworks)
@@ -170,6 +158,17 @@ Join the conversation and stay updated on AI agent developments.
 | The Agentic Observer | [Subscribe](https://agenticobserver.com) | Monthly deep dives into AI agent research and trends. |
 
 ---
+
+## 🚀 Contributors
+
+A huge thank you to all our amazing contributors!
+
+[![Contributors](https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)
+
+Your contributions make this project better every day.
+
+⭐ A special shoutout to all our [stargazers](https://github.com/NipunaRanasinghe/awesome-ai-agents/stargazers) for your support!
+**Star this repository** to stay updated and help grow the community of AI enthusiasts!
 
 ## Contributing
 
