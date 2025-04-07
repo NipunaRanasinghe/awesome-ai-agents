@@ -27,6 +27,7 @@
     - [💻 Coding Agents](#-coding-agents)
     - [🔬 Research Agents](#-research-agents)
     - [🎨 Creative Agents](#-creative-agents)
+    - [💻 Programming Language Agents](#-programming-language-agents)
 - [⚙️ Agent Operations](#-agent-operations)
     - [🧠 Memory](#-memory)
     - [📊 Evaluation](#-evaluation)
@@ -84,6 +85,20 @@ Agents designed for specific tasks or industries.
 | [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | AI agent for generating short-form video content. |
 | [AI-town](https://github.com/a16z-infra/ai-town)   | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world populated by AI agents.             |
 
+## 💻 Programming Language Agents
+
+Agents and frameworks specialized for specific programming languages.
+
+| Name                                                            | Language   | Stars                                                               | Description                                                     |
+|-----------------------------------------------------------------|------------|---------------------------------------------------------------------|-----------------------------------------------------------------|
+| [TypeChat](https://github.com/microsoft/TypeChat)               | TypeScript | ![](https://img.shields.io/github/stars/microsoft/TypeChat)         | Build AI agents that use TypeScript types for structured output |
+| [LangChain.js](https://github.com/langchain-ai/langchainjs)     | JavaScript | ![](https://img.shields.io/github/stars/langchain-ai/langchainjs)   | JavaScript version of LangChain for building agents             |
+| [Semantic Kernel](https://github.com/microsoft/semantic-kernel) | C#/.NET    | ![](https://img.shields.io/github/stars/microsoft/semantic-kernel)  | SDK for integrating LLMs with C# applications                   |
+| [LangChain4j](https://github.com/langchain4j/langchain4j)       | Java       | ![](https://img.shields.io/github/stars/langchain4j/langchain4j)    | Java version of LangChain for building agents                   |
+| [Haystack](https://github.com/deepset-ai/haystack)              | Python     | ![](https://img.shields.io/github/stars/deepset-ai/haystack)        | Framework for building search and question answering agents     |
+| [LlamaIndex.js](https://github.com/run-llama/LlamaIndexTS)      | TypeScript | ![](https://img.shields.io/github/stars/run-llama/LlamaIndexTS)     | TypeScript version of LlamaIndex for building agents            |
+| [LangChain.rb](https://github.com/andreibondarev/langchainrb)   | Ruby       | ![](https://img.shields.io/github/stars/andreibondarev/langchainrb) | Ruby implementation of LangChain for building agents            |
+| [LangChainGo](https://github.com/tmc/langchaingo)               | Go         | ![](https://img.shields.io/github/stars/tmc/langchaingo)            | Go implementation of LangChain for building agents              |
 ---
 
 ## ⚙️ Agent Operations
