@@ -12,8 +12,8 @@
 
 <!-- image -->
 
-<a href="" target="_blank" rel="noopener noreferrer">
-  <img src="resources/images/image.jpeg" alt="Awesome AI Agents Logo" width="256" height="256">
+<a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
+  <img src="https://raw.githubusercontent.com/NipunaRanasinghe/awesome-ai-agents/main/resources/images/ai-agents-icon.png" alt="Awesome AI Agents Logo" width="256" height="256">
 </a>
 
 </div>
@@ -126,7 +126,6 @@ Tools and systems for managing AI agents.
 | Name                                                       | Stars                                                                | Description                                      |
 |------------------------------------------------------------|----------------------------------------------------------------------|--------------------------------------------------|
 | [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | ![](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI) | Deployment platform for autonomous agents.       |
-| [OctoAI](https://github.com/octoai/octoAI)                 | ![](https://img.shields.io/github/stars/octoai/octoAI)               | Scalable infrastructure for AI agent deployment. |
 | [Modal](https://github.com/modal-labs/modal-client)        | ![](https://img.shields.io/github/stars/modal-labs/modal-client)     | Serverless platform for deploying AI agents.     |
 
 ---
@@ -149,7 +148,6 @@ Key research papers, benchmarks, and surveys on AI agents.
 |-----------------------------------------------------------------|-------------------------------------------------------------------|-----------------------------------------------|
 | [AgentBench](https://github.com/THUDM/AgentBench)               | ![](https://img.shields.io/github/stars/THUDM/AgentBench)         | Evaluates agents across diverse environments. |
 | [ToolBench](https://github.com/OpenBMB/ToolBench)               | ![](https://img.shields.io/github/stars/OpenBMB/ToolBench)        | Benchmark for tool learning in agents.        |
-| [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmark for evaluating agent capabilities.  |
 
 ---
 
@@ -161,16 +159,15 @@ Join the conversation and stay updated on AI agent developments.
 
 | Name                         | Link                                   | Description                                   |
 |------------------------------|----------------------------------------|-----------------------------------------------|
-| AI Agent Discord Communities | [Join](https://discord.gg/aicommunity) | Join discussions on AI agent frameworks.      |
-| Agentic AI Meetups           | [Join](https://meetup.com/agentic-ai)  | Attend local or virtual meetups.              |
-| LangChain Community          | [Join](https://discord.gg/langchain)   | Active community for LangChain and AI agents. |
+| LangChain Community          | [Discord](https://discord.gg/langchain) | Active community for LangChain and AI agents. |
+| AutoGen Discussions          | [GitHub](https://github.com/microsoft/autogen/discussions) | Official discussion forum for AutoGen |
 
 ### 📰 Newsletters
 
 | Name                 | Link                                     | Description                                           |
 |----------------------|------------------------------------------|-------------------------------------------------------|
-| AI Agent Weekly      | [Subscribe](https://aiagentweekly.com)   | Weekly roundup of AI agent news and updates.          |
-| The Agentic Observer | [Subscribe](https://agenticobserver.com) | Monthly deep dives into AI agent research and trends. |
+| LangChain Newsletter | [Subscribe](https://blog.langchain.dev/newsletter/) | Updates on LangChain and AI agent developments       |
+| The Batch by DeepLearning.AI | [Subscribe](https://www.deeplearning.ai/the-batch/) | AI news including agent developments |
 
 ---
 
@@ -187,7 +184,7 @@ Your contributions make this project better every day.
 
 ## Contributing
 
-Your contributions are welcome! Here’s how to get started:
+Your contributions are welcome! Here's how to get started:
 
 1. **Fork the repository** and clone it locally.
 2. Add your resource to the appropriate section in `README.md`.
