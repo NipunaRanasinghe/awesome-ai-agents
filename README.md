@@ -27,7 +27,7 @@
     - [💻 Coding Agents](#-coding-agents)
     - [🔬 Research Agents](#-research-agents)
     - [🎨 Creative Agents](#-creative-agents)
-    - [🌐 Web Agents / Browse Agents](#-web-agents--Browse-agents)
+    - [🌐 Web Agents](#-web-agents)
     - [💻 Programming Language Agents](#-programming-language-agents)
 - [⚙️ Agent Operations](#-agent-operations)
     - [🧠 Memory](#-memory)
@@ -97,7 +97,7 @@ Agents designed for specific tasks or industries.
 | [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | AI agent for generating short-form video content. |
 | [AI-town](https://github.com/a16z-infra/ai-town)   | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world populated by AI agents.             |
 
-### 🌐 Web Agents / Browse Agents
+### 🌐 Web Agents
 
 | Name                                                      | Stars                                                            | Description                                     |
 |-----------------------------------------------------------|------------------------------------------------------------------|-------------------------------------------------|
@@ -137,18 +137,17 @@ Tools and systems for managing AI agents.
 
 ### 📊 Evaluation
 
-| Name                                                                             | Stars                                                             | Description                                             |
-|----------------------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------|
-| [AgentBench](https://github.com/THUDM/AgentBench)                                | ![](https://img.shields.io/github/stars/THUDM/AgentBench)         | Multi-environment testing framework for AI agents.      |
-| [LangTrace](https://github.com/Scale3-Labs/langtrace)                            | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)    | Monitoring and evaluation for agent workflows.          |
-| [Agent Evaluation](https://github.com/awslabs/agent-evaluation)                  | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmark for evaluating agent capabilities.            |
-| [BrowseComp](https://github.com/openai/simple-evals/tree/main/browsecomp_public) | ![](https://img.shields.io/github/stars/openai/simple-evals)      | Benchmark for evaluating AI agents on web Browse tasks. |
+| Name                                                            | Stars                                                             | Description                                             |
+|-----------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------|
+| [AgentBench](https://github.com/THUDM/AgentBench)               | ![](https://img.shields.io/github/stars/THUDM/AgentBench)         | Multi-environment testing framework for AI agents.      |
+| [LangTrace](https://github.com/Scale3-Labs/langtrace)           | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)    | Monitoring and evaluation for agent workflows.          |
+| [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmark for evaluating agent capabilities.            |
+| [BrowseComp](https://github.com/openai/simple-evals)            | ![](https://img.shields.io/github/stars/openai/simple-evals)      | Benchmark for evaluating AI agents on web Browse tasks. |
 
 ### 🚀 Deployment
 
 | Name                                                       | Stars                                                                | Description                                                                                 |
 |------------------------------------------------------------|----------------------------------------------------------------------|---------------------------------------------------------------------------------------------|
-| [SuperAGI](https://github.com/TransformerOptimus/SuperAGI) | ![](https://img.shields.io/github/stars/TransformerOptimus/SuperAGI) | Deployment platform for autonomous agents.                                                  |
 | [OctoAI](https://github.com/octoai/octoAI)                 | ![](https://img.shields.io/github/stars/octoai/octoAI)               | Scalable infrastructure for AI agent deployment. (Repo seems to be CLI/SDK for the service) |
 | [Modal](https://github.com/modal-labs/modal-client)        | ![](https://img.shields.io/github/stars/modal-labs/modal-client)     | Serverless platform for deploying AI agents.                                                |
 | [Daytona](https://github.com/daytonaio/daytona)            | ![](https://img.shields.io/github/stars/daytonaio/daytona)           | Secure and Elastic Infrastructure for Running AI-Generated Code.                            |
@@ -173,13 +172,10 @@ Key research papers, benchmarks, and surveys on AI agents.
 
 ### 📊 Benchmarks
 
-| Name                                                                             | Stars                                                             | Description                                                                                              |
-|----------------------------------------------------------------------------------|-------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| [AgentBench](https://github.com/THUDM/AgentBench)                                | ![](https://img.shields.io/github/stars/THUDM/AgentBench)         | Evaluates agents across diverse environments.                                                            |
-| [ToolBench](https://github.com/OpenBMB/ToolBench)                                | ![](https://img.shields.io/github/stars/OpenBMB/ToolBench)        | Benchmark for tool learning in agents.                                                                   |
-| [Agent Evaluation](https://github.com/awslabs/agent-evaluation)                  | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmark for evaluating agent capabilities.                                                             |
-| [BrowseComp](https://github.com/openai/simple-evals/tree/main/browsecomp_public) | ![](https://img.shields.io/github/stars/openai/simple-evals)      | Benchmark by OpenAI for evaluating AI agents on their ability to locate hard-to-find information online. |
-| [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi)                           | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi)   | Benchmark for social intelligence testing in multi-agent systems.                                        |
+| Name                                                   | Stars                                                           | Description                                                       |
+|--------------------------------------------------------|-----------------------------------------------------------------|-------------------------------------------------------------------|
+| [ToolBench](https://github.com/OpenBMB/ToolBench)      | ![](https://img.shields.io/github/stars/OpenBMB/ToolBench)      | Benchmark for tool learning in agents.                            |
+| [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi) | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi) | Benchmark for social intelligence testing in multi-agent systems. |
 
 ---
 
