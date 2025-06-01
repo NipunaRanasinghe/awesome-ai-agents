@@ -8,8 +8,7 @@
 
 <!-- description -->
 
-*A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to
-autonomous coding assistants, this repository covers the latest advancements in AI agent technology.*
+*A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology.*
 
 <!-- image -->
 
@@ -190,17 +189,17 @@ Join the conversation and stay updated on AI agent developments.
 
 ### 👥 Communities
 
-| Name                         | Link                                   | Description                                   |
-|------------------------------|----------------------------------------|-----------------------------------------------|
-| LangChain Community          | [Discord](https://discord.gg/langchain) | Active community for LangChain and AI agents. |
-| AutoGen Discussions          | [GitHub](https://github.com/microsoft/autogen/discussions) | Official discussion forum for AutoGen |
+| Name                | Link                                                       | Description                                   |
+|---------------------|------------------------------------------------------------|-----------------------------------------------|
+| LangChain Community | [Discord](https://discord.gg/langchain)                    | Active community for LangChain and AI agents. |
+| AutoGen Discussions | [GitHub](https://github.com/microsoft/autogen/discussions) | Official discussion forum for AutoGen         |
 
 ### 📰 Newsletters
 
-| Name                 | Link                                     | Description                                           |
-|----------------------|------------------------------------------|-------------------------------------------------------|
-| LangChain Newsletter | [Subscribe](https://blog.langchain.dev/newsletter/) | Updates on LangChain and AI agent developments       |
-| The Batch by DeepLearning.AI | [Subscribe](https://www.deeplearning.ai/the-batch/) | AI news including agent developments |
+| Name                         | Link                                                | Description                                    |
+|------------------------------|-----------------------------------------------------|------------------------------------------------|
+| LangChain Newsletter         | [Subscribe](https://blog.langchain.dev/newsletter/) | Updates on LangChain and AI agent developments |
+| The Batch by DeepLearning.AI | [Subscribe](https://www.deeplearning.ai/the-batch/) | AI news including agent developments           |
 
 ---
 
