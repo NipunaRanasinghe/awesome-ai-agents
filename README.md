@@ -28,7 +28,7 @@
     * [🔬 Research Agents](#-research-agents)
     * [🎨 Creative Agents](#-creative-agents)
     * [🌐 Web Agents](#-web-agents)
-    * [💻 Programming Language Agents](#-programming-language-agents)
+    * [🗣️ Programming Language Agents](#-programming-language-agents)
 * [⚙️ Agent Operations](#-agent-operations)
     * [🧠 Memory](#-memory)
     * [📊 Evaluation](#-evaluation)
@@ -46,7 +46,7 @@
 
 Frameworks for building and managing AI agents.
 
-| Framework                                                                  | Stars                                                                | Key Features                                                                              |
+| Framework                                                                  | Stars                                                                | Description                                                                               |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | [AutoGen](https://github.com/microsoft/autogen)                            | ![](https://img.shields.io/github/stars/microsoft/autogen)           | Multi-agent conversations, GPT-4 integration, customizable workflows                      |
 | [MetaGPT](https://github.com/geekan/MetaGPT)                               | ![](https://img.shields.io/github/stars/geekan/MetaGPT)              | Simulates software company workflows, role-based agents                                   |
@@ -76,7 +76,7 @@ Agents designed for specific tasks or industries.
 |---------------------------------------------------------|------------------------------------------------------------------|-------------------------------------------------------------------------|
 | [SWE-agent](https://github.com/princeton-nlp/SWE-agent) | ![](https://img.shields.io/github/stars/princeton-nlp/SWE-agent) | AI agent for software engineering tasks                                 |
 | [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)  | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)  | Assists in writing and debugging code                                   |
-| [OpenDevin](https://github.com/OpenDevin/OpenDevin)     | ![](https://img.shields.io/github/stars/OpenDevin/OpenDevin)     | Open-source coding automation platform                                  |
+| [OpenHands](https://github.com/All-Hands-AI/OpenHands)  | ![](https://img.shields.io/github/stars/All-Hands-AI/OpenHands)  | Open-source AI software development agents (formerly OpenDevin)         |
 | [Devika](https://github.com/stitionai/devika)           | ![](https://img.shields.io/github/stars/stitionai/devika)        | Agentic AI Software Engineer that writes code from natural instructions |
 | [Aider](https://github.com/paul-gauthier/aider)         | ![](https://img.shields.io/github/stars/paul-gauthier/aider)     | AI pair programming in terminal                                         |
 | [Plandex](https://github.com/plandex-ai/plandex)        | ![](https://img.shields.io/github/stars/plandex-ai/plandex)      | AI coding engine for complex projects                                   |
@@ -103,7 +103,7 @@ Agents designed for specific tasks or industries.
 |-----------------------------------------------------------|------------------------------------------------------------------|------------------------------------|
 | [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser) | TypeScript-based AI browsing agent |
 
-### 💻 Programming Language Agents
+### 🗣️ Programming Language Agents
 
 Agents and frameworks specialized for specific programming languages.
 
@@ -142,7 +142,7 @@ Tools and systems for managing AI agents.
 | [AgentBench](https://github.com/THUDM/AgentBench)               | ![](https://img.shields.io/github/stars/THUDM/AgentBench)         | Multi-environment testing for agents |
 | [LangTrace](https://github.com/Scale3-Labs/langtrace)           | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)    | Monitoring and trace visualization   |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmarking agent capabilities      |
-| [BrowseComp](https://github.com/openai/simple-evals)            | ![](https://img.shields.io/github/stars/openai/simple-evals)      | Web browsing agent evaluation        |
+| [Simple Evals](https://github.com/openai/simple-evals)          | ![](https://img.shields.io/github/stars/openai/simple-evals)      | OpenAI's lightweight LLM evaluation library |
 
 ### 🚀 Deployment
 
