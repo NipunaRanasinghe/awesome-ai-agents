@@ -13,7 +13,7 @@
 <!-- image -->
 
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
-  <img src="https://raw.githubusercontent.com/NipunaRanasinghe/awesome-ai-agents/main/resources/images/image.jpeg" alt="Awesome AI Agents Logo" width="256" height="256">
+  <img src="https://raw.githubusercontent.com/NipunaRanasinghe/awesome-ai-agents/main/resources/images/image.png" alt="Awesome AI Agents Logo">
 </a>
 
 </div>
