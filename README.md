@@ -66,6 +66,8 @@ Frameworks for building and managing AI agents.
 |[Upsonic](https://github.com/upsonic/upsonic)                              |![](https://img.shields.io/github/stars/upsonic/upsonic)             |Reliability layer, model context protocol, task-oriented                                  |
 |[AgentVerse](https://github.com/OpenBMB/AgentVerse)                        |![](https://img.shields.io/github/stars/OpenBMB/AgentVerse)          |Multi-agent simulation environments for research                                          |
 |[ChatDev](https://github.com/OpenBMB/ChatDev)                              |![](https://img.shields.io/github/stars/OpenBMB/ChatDev)             |Collaborative software development agents                                                 |
+|[Summoner (Python SDK + Rust relay)](https://github.com/Summoner-Network/summoner-agents) | ![](https://img.shields.io/github/stars/Summoner-Network/summoner-agents) | Agent-to-agent networking for server-decoupled agents over long-lived TCP sessions (Python/Rust), 50+ runnable templates |
+
 
 ---
 
