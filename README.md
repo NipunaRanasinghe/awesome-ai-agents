@@ -50,6 +50,7 @@ Frameworks for building and managing AI agents.
 |Framework                                                                  |Stars                                                                |Description                                                                               |
 |---------------------------------------------------------------------------|---------------------------------------------------------------------|------------------------------------------------------------------------------------------|
 |[AutoGen](https://github.com/microsoft/autogen)                            |![](https://img.shields.io/github/stars/microsoft/autogen)           |Multi-agent conversations, GPT-4 integration, customizable workflows                      |
+|[AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                 |![](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT)|Autonomous AI agent for task completion, web browsing, and code execution                 |
 |[MetaGPT](https://github.com/geekan/MetaGPT)                               |![](https://img.shields.io/github/stars/geekan/MetaGPT)              |Simulates software company workflows, role-based agents                                   |
 |[Neurolink](https://github.com/juspay/neurolink)                           |![](https://img.shields.io/github/stars/juspay/neurolink)            |Multi-provider AI agent framework, unifies 12+ LLM providers, workflow orchestration      |
 |[CrewAI](https://github.com/joaomdmoura/crewai)                            |![](https://img.shields.io/github/stars/joaomdmoura/crewai)          |Role-based agent orchestration, task delegation                                           |
@@ -66,6 +67,11 @@ Frameworks for building and managing AI agents.
 |[Upsonic](https://github.com/upsonic/upsonic)                              |![](https://img.shields.io/github/stars/upsonic/upsonic)             |Reliability layer, model context protocol, task-oriented                                  |
 |[AgentVerse](https://github.com/OpenBMB/AgentVerse)                        |![](https://img.shields.io/github/stars/OpenBMB/AgentVerse)          |Multi-agent simulation environments for research                                          |
 |[ChatDev](https://github.com/OpenBMB/ChatDev)                              |![](https://img.shields.io/github/stars/OpenBMB/ChatDev)             |Collaborative software development agents                                                 |
+|[Agno](https://github.com/agno-agi/agno)                                   |![](https://img.shields.io/github/stars/agno-agi/agno)               |Multi-agent framework, runtime, and control plane for AI products                         |
+|[Composio](https://github.com/ComposioHQ/composio)                         |![](https://img.shields.io/github/stars/ComposioHQ/composio)         |100+ integrations for AI agents via function calling, MCP compatible                      |
+|[PocketFlow](https://github.com/The-Pocket/PocketFlow)                     |![](https://img.shields.io/github/stars/The-Pocket/PocketFlow)       |Minimalist 100-line LLM framework for agents, workflows, and RAG                          |
+|[CAMEL](https://github.com/camel-ai/camel)                                 |![](https://img.shields.io/github/stars/camel-ai/camel)              |Multi-agent framework for communicative agents research                                   |
+|[Strands Agents SDK](https://github.com/strands-agents/sdk-python)         |![](https://img.shields.io/github/stars/strands-agents/sdk-python)   |AWS-backed model-driven agent SDK with MCP and multi-provider support                     |
 |[Summoner](https://github.com/Summoner-Network/summoner-agents) | ![](https://img.shields.io/github/stars/Summoner-Network/summoner-agents) | Agent-to-agent networking for server-decoupled agents over long-lived TCP sessions (Python/Rust), 50+ runnable templates |
 
 ---
@@ -85,6 +91,8 @@ Agents designed for specific tasks or industries.
 |[Aider](https://github.com/paul-gauthier/aider)         |![](https://img.shields.io/github/stars/paul-gauthier/aider)     |AI pair programming in terminal                                         |
 |[Plandex](https://github.com/plandex-ai/plandex)        |![](https://img.shields.io/github/stars/plandex-ai/plandex)      |AI coding engine for complex projects                                   |
 |[TaskWeaver](https://github.com/microsoft/TaskWeaver)   |![](https://img.shields.io/github/stars/microsoft/TaskWeaver)    |Code-first agent framework for analytical tasks                         |
+|[Gemini CLI](https://github.com/google-gemini/gemini-cli)|![](https://img.shields.io/github/stars/google-gemini/gemini-cli)|Open-source AI agent bringing Gemini to the terminal with MCP support   |
+|[AgenticSeek](https://github.com/Fosowl/agenticSeek)    |![](https://img.shields.io/github/stars/Fosowl/agenticSeek)      |Fully local autonomous agent that browses web and codes without APIs    |
 
 ### 🔬 Research Agents
 
@@ -103,9 +111,11 @@ Agents designed for specific tasks or industries.
 
 ### 🌐 Web Agents
 
-|Name                                                      |Stars                                                            |Description                        |
-|----------------------------------------------------------|-----------------------------------------------------------------|-----------------------------------|
-|[NanoBrowser](https://github.com/nanobrowser/nanobrowser) |![](https://img.shields.io/github/stars/nanobrowser/nanobrowser) |TypeScript-based AI browsing agent |
+|Name                                                      |Stars                                                            |Description                                                      |
+|----------------------------------------------------------|----------------------------------------------------------------|-----------------------------------------------------------------|
+|[Browser Use](https://github.com/browser-use/browser-use) |![](https://img.shields.io/github/stars/browser-use/browser-use) |Make websites accessible for AI agents, automate tasks with ease |
+|[NanoBrowser](https://github.com/nanobrowser/nanobrowser) |![](https://img.shields.io/github/stars/nanobrowser/nanobrowser) |TypeScript-based AI browsing agent                               |
+|[Firecrawl](https://github.com/firecrawl/firecrawl)       |![](https://img.shields.io/github/stars/firecrawl/firecrawl)     |Turn websites into LLM-ready markdown or structured data         |
 
 ### 🗣️ Programming Language Agents
 
@@ -136,6 +146,7 @@ Tools and systems for managing AI agents.
 |Name                                                         |Stars                                                       |Description                            |
 |-------------------------------------------------------------|------------------------------------------------------------|---------------------------------------|
 |[Letta (formerly MemGPT)](https://github.com/letta-ai/letta) |![](https://img.shields.io/github/stars/letta-ai/letta)     |Dynamic, adaptive agent memory system  |
+|[Mem0](https://github.com/mem0ai/mem0)                       |![](https://img.shields.io/github/stars/mem0ai/mem0)        |Universal memory layer for AI agents   |
 |[ChromaDB](https://github.com/chroma-core/chroma)            |![](https://img.shields.io/github/stars/chroma-core/chroma) |Vector DB for memory/context           |
 |[Weaviate](https://github.com/weaviate/weaviate)             |![](https://img.shields.io/github/stars/weaviate/weaviate)  |Scalable vector DB for semantic memory |
 
