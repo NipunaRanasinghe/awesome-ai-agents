@@ -76,6 +76,7 @@ Frameworks for building and managing AI agents.
 | [Strands Agents SDK](https://github.com/strands-agents/sdk-python)         | ![](https://img.shields.io/github/stars/strands-agents/sdk-python)        | AWS-backed model-driven agent SDK with MCP and multi-provider support                                                    |
 | [Summoner](https://github.com/Summoner-Network/summoner-agents)            | ![](https://img.shields.io/github/stars/Summoner-Network/summoner-agents) | Agent-to-agent networking for server-decoupled agents over long-lived TCP sessions (Python/Rust), 50+ runnable templates |
 | [KodeAgent](https://github.com/barun-saha/kodeagent)                       | ![](https://img.shields.io/github/stars/barun-saha/kodeagent)             | The Minimal Agent Engine to build ReAct & CodeAct agents, with support for code sandbox and observability                |
+| [Hivemoot Colony](https://github.com/hivemoot/colony)                      | ![](https://img.shields.io/github/stars/hivemoot/colony)                  | Self-governing multi-agent platform; agents propose, vote, peer-review, and ship software via democratic consensus       |
 
 ---
 
