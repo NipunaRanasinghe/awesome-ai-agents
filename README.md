@@ -245,3 +245,5 @@ Your contributions are welcome! Here's how to get started:
 - Submit a pull request with a clear description of your changes.
 
 For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
+
+- [Omega Prime](https://github.com/kkomaruty/omega-prime-manifesto) - An autonomous cognitive substrate for decentralized intelligence and on-chain operations.
