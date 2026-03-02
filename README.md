@@ -32,7 +32,6 @@ _A curated list of frameworks, tools, and resources for building and deploying A
 - [⚙️ Agent Operations](#-agent-operations)
   - [🧠 Memory](#-memory)
   - [📊 Evaluation](#-evaluation)
-  - [🛡️ Governance & Safety](#%EF%B8%8F-governance--safety)
   - [🚀 Deployment](#-deployment)
 - [📚 Research & Benchmarks](#-research--benchmarks)
   - [📄 Papers](#-papers)
@@ -162,15 +161,7 @@ Tools and systems for managing AI agents.
 | [LangTrace](https://github.com/Scale3-Labs/langtrace)           | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)    | Monitoring and trace visualization          |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmarking agent capabilities             |
 | [Simple Evals](https://github.com/openai/simple-evals)          | ![](https://img.shields.io/github/stars/openai/simple-evals)      | OpenAI's lightweight LLM evaluation library |
-
-### 🛡️ Governance & Safety
-
-| Name                                                                  | Stars                                                                     | Description                                                                  |
-| --------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| [Agent OS](https://github.com/imran-siddique/agent-os)               | ![](https://img.shields.io/github/stars/imran-siddique/agent-os)          | Kernel architecture for governing AI agents with POSIX-inspired policies     |
-| [Agent Hypervisor](https://github.com/imran-siddique/agent-hypervisor) | ![](https://img.shields.io/github/stars/imran-siddique/agent-hypervisor) | Runtime supervisor with execution rings, saga orchestration, fault attribution |
-| [AgentMesh](https://github.com/imran-siddique/agent-mesh)            | ![](https://img.shields.io/github/stars/imran-siddique/agent-mesh)        | Trust network for multi-agent systems with DID identity and reputation       |
-| [Agent SRE](https://github.com/imran-siddique/agent-sre)             | ![](https://img.shields.io/github/stars/imran-siddique/agent-sre)         | SRE for AI agents with SLOs, chaos testing, and canary deploys               |
+| [Agent OS](https://github.com/imran-siddique/agent-os)              | ![](https://img.shields.io/github/stars/imran-siddique/agent-os)      | Governance kernel for AI agents — policy enforcement, audit trails, and capability-based security |
 
 ### 🚀 Deployment
 
