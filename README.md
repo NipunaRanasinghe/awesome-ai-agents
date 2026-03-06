@@ -66,6 +66,7 @@ Frameworks for building and managing AI agents.
 | [Agency Swarm](https://github.com/VRSEN/agency-swarm)                      | ![](https://img.shields.io/github/stars/VRSEN/agency-swarm)               | Reliable multi-agent orchestration using OpenAI Assistants API                                                           |
 | [AGiXT](https://github.com/Josh-XT/AGiXT)                                  | ![](https://img.shields.io/github/stars/Josh-XT/AGiXT)                    | Adaptive automation platform with persistent memory                                                                      |
 | [Upsonic](https://github.com/upsonic/upsonic)                              | ![](https://img.shields.io/github/stars/upsonic/upsonic)                  | Reliability layer, model context protocol, task-oriented                                                                 |
+| [Taskade](https://github.com/taskade/taskade)                              | ![](https://img.shields.io/github/stars/taskade/taskade)                  | AI-native workspace for building and deploying multi-agent workflows                                                     |
 | [Taskade MCP](https://github.com/taskade/mcp)                              | ![](https://img.shields.io/github/stars/taskade/mcp)                      | Open-source MCP toolkit and integrations for building AI agents and automated workflows                                  |
 | [AgentVerse](https://github.com/OpenBMB/AgentVerse)                        | ![](https://img.shields.io/github/stars/OpenBMB/AgentVerse)               | Multi-agent simulation environments for research                                                                         |
 | [ChatDev](https://github.com/OpenBMB/ChatDev)                              | ![](https://img.shields.io/github/stars/OpenBMB/ChatDev)                  | Collaborative software development agents                                                                                |
@@ -156,12 +157,12 @@ Tools and systems for managing AI agents.
 
 ### 📊 Evaluation
 
-| Name                                                            | Stars                                                             | Description                                 |
-| --------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------- |
-| [AgentBench](https://github.com/THUDM/AgentBench)               | ![](https://img.shields.io/github/stars/THUDM/AgentBench)         | Multi-environment testing for agents        |
-| [LangTrace](https://github.com/Scale3-Labs/langtrace)           | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)    | Monitoring and trace visualization          |
-| [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmarking agent capabilities             |
-| [Simple Evals](https://github.com/openai/simple-evals)          | ![](https://img.shields.io/github/stars/openai/simple-evals)      | OpenAI's lightweight LLM evaluation library |
+| Name                                                                | Stars                                                                 | Description                                                                                       |
+| ------------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [AgentBench](https://github.com/THUDM/AgentBench)                   | ![](https://img.shields.io/github/stars/THUDM/AgentBench)             | Multi-environment testing for agents                                                              |
+| [LangTrace](https://github.com/Scale3-Labs/langtrace)               | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)        | Monitoring and trace visualization                                                                |
+| [Agent Evaluation](https://github.com/awslabs/agent-evaluation)     | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation)     | Benchmarking agent capabilities                                                                   |
+| [Simple Evals](https://github.com/openai/simple-evals)              | ![](https://img.shields.io/github/stars/openai/simple-evals)          | OpenAI's lightweight LLM evaluation library                                                       |
 | [Agent OS](https://github.com/imran-siddique/agent-os)              | ![](https://img.shields.io/github/stars/imran-siddique/agent-os)      | Governance kernel for AI agents — policy enforcement, audit trails, and capability-based security |
 
 ### 🚀 Deployment
