@@ -163,7 +163,7 @@ Tools and systems for managing AI agents.
 | [LangTrace](https://github.com/Scale3-Labs/langtrace)               | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)        | Monitoring and trace visualization                                                                |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation)     | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation)     | Benchmarking agent capabilities                                                                   |
 | [Simple Evals](https://github.com/openai/simple-evals)              | ![](https://img.shields.io/github/stars/openai/simple-evals)          | OpenAI's lightweight LLM evaluation library                                                       |
-| [Agent OS](https://github.com/imran-siddique/agent-os)              | ![](https://img.shields.io/github/stars/imran-siddique/agent-os)      | Governance kernel for AI agents — policy enforcement, audit trails, and capability-based security |
+| [Agent OS](https://github.com/microsoft/agent-governance-toolkit)              | ![](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit)      | Governance kernel for AI agents — policy enforcement, audit trails, and capability-based security |
 
 ### 🚀 Deployment
 
