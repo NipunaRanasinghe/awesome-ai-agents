@@ -78,6 +78,9 @@ Frameworks for building and managing AI agents.
 | [Summoner](https://github.com/Summoner-Network/summoner-agents)            | ![](https://img.shields.io/github/stars/Summoner-Network/summoner-agents) | Agent-to-agent networking for server-decoupled agents over long-lived TCP sessions (Python/Rust), 50+ runnable templates |
 | [KodeAgent](https://github.com/barun-saha/kodeagent)                       | ![](https://img.shields.io/github/stars/barun-saha/kodeagent)             | The Minimal Agent Engine to build ReAct & CodeAct agents, with support for code sandbox and observability                |
 | [Hivemoot Colony](https://github.com/hivemoot/colony)                      | ![](https://img.shields.io/github/stars/hivemoot/colony)                  | Self-governing multi-agent platform; agents propose, vote, peer-review, and ship software via democratic consensus       |
+| [smolagents](https://github.com/huggingface/smolagents)                     | ![](https://img.shields.io/github/stars/huggingface/smolagents)           | Code-first agent library by HuggingFace, model-agnostic with MCP and sandbox support                                    |
+| [LlamaIndex](https://github.com/run-llama/llama_index)                     | ![](https://img.shields.io/github/stars/run-llama/llama_index)            | Data framework for LLM apps with RAG, agents, and 300+ integrations                                                     |
+| [Mastra](https://github.com/mastra-ai/mastra)                              | ![](https://img.shields.io/github/stars/mastra-ai/mastra)                 | TypeScript AI framework for agents, workflows, MCP servers, and evals                                                    |
 
 ---
 
@@ -98,6 +101,9 @@ Agents designed for specific tasks or industries.
 | [TaskWeaver](https://github.com/microsoft/TaskWeaver)     | ![](https://img.shields.io/github/stars/microsoft/TaskWeaver)     | Code-first agent framework for analytical tasks                         |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | ![](https://img.shields.io/github/stars/google-gemini/gemini-cli) | Open-source AI agent bringing Gemini to the terminal with MCP support   |
 | [AgenticSeek](https://github.com/Fosowl/agenticSeek)      | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)       | Fully local autonomous agent that browses web and codes without APIs    |
+| [Cline](https://github.com/cline/cline)                   | ![](https://img.shields.io/github/stars/cline/cline)              | Autonomous coding agent in VS Code with MCP, browser use, and terminal |
+| [Goose](https://github.com/block/goose)                    | ![](https://img.shields.io/github/stars/block/goose)              | Open-source extensible AI agent by Block for engineering tasks          |
+| [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)    | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy) | AI-powered full-stack web development in the browser with 19+ LLMs     |
 
 ### 🔬 Research Agents
 
@@ -121,6 +127,8 @@ Agents designed for specific tasks or industries.
 | [Browser Use](https://github.com/browser-use/browser-use) | ![](https://img.shields.io/github/stars/browser-use/browser-use) | Make websites accessible for AI agents, automate tasks with ease |
 | [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser) | TypeScript-based AI browsing agent                               |
 | [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)     | Turn websites into LLM-ready markdown or structured data         |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai)         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)      | Open-source LLM-friendly web crawler and scraper                 |
+| [Stagehand](https://github.com/browserbase/stagehand)     | ![](https://img.shields.io/github/stars/browserbase/stagehand)   | AI browser automation framework with natural language and code    |
 
 ### 🗣️ Programming Language Agents
 
