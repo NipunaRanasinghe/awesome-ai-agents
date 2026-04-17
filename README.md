@@ -83,6 +83,7 @@ Frameworks for building and managing AI agents.
 | [smolagents](https://github.com/huggingface/smolagents)                    | ![](https://img.shields.io/github/stars/huggingface/smolagents)           | Code-first agent library by Hugging Face, model-agnostic with MCP and sandbox support                                    |
 | [LlamaIndex](https://github.com/run-llama/llama_index)                     | ![](https://img.shields.io/github/stars/run-llama/llama_index)            | Data framework for LLM apps with RAG, agents, and 300+ integrations                                                      |
 | [Mastra](https://github.com/mastra-ai/mastra)                              | ![](https://img.shields.io/github/stars/mastra-ai/mastra)                 | TypeScript AI framework for agents, workflows, MCP servers, and evals                                                    |
+| [Qualixar OS](https://github.com/qualixar/qualixar-os)                        | ![](https://img.shields.io/github/stars/qualixar/qualixar-os)             | Universal agent runtime — 13 execution topologies, Forge AI auto-team-designer, judge pipeline, local-first. arXiv:2604.06392                                   |
 
 ---
 
@@ -164,6 +165,7 @@ Tools and systems for managing AI agents.
 | [Mem0](https://github.com/mem0ai/mem0)                       | ![](https://img.shields.io/github/stars/mem0ai/mem0)        | Universal memory layer for AI agents   |
 | [ChromaDB](https://github.com/chroma-core/chroma)            | ![](https://img.shields.io/github/stars/chroma-core/chroma) | Vector DB for memory/context           |
 | [Weaviate](https://github.com/weaviate/weaviate)             | ![](https://img.shields.io/github/stars/weaviate/weaviate)  | Scalable vector DB for semantic memory |
+| [SuperLocalMemory](https://github.com/qualixar/superlocalmemory)   | ![](https://img.shields.io/github/stars/qualixar/superlocalmemory)  | Zero-cloud persistent memory + learning for AI agents. 6-channel retrieval, Fisher-Rao geometry. Beats Mem0 (74.8% vs 64.2% on LoCoMo). 3 arXiv papers. |
 
 ### 📊 Evaluation
 
@@ -174,6 +176,8 @@ Tools and systems for managing AI agents.
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation)   | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation)           | Benchmarking agent capabilities                                                                   |
 | [Simple Evals](https://github.com/openai/simple-evals)            | ![](https://img.shields.io/github/stars/openai/simple-evals)                | OpenAI's lightweight LLM evaluation library                                                       |
 | [Agent OS](https://github.com/microsoft/agent-governance-toolkit) | ![](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit) | Governance kernel for AI agents — policy enforcement, audit trails, and capability-based security |
+| [AgentAssay](https://github.com/qualixar/agentassay)             | ![](https://img.shields.io/github/stars/qualixar/agentassay)                | Token-efficient agent testing — behavioral fingerprinting, 5D coverage, 78-100% cost reduction. arXiv:2603.02601                                 |
+| [AgentAssert](https://github.com/qualixar/agentassert-abc)       | ![](https://img.shields.io/github/stars/qualixar/agentassert-abc)           | Runtime behavioral contracts — ContractSpec DSL, drift detection (JSD), SPRT certification. arXiv:2602.22302 (4 citations)                        |
 
 ### 🚀 Deployment
 
