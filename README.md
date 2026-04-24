@@ -126,6 +126,7 @@ Agents designed for specific tasks or industries.
 
 | Name                                                      | Stars                                                            | Description                                                      |
 | --------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
+| [AnveVoice](https://anvevoice.app)                        | —                                                                | Voice AI agent for websites with agentic DOM actions, MCP support, 50+ languages, <700ms latency. Free tier. |
 | [Browser Use](https://github.com/browser-use/browser-use) | ![](https://img.shields.io/github/stars/browser-use/browser-use) | Make websites accessible for AI agents, automate tasks with ease |
 | [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser) | TypeScript-based AI browsing agent                               |
 | [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)     | Turn websites into LLM-ready markdown or structured data         |
