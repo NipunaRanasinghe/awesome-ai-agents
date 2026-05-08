@@ -111,9 +111,10 @@ Agents designed for specific tasks or industries.
 
 | Name                                                            | Stars                                                               | Description                                                      |
 | --------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ![](https://img.shields.io/github/stars/assafelovic/gpt-researcher) | Autonomous agent for comprehensive research                      |
-| [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative reasoning                   |
-| [DeerFlow](https://github.com/bytedance/deer-flow)              | ![](https://img.shields.io/github/stars/bytedance/deer-flow)        | Framework for deep research with web search and Python execution |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ![](https://img.shields.io/github/stars/assafelovic/gpt-researcher) | Autonomous agent for comprehensive research                                                                               |
+| [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative reasoning                                                                            |
+| [DeerFlow](https://github.com/bytedance/deer-flow)              | ![](https://img.shields.io/github/stars/bytedance/deer-flow)        | Framework for deep research with web search and Python execution                                                          |
+| [P2PCLAW](https://github.com/Agnuxo1/OpenCLAW-P2P)             | ![](https://img.shields.io/github/stars/Agnuxo1/OpenCLAW-P2P)      | Decentralized P2P network of 14 AI agents for open scientific research with IPFS archival and AI Tribunal peer review   |
 
 ### 🎨 Creative Agents
 
