@@ -164,7 +164,7 @@ Tools and systems for managing AI agents.
 | [Mem0](https://github.com/mem0ai/mem0)                       | ![](https://img.shields.io/github/stars/mem0ai/mem0)        | Universal memory layer for AI agents   |
 | [ChromaDB](https://github.com/chroma-core/chroma)            | ![](https://img.shields.io/github/stars/chroma-core/chroma) | Vector DB for memory/context           |
 | [Weaviate](https://github.com/weaviate/weaviate)             | ![](https://img.shields.io/github/stars/weaviate/weaviate)  | Scalable vector DB for semantic memory |
-| [Dakera](https://github.com/Dakera-AI/dakera)                | ![](https://img.shields.io/github/stars/Dakera-AI/dakera)   | Production-ready persistent memory layer with hybrid BM25 + vector retrieval and temporal reasoning |
+| [Dakera](https://github.com/dakera-ai/dakera-deploy)         | ![](https://img.shields.io/github/stars/dakera-ai/dakera-deploy) | Self-hostable persistent memory and knowledge layer for AI agents with MCP support |
 
 ### 📊 Evaluation
 
