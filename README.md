@@ -165,6 +165,7 @@ Tools and systems for managing AI agents.
 | [ChromaDB](https://github.com/chroma-core/chroma)            | ![](https://img.shields.io/github/stars/chroma-core/chroma) | Vector DB for memory/context           |
 | [Weaviate](https://github.com/weaviate/weaviate)             | ![](https://img.shields.io/github/stars/weaviate/weaviate)  | Scalable vector DB for semantic memory |
 
+| [Dakera](https://github.com/dakera-ai/dakera-deploy)         | ![](https://img.shields.io/github/stars/dakera-ai/dakera-deploy) | Self-hostable persistent memory and knowledge layer for AI agents with MCP support |
 ### 📊 Evaluation
 
 | Name                                                              | Stars                                                                       | Description                                                                                       |
