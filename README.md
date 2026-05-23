@@ -51,9 +51,9 @@ Frameworks for building and managing AI agents.
 | -------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | [AutoGen](https://github.com/microsoft/autogen)                            | ![](https://img.shields.io/github/stars/microsoft/autogen)                | Multi-agent conversations, GPT-4 integration, customizable workflows                                                     |
 | [AutoGPT](https://github.com/Significant-Gravitas/AutoGPT)                 | ![](https://img.shields.io/github/stars/Significant-Gravitas/AutoGPT)     | Autonomous AI agent for task completion, web browsing, and code execution                                                |
-| [MetaGPT](https://github.com/geekan/MetaGPT)                               | ![](https://img.shields.io/github/stars/geekan/MetaGPT)                   | Simulates software company workflows, role-based agents                                                                  |
+| [MetaGPT](https://github.com/FoundationAgents/MetaGPT)                     | ![](https://img.shields.io/github/stars/FoundationAgents/MetaGPT)         | Simulates software company workflows, role-based agents                                                                  |
 | [Neurolink](https://github.com/juspay/neurolink)                           | ![](https://img.shields.io/github/stars/juspay/neurolink)                 | Multi-provider AI agent framework, unifies 12+ LLM providers, workflow orchestration                                     |
-| [CrewAI](https://github.com/joaomdmoura/crewai)                            | ![](https://img.shields.io/github/stars/joaomdmoura/crewai)               | Role-based agent orchestration, task delegation                                                                          |
+| [CrewAI](https://github.com/crewAIInc/crewAI)                              | ![](https://img.shields.io/github/stars/crewAIInc/crewAI)                 | Role-based agent orchestration, task delegation                                                                          |
 | [PraisonAI](https://github.com/MervinPraison/PraisonAI)                    | ![](https://img.shields.io/github/stars/MervinPraison/PraisonAI)          | Fastest multi-agent framework (3.77μs), 100+ LLMs, MCP, workflows, Python & JS SDKs                                      |
 | [LangChain](https://github.com/langchain-ai/langchain)                     | ![](https://img.shields.io/github/stars/langchain-ai/langchain)           | Tool integration, memory management, agent chaining                                                                      |
 | [LangGraph](https://github.com/langchain-ai/langgraph)                     | ![](https://img.shields.io/github/stars/langchain-ai/langgraph)           | Stateful, multi-actor applications with LLMs                                                                             |
@@ -61,7 +61,7 @@ Frameworks for building and managing AI agents.
 | [Google ADK (Agent Development Kit)](https://github.com/google/adk-python) | ![](https://img.shields.io/github/stars/google/adk-python)                | Code-first Python toolkit for building, evaluating, and deploying sophisticated AI agents                                |
 | [OpenAI Assistants API (SDK)](https://github.com/openai/openai-python)     | ![](https://img.shields.io/github/stars/openai/openai-python)             | Build AI assistants with tools and persistent threads via SDK                                                            |
 | [AgentOps](https://github.com/AgentOps-AI/agentops)                        | ![](https://img.shields.io/github/stars/AgentOps-AI/agentops)             | Monitoring, cost tracking, and benchmarking SDK for agents                                                               |
-| [AgentField](https://github.com/Agent-Field/agentfield)                    | ![](https://img.shields.io/github/stars/Agent-Field/agentfield)           | Open-source control plane for building and operating AI agents like APIs at scale, with routing, memory, observability, identity, auth, and policy controls |
+| [AgentField](https://github.com/Agent-Field/agentfield)                    | ![](https://img.shields.io/github/stars/Agent-Field/agentfield)           | Open-source control plane for AI agents at scale, with routing, memory, observability, identity, and auth                |
 | [Agentset](https://github.com/agentset-ai/agentset)                        | ![](https://img.shields.io/github/stars/agentset-ai/agentset)             | Production-ready RAG platform with agentic reasoning, hybrid search, and multimodal support                              |
 | [LLMStack](https://github.com/trypromptly/LLMStack)                        | ![](https://img.shields.io/github/stars/trypromptly/LLMStack)             | No-code multi-agent framework with data workflows                                                                        |
 | [Agency Swarm](https://github.com/VRSEN/agency-swarm)                      | ![](https://img.shields.io/github/stars/VRSEN/agency-swarm)               | Reliable multi-agent orchestration using OpenAI Assistants API                                                           |
@@ -94,17 +94,17 @@ Agents designed for specific tasks or industries.
 
 | Name                                                      | Stars                                                             | Description                                                             |
 | --------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [SWE-agent](https://github.com/princeton-nlp/SWE-agent)   | ![](https://img.shields.io/github/stars/princeton-nlp/SWE-agent)  | AI agent for software engineering tasks                                 |
+| [SWE-agent](https://github.com/SWE-agent/SWE-agent)       | ![](https://img.shields.io/github/stars/SWE-agent/SWE-agent)      | AI agent for software engineering tasks                                 |
 | [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)    | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)   | Assists in writing and debugging code                                   |
-| [OpenHands](https://github.com/All-Hands-AI/OpenHands)    | ![](https://img.shields.io/github/stars/All-Hands-AI/OpenHands)   | Open-source AI software development agents (formerly OpenDevin)         |
+| [OpenHands](https://github.com/OpenHands/OpenHands)       | ![](https://img.shields.io/github/stars/OpenHands/OpenHands)      | Open-source AI software development agents (formerly OpenDevin)         |
 | [Devika](https://github.com/stitionai/devika)             | ![](https://img.shields.io/github/stars/stitionai/devika)         | Agentic AI Software Engineer that writes code from natural instructions |
-| [Aider](https://github.com/paul-gauthier/aider)           | ![](https://img.shields.io/github/stars/paul-gauthier/aider)      | AI pair programming in terminal                                         |
+| [Aider](https://github.com/Aider-AI/aider)                | ![](https://img.shields.io/github/stars/Aider-AI/aider)           | AI pair programming in terminal                                         |
 | [Plandex](https://github.com/plandex-ai/plandex)          | ![](https://img.shields.io/github/stars/plandex-ai/plandex)       | AI coding engine for complex projects                                   |
 | [TaskWeaver](https://github.com/microsoft/TaskWeaver)     | ![](https://img.shields.io/github/stars/microsoft/TaskWeaver)     | Code-first agent framework for analytical tasks                         |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli) | ![](https://img.shields.io/github/stars/google-gemini/gemini-cli) | Open-source AI agent bringing Gemini to the terminal with MCP support   |
 | [AgenticSeek](https://github.com/Fosowl/agenticSeek)      | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)       | Fully local autonomous agent that browses web and codes without APIs    |
 | [Cline](https://github.com/cline/cline)                   | ![](https://img.shields.io/github/stars/cline/cline)              | Autonomous coding agent in VS Code with MCP, browser use, and terminal  |
-| [Goose](https://github.com/block/goose)                   | ![](https://img.shields.io/github/stars/block/goose)              | Open-source extensible AI agent by Block for engineering tasks          |
+| [Goose](https://github.com/aaif-goose/goose)              | ![](https://img.shields.io/github/stars/aaif-goose/goose)         | Open-source extensible AI agent by Block for engineering tasks          |
 | [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)   | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy) | AI-powered full-stack web development in the browser with 19+ LLMs      |
 
 ### 🔬 Research Agents
@@ -144,7 +144,7 @@ Agents and frameworks specialized for specific programming languages.
 | [LangChain4j](https://github.com/langchain4j/langchain4j)                | Java       | ![](https://img.shields.io/github/stars/langchain4j/langchain4j)         | Java implementation of LangChain               |
 | [Haystack](https://github.com/deepset-ai/haystack)                       | Python     | ![](https://img.shields.io/github/stars/deepset-ai/haystack)             | Search and question answering agents           |
 | [LlamaIndex.js](https://github.com/run-llama/LlamaIndexTS)               | TypeScript | ![](https://img.shields.io/github/stars/run-llama/LlamaIndexTS)          | JS version of LlamaIndex                       |
-| [LangChain.rb](https://github.com/andreibondarev/langchainrb)            | Ruby       | ![](https://img.shields.io/github/stars/andreibondarev/langchainrb)      | Ruby implementation of LangChain               |
+| [LangChain.rb](https://github.com/patterns-ai-core/langchainrb)          | Ruby       | ![](https://img.shields.io/github/stars/patterns-ai-core/langchainrb)    | Ruby implementation of LangChain               |
 | [LangChainGo](https://github.com/tmc/langchaingo)                        | Go         | ![](https://img.shields.io/github/stars/tmc/langchaingo)                 | Go implementation for LLM orchestration        |
 | [OpenAI Agents (Python)](https://github.com/openai/openai-agents-python) | Python     | ![](https://img.shields.io/github/stars/openai/openai-agents-python)     | Lightweight, provider-agnostic agent framework |
 | [Swarms-rs](https://github.com/The-Swarm-Corporation/swarms-rs)          | Rust       | ![](https://img.shields.io/github/stars/The-Swarm-Corporation/swarms-rs) | Swarm-based agent orchestration in Rust        |
@@ -228,9 +228,7 @@ Join the conversation and stay updated on AI agent developments.
 
 | Name                        | Link                                                | Description                                   |
 | --------------------------- | --------------------------------------------------- | --------------------------------------------- |
-| LangChain Newsletter        | [Subscribe](https://blog.langchain.dev/newsletter/) | LangChain and agent updates                   |
 | The Batch (DeepLearning.AI) | [Subscribe](https://www.deeplearning.ai/the-batch/) | Weekly AI industry insights                   |
-| Agent Weekly                | [Subscribe](https://agentweekly.com)                | News and launches from the AI agent ecosystem |
 
 ---
 
