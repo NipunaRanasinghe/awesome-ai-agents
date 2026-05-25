@@ -131,6 +131,7 @@ Agents designed for specific tasks or industries.
 | [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)     | Turn websites into LLM-ready markdown or structured data         |
 | [Crawl4AI](https://github.com/unclecode/crawl4ai)         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)      | Open-source LLM-friendly web crawler and scraper                 |
 | [Stagehand](https://github.com/browserbase/stagehand)     | ![](https://img.shields.io/github/stars/browserbase/stagehand)   | AI browser automation framework with natural language and code   |
+| [ShopSavvy Desktop](https://shopsavvy.com/desktop)        | -                                                                | Autonomous AI shopping agent for desktop price tracking and auto-purchasing |
 
 ### 🗣️ Programming Language Agents
 
