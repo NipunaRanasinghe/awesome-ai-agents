@@ -33,6 +33,7 @@ _A curated list of frameworks, tools, and resources for building and deploying A
   - [🧠 Memory](#-memory)
   - [📊 Evaluation](#-evaluation)
   - [🚀 Deployment](#-deployment)
+  - [🔒 Security & Governance](#-security--governance)
 - [📚 Research & Benchmarks](#-research--benchmarks)
   - [📄 Papers](#-papers)
   - [📊 Benchmarks](#-benchmarks)
@@ -174,7 +175,6 @@ Tools and systems for managing AI agents.
 | [agenttrace](https://github.com/luoyuctl/agenttrace)              | ![](https://img.shields.io/github/stars/luoyuctl/agenttrace)                | Local TUI and reports for AI coding agent session cost, latency, failures, and health             |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation)   | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation)           | Benchmarking agent capabilities                                                                   |
 | [Simple Evals](https://github.com/openai/simple-evals)            | ![](https://img.shields.io/github/stars/openai/simple-evals)                | OpenAI's lightweight LLM evaluation library                                                       |
-| [Agent OS](https://github.com/microsoft/agent-governance-toolkit) | ![](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit) | Governance kernel for AI agents — policy enforcement, audit trails, and capability-based security |
 
 ### 🚀 Deployment
 
@@ -184,6 +184,17 @@ Tools and systems for managing AI agents.
 | [E2B](https://github.com/e2b-dev/E2B)               | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents     |
 | [OctoAI](https://github.com/octoai/octoAI)          | ![](https://img.shields.io/github/stars/octoai/octoAI)           | Scalable infrastructure for agent deployment |
 | [Modal](https://github.com/modal-labs/modal-client) | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads          |
+
+### 🔒 Security & Governance
+
+| Name                                                                              | Stars                                                                       | Description                                                                                |
+| --------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
+| [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) | ![](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit) | Policy enforcement, zero-trust identity, and execution sandboxing for autonomous AI agents |
+| [Garak](https://github.com/NVIDIA/garak)                                          | ![](https://img.shields.io/github/stars/NVIDIA/garak)                       | LLM vulnerability scanner — probes for prompt injection, data leakage, and hallucination   |
+| [Presidio](https://github.com/microsoft/presidio)                                 | ![](https://img.shields.io/github/stars/microsoft/presidio)                 | PII detection, redaction, and anonymization across text, images, and structured data       |
+| [Guardrails AI](https://github.com/guardrails-ai/guardrails)                      | ![](https://img.shields.io/github/stars/guardrails-ai/guardrails)           | Output validation and guardrails for LLM responses                                         |
+| [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)                      | ![](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)             | Programmable guardrails for LLM-based conversational systems                               |
+| [LLM Guard](https://github.com/protectai/llm-guard)                               | ![](https://img.shields.io/github/stars/protectai/llm-guard)                | Security toolkit for scanning and sanitizing LLM prompts and outputs                       |
 
 ---
 
