@@ -4,7 +4,7 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Lint](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/lint.yml/badge.svg)](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/lint.yml) [![Check Links](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml/badge.svg)](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml) [![Last Commit](https://img.shields.io/github/last-commit/NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/commits/main) [![Contributors](https://img.shields.io/github/contributors/NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)
+# Awesome AI Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Lint](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/lint.yml/badge.svg)](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/lint.yml) [![Check Links](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml/badge.svg)](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml) [![Last Commit](https://img.shields.io/github/last-commit/NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/commits/main) [![Contributors](https://img.shields.io/github/contributors/NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/pulse)
 
 <!-- description -->
 
@@ -195,7 +195,7 @@ Tools and systems for managing AI agents.
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails)                      | ![](https://img.shields.io/github/stars/guardrails-ai/guardrails)           | Output validation and guardrails for LLM responses                                         |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)                      | ![](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)             | Programmable guardrails for LLM-based conversational systems                               |
 | [LLM Guard](https://github.com/protectai/llm-guard)                               | ![](https://img.shields.io/github/stars/protectai/llm-guard)                | Security toolkit for scanning and sanitizing LLM prompts and outputs                       |
-| [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP) | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP) | Pre-execution runtime firewall for AI agents — 7-layer threat detection, policy engine, spend controls, and on-demand compliance reports. Python SDK + MCP server. |
+| [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents — 7-layer threat detection and spend controls |
 
 ---
 
