@@ -199,6 +199,7 @@ Tools and systems for managing AI agents.
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)                      | ![](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)             | Programmable guardrails for LLM-based conversational systems                               |
 | [LLM Guard](https://github.com/protectai/llm-guard)                               | ![](https://img.shields.io/github/stars/protectai/llm-guard)                | Security toolkit for scanning and sanitizing LLM prompts and outputs                       |
 | [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents — 7-layer threat detection and spend controls |
+| [TWZRD Agent Intel](https://intel.twzrd.xyz)                                         | ![](https://img.shields.io/badge/MCP-free-brightgreen) |
 
 ---
 
