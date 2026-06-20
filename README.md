@@ -176,6 +176,7 @@ Tools and systems for managing AI agents.
 | [AgentBench](https://github.com/THUDM/AgentBench)                 | ![](https://img.shields.io/github/stars/THUDM/AgentBench)                   | Multi-environment testing for agents                                                              |
 | [LangTrace](https://github.com/Scale3-Labs/langtrace)             | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)              | Monitoring and trace visualization                                                                |
 | [agenttrace](https://github.com/luoyuctl/agenttrace)              | ![](https://img.shields.io/github/stars/luoyuctl/agenttrace)                | Local TUI and reports for AI coding agent session cost, latency, failures, and health             |
+| [ax](https://github.com/Necmttn/ax)                               | ![](https://img.shields.io/github/stars/Necmttn/ax)                         | Local-first evidence graph for coding-agent sessions, tool calls, skills, and cost                |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation)   | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation)           | Benchmarking agent capabilities                                                                   |
 | [Simple Evals](https://github.com/openai/simple-evals)            | ![](https://img.shields.io/github/stars/openai/simple-evals)                | OpenAI's lightweight LLM evaluation library                                                       |
 
