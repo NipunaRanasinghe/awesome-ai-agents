@@ -128,13 +128,14 @@ Agents designed for specific tasks or industries.
 
 ### 🌐 Web Agents
 
-| Name                                                      | Stars                                                            | Description                                                      |
-| --------------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [Browser Use](https://github.com/browser-use/browser-use) | ![](https://img.shields.io/github/stars/browser-use/browser-use) | Make websites accessible for AI agents, automate tasks with ease |
-| [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser) | TypeScript-based AI browsing agent                               |
-| [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)     | Turn websites into LLM-ready markdown or structured data         |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai)         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)      | Open-source LLM-friendly web crawler and scraper                 |
-| [Stagehand](https://github.com/browserbase/stagehand)     | ![](https://img.shields.io/github/stars/browserbase/stagehand)   | AI browser automation framework with natural language and code   |
+| Name                                                      | Stars                                                                | Description                                                                                  |
+| --------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
+| [Browser Use](https://github.com/browser-use/browser-use) | ![](https://img.shields.io/github/stars/browser-use/browser-use)     | Make websites accessible for AI agents, automate tasks with ease                             |
+| [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)     | TypeScript-based AI browsing agent                                                           |
+| [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)         | Turn websites into LLM-ready markdown or structured data                                     |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai)         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)          | Open-source LLM-friendly web crawler and scraper                                             |
+| [Stagehand](https://github.com/browserbase/stagehand)     | ![](https://img.shields.io/github/stars/browserbase/stagehand)       | AI browser automation framework with natural language and code                               |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)   | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper) | X data automation platform with REST API, MCP server, webhooks, and SDKs for agent workflows |
 
 ### 🗣️ Programming Language Agents
 
@@ -193,12 +194,12 @@ Tools and systems for managing AI agents.
 | Name                                                                              | Stars                                                                       | Description                                                                                |
 | --------------------------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ |
 | [Agent Governance Toolkit](https://github.com/microsoft/agent-governance-toolkit) | ![](https://img.shields.io/github/stars/microsoft/agent-governance-toolkit) | Policy enforcement, zero-trust identity, and execution sandboxing for autonomous AI agents |
-| [Garak](https://github.com/NVIDIA/garak)                                          | ![](https://img.shields.io/github/stars/NVIDIA/garak)                       | LLM vulnerability scanner — probes for prompt injection, data leakage, and hallucination   |
+| [Garak](https://github.com/NVIDIA/garak)                                          | ![](https://img.shields.io/github/stars/NVIDIA/garak)                       | LLM vulnerability scanner - probes for prompt injection, data leakage, and hallucination   |
 | [Presidio](https://github.com/microsoft/presidio)                                 | ![](https://img.shields.io/github/stars/microsoft/presidio)                 | PII detection, redaction, and anonymization across text, images, and structured data       |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails)                      | ![](https://img.shields.io/github/stars/guardrails-ai/guardrails)           | Output validation and guardrails for LLM responses                                         |
 | [NeMo Guardrails](https://github.com/NVIDIA/NeMo-Guardrails)                      | ![](https://img.shields.io/github/stars/NVIDIA/NeMo-Guardrails)             | Programmable guardrails for LLM-based conversational systems                               |
 | [LLM Guard](https://github.com/protectai/llm-guard)                               | ![](https://img.shields.io/github/stars/protectai/llm-guard)                | Security toolkit for scanning and sanitizing LLM prompts and outputs                       |
-| [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents — 7-layer threat detection and spend controls |
+| [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents - 7-layer threat detection and spend controls |
 
 ---
 
