@@ -128,14 +128,14 @@ Agents designed for specific tasks or industries.
 
 ### 🌐 Web Agents
 
-| Name                                                      | Stars                                                                | Description                                                                                  |
-| --------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| [Browser Use](https://github.com/browser-use/browser-use) | ![](https://img.shields.io/github/stars/browser-use/browser-use)     | Make websites accessible for AI agents, automate tasks with ease                             |
-| [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)     | TypeScript-based AI browsing agent                                                           |
-| [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)         | Turn websites into LLM-ready markdown or structured data                                     |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai)         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)          | Open-source LLM-friendly web crawler and scraper                                             |
-| [Stagehand](https://github.com/browserbase/stagehand)     | ![](https://img.shields.io/github/stars/browserbase/stagehand)       | AI browser automation framework with natural language and code                               |
-| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)   | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper) | X data automation platform with REST API, MCP server, webhooks, and SDKs for agent workflows |
+| Name                                                      | Stars                                                                | Description                                                                                              |
+| --------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
+| [Browser Use](https://github.com/browser-use/browser-use) | ![](https://img.shields.io/github/stars/browser-use/browser-use)     | Make websites accessible for AI agents, automate tasks with ease                                         |
+| [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)     | TypeScript-based AI browsing agent                                                                       |
+| [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)         | Turn websites into LLM-ready markdown or structured data                                                 |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai)         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)          | Open-source LLM-friendly web crawler and scraper                                                         |
+| [Stagehand](https://github.com/browserbase/stagehand)     | ![](https://img.shields.io/github/stars/browserbase/stagehand)       | AI browser automation framework with natural language and code                                           |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)   | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter data and action API (REST, MCP, webhooks) that agents call for search, monitoring, and posting |
 
 ### 🗣️ Programming Language Agents
 
