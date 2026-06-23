@@ -29,6 +29,7 @@ _A curated list of frameworks, tools, and resources for building and deploying A
   - [💻 Coding Agents](#-coding-agents)
   - [🔬 Research Agents](#-research-agents)
   - [🎨 Creative Agents](#-creative-agents)
+  - [📈 Marketing Agents](#-marketing-agents)
   - [🌐 Web Agents](#-web-agents)
   - [🗣️ Programming Language Agents](#-programming-language-agents)
 - [⚙️ Agent Operations](#-agent-operations)
@@ -125,6 +126,12 @@ Agents designed for specific tasks or industries.
 | -------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------- |
 | [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | Short-form video generation agent       |
 | [AI-town](https://github.com/a16z-infra/ai-town)   | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world simulation with AI agents |
+
+### 📈 Marketing Agents
+
+| Name                                                              | Stars                                                              | Description                                                                                                                                                          |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [NotFair](https://github.com/nowork-studio/NotFair)               | ![](https://img.shields.io/github/stars/nowork-studio/NotFair)     | Open-source Claude Code agent skills for SEO, Google Ads, and Meta Ads; connects to live data via Google Ads MCP, Meta Ads MCP, Google Search Console MCP, and Google Analytics (GA4) MCP |
 
 ### 🌐 Web Agents
 
