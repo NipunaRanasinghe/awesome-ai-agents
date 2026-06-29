@@ -274,3 +274,4 @@ Your contributions are welcome! Here's how to get started:
 - Submit a pull request with a clear description of your changes.
 
 For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
+- [Agent Rigor](https://github.com/MeherBhaskar/agent-rigor) - A drop-in framework that adds empirical software engineering rigor and test-driven validation to LLM coding workflows.
