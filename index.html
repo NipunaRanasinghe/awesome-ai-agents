@@ -254,17 +254,20 @@
     const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
     let sections = [], activeCategory = 'All';
 
-    function card(item) {
+    function card(item, showCategory) {
       const badge = item.badge
         ? `<span class="card-badge"><img src="${esc(item.badge)}" alt="GitHub stars" loading="lazy"></span>` : '';
-      const lang = item.lang ? `<span class="tag">${esc(item.lang)}</span>` : '';
+      const tags = [
+        showCategory ? `<span class="tag">${esc(item.category)}</span>` : '',
+        item.lang ? `<span class="tag">${esc(item.lang)}</span>` : '',
+      ].join('');
       const name = item.url
         ? `<a class="card-name" href="${esc(item.url)}">${esc(item.name)}</a>`
         : `<span class="card-name">${esc(item.name)}</span>`;
       return `<div class="card">
         <div class="card-head">${name}${badge}</div>
         <div class="card-desc">${esc(item.desc)}</div>
-        <div class="card-tags"><span class="tag">${esc(item.category)}</span>${lang}</div>
+        ${tags ? `<div class="card-tags">${tags}</div>` : ''}
       </div>`;
     }
 
@@ -282,7 +285,7 @@
         shown += items.length;
         html.push(`<h2 class="section-title">${esc(section.title)}</h2>`);
         if (section.blurb) html.push(`<p class="section-blurb">${esc(section.blurb)}</p>`);
-        html.push(`<div class="grid">${items.map(card).join('')}</div>`);
+        html.push(`<div class="grid">${items.map(i => card(i, !!q)).join('')}</div>`);
       }
 
       $('count').textContent = q || activeCategory !== 'All'
