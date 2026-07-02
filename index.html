@@ -207,6 +207,25 @@
     }
     #status { color: var(--text-muted); padding: 2rem 0; text-align: center; }
     #status:empty { display: none; }
+    #back-to-top {
+      position: fixed;
+      right: 1.25rem;
+      bottom: 1.25rem;
+      width: 2.6rem;
+      height: 2.6rem;
+      font-size: 1.1rem;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      box-shadow: var(--shadow);
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.2s;
+    }
+    #back-to-top.visible { opacity: 1; pointer-events: auto; }
+    #back-to-top:hover { border-color: var(--accent); color: var(--accent); }
     @media (max-width: 640px) {
       .hero { padding: 2rem 1.5rem 1.75rem; }
       .hero h1 { font-size: 1.5rem; }
@@ -258,6 +277,8 @@
     <div id="status">Loading the list…</div>
     <div id="results"></div>
   </main>
+
+  <button id="back-to-top" title="Back to top" aria-label="Back to top">↑</button>
 
   <footer>
     Generated live from the repository's
@@ -431,6 +452,11 @@
     });
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateToggleIcon);
     updateToggleIcon();
+
+    window.addEventListener('scroll', () => {
+      $('back-to-top').classList.toggle('visible', window.scrollY > 600);
+    }, { passive: true });
+    $('back-to-top').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
 
     fetch('README.md')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
