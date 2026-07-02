@@ -137,6 +137,20 @@
     }
     #status { color: var(--text-muted); padding: 2rem 0; text-align: center; }
     #status:empty { display: none; }
+    @media (max-width: 640px) {
+      .subtitle { display: none; }
+      .chips {
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+        scrollbar-width: none;
+        margin-left: -1.5rem;
+        margin-right: -1.5rem;
+        padding: 0 1.5rem;
+      }
+      .chips::-webkit-scrollbar { display: none; }
+      .chip { flex: 0 0 auto; }
+    }
     footer {
       max-width: 1200px;
       margin: 0 auto;
