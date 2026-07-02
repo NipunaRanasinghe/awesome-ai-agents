@@ -404,6 +404,15 @@
       render();
     });
     $('search').addEventListener('input', render);
+    document.addEventListener('keydown', e => {
+      if (e.key === '/' && document.activeElement !== $('search')) {
+        e.preventDefault();
+        $('search').focus();
+      } else if (e.key === 'Escape' && $('search').value) {
+        $('search').value = '';
+        render();
+      }
+    });
 
     function isDark() {
       const t = document.documentElement.dataset.theme;
