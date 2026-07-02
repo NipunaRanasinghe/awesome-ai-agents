@@ -341,7 +341,7 @@
         item.lang ? `<span class="tag">${esc(item.lang)}</span>` : '',
       ].join('');
       const name = item.url
-        ? `<a class="card-name" href="${esc(item.url)}">${esc(item.name)}</a>`
+        ? `<a class="card-name" href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name)}</a>`
         : `<span class="card-name">${esc(item.name)}</span>`;
       return `<div class="card">
         <div class="card-head">${name}${badge}</div>
