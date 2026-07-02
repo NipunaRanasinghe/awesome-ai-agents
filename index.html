@@ -54,6 +54,53 @@
     a { color: var(--accent); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
+    .hero {
+      text-align: center;
+      padding: 2.75rem 1.5rem 2.25rem;
+      background: linear-gradient(180deg, var(--accent-soft), var(--bg));
+    }
+    .hero h1 { font-size: 1.9rem; font-weight: 800; }
+    .tagline {
+      max-width: 38rem;
+      margin: 0.5rem auto 0;
+      color: var(--text-muted);
+      font-size: 0.95rem;
+    }
+    .hero-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      justify-content: center;
+      margin-top: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    .hero-stats .stat {
+      padding: 0.2rem 0.75rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+    }
+    .hero-actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.6rem;
+      justify-content: center;
+      margin-top: 1.1rem;
+    }
+    .btn {
+      padding: 0.5rem 1.1rem;
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    .btn:hover { text-decoration: none; border-color: var(--accent); }
+    .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+    .btn-primary:hover { opacity: 0.92; }
+
     header {
       position: sticky;
       top: 0;
@@ -63,28 +110,19 @@
       padding: 1rem 1.5rem 0.9rem;
     }
     .header-inner { max-width: 1200px; margin: 0 auto; }
-    .header-top {
-      display: flex;
-      flex-wrap: wrap;
-      align-items: baseline;
-      gap: 0.4rem 1rem;
-      margin-bottom: 0.75rem;
-    }
-    h1 { font-size: 1.25rem; font-weight: 700; }
-    .subtitle { color: var(--text-muted); font-size: 0.9rem; flex: 1 1 16rem; }
-    .gh-link { font-size: 0.9rem; white-space: nowrap; }
+    .search-row { display: flex; gap: 0.5rem; }
     #theme-toggle {
-      padding: 0.15rem 0.5rem;
-      font-size: 0.9rem;
+      padding: 0.15rem 0.65rem;
+      font-size: 0.95rem;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 999px;
+      border-radius: 8px;
       cursor: pointer;
       line-height: 1.4;
     }
     #theme-toggle:hover { border-color: var(--accent); }
     #search {
-      width: 100%;
+      flex: 1;
       padding: 0.6rem 0.9rem;
       font-size: 0.95rem;
       color: var(--text);
@@ -163,7 +201,8 @@
     #status { color: var(--text-muted); padding: 2rem 0; text-align: center; }
     #status:empty { display: none; }
     @media (max-width: 640px) {
-      .subtitle { display: none; }
+      .hero { padding: 2rem 1.5rem 1.75rem; }
+      .hero h1 { font-size: 1.5rem; }
       .chips {
         flex-wrap: nowrap;
         overflow-x: auto;
@@ -187,15 +226,22 @@
   </style>
 </head>
 <body>
+  <section class="hero">
+    <h1>🤖 Awesome AI Agents</h1>
+    <p class="tagline">A curated, searchable directory of frameworks, tools, and resources for building and deploying AI agents</p>
+    <div class="hero-stats" id="hero-stats"></div>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://github.com/NipunaRanasinghe/awesome-ai-agents">⭐ Star on GitHub</a>
+      <a class="btn" href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/CONTRIBUTING.md">Contribute</a>
+    </div>
+  </section>
+
   <header>
     <div class="header-inner">
-      <div class="header-top">
-        <h1>🤖 Awesome AI Agents</h1>
-        <span class="subtitle">A curated, searchable directory of frameworks, tools, and resources for building AI agents</span>
-        <a class="gh-link" href="https://github.com/NipunaRanasinghe/awesome-ai-agents">GitHub&nbsp;↗</a>
+      <div class="search-row">
+        <input id="search" type="search" placeholder="Search by name, description, or language…" autocomplete="off">
         <button id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode"></button>
       </div>
-      <input id="search" type="search" placeholder="Search by name, description, or language…" autocomplete="off">
       <div class="chips" id="chips"></div>
     </div>
   </header>
@@ -353,6 +399,9 @@
       .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
       .then(md => {
         sections = parseReadme(md);
+        const total = sections.reduce((n, s) => n + s.items.length, 0);
+        $('hero-stats').innerHTML =
+          `<span class="stat">${total} projects</span><span class="stat">${sections.length} categories</span>`;
         renderChips();
         render();
       })
