@@ -391,9 +391,13 @@
     }
 
     function renderChips() {
-      const names = ['All', ...sections.map(s => s.title)];
-      $('chips').innerHTML = names.map(n =>
-        `<button class="chip${n === activeCategory ? ' active' : ''}" data-cat="${esc(n)}">${esc(n)}</button>`).join('');
+      const total = sections.reduce((n, s) => n + s.items.length, 0);
+      const chips = [
+        { name: 'All', count: total },
+        ...sections.map(s => ({ name: s.title, count: s.items.length })),
+      ];
+      $('chips').innerHTML = chips.map(c =>
+        `<button class="chip${c.name === activeCategory ? ' active' : ''}" data-cat="${esc(c.name)}">${esc(c.name)} · ${c.count}</button>`).join('');
     }
 
     $('chips').addEventListener('click', e => {
