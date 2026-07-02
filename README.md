@@ -18,6 +18,10 @@ _A curated list of frameworks, tools, and resources for building and deploying A
   <img src="resources/images/image.png" alt="Awesome AI Agents Logo">
 </a>
 
+<!-- website -->
+
+**[🌐 Browse this list as a website](https://nipunaranasinghe.github.io/awesome-ai-agents/)**
+
 </div>
 
 ---
