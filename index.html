@@ -331,7 +331,23 @@
 
     const $ = id => document.getElementById(id);
     const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    const slug = s => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
     let sections = [], activeCategory = 'All';
+
+    function syncUrl() {
+      const q = $('search').value.trim();
+      let hash = activeCategory === 'All' ? '' : slug(activeCategory);
+      if (q) hash += '?q=' + encodeURIComponent(q);
+      history.replaceState(null, '', hash ? '#' + hash : location.pathname + location.search);
+    }
+
+    function applyUrlState() {
+      const [cat, qs] = location.hash.slice(1).split('?');
+      const match = sections.find(s => slug(s.title) === cat);
+      if (match) activeCategory = match.title;
+      const q = new URLSearchParams(qs || '').get('q');
+      if (q) $('search').value = q;
+    }
 
     function card(item, showCategory) {
       const badge = item.badge
@@ -371,6 +387,7 @@
         ? `Showing ${shown} of ${total} entries` : `${total} entries`;
       $('results').innerHTML = html.join('');
       $('status').textContent = html.length ? '' : 'No entries match your search.';
+      syncUrl();
     }
 
     function renderChips() {
@@ -409,6 +426,7 @@
         const total = sections.reduce((n, s) => n + s.items.length, 0);
         $('hero-stats').innerHTML =
           `<span class="stat">${total} projects</span><span class="stat">${sections.length} categories</span>`;
+        applyUrlState();
         renderChips();
         render();
       })
