@@ -464,7 +464,7 @@
         sections = parseReadme(md);
         const total = sections.reduce((n, s) => n + s.items.length, 0);
         $('hero-stats').innerHTML =
-          `<span class="stat">${total} projects</span><span class="stat">${sections.length} categories</span>`;
+          `<span class="stat">${total} entries</span><span class="stat">${sections.length} categories</span>`;
         applyUrlState();
         renderChips();
         render();
