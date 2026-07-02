@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Awesome AI Agents</title>
+  <meta name="description" content="A curated, searchable directory of frameworks, tools, and resources for building and deploying AI agents">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #f6f7f9;
+      --surface: #ffffff;
+      --text: #1a2130;
+      --text-muted: #5b6472;
+      --border: #e3e6eb;
+      --accent: #4756e3;
+      --accent-soft: #eceefc;
+      --tag-bg: #f0f2f5;
+      --shadow: 0 1px 3px rgba(20, 26, 40, 0.06);
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #14171c;
+        --surface: #1d2129;
+        --text: #e8eaee;
+        --text-muted: #9aa3b0;
+        --border: #2c313b;
+        --accent: #8b96f0;
+        --accent-soft: #262c45;
+        --tag-bg: #262b34;
+        --shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+      }
+    }
+    * { box-sizing: border-box; margin: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font: 15px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem 0.9rem;
+    }
+    .header-inner { max-width: 1200px; margin: 0 auto; }
+    .header-top {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 0.4rem 1rem;
+      margin-bottom: 0.75rem;
+    }
+    h1 { font-size: 1.25rem; font-weight: 700; }
+    .subtitle { color: var(--text-muted); font-size: 0.9rem; flex: 1 1 16rem; }
+    .gh-link { font-size: 0.9rem; white-space: nowrap; }
+    #search {
+      width: 100%;
+      padding: 0.6rem 0.9rem;
+      font-size: 0.95rem;
+      color: var(--text);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      outline: none;
+    }
+    #search:focus { border-color: var(--accent); }
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.4rem;
+      margin-top: 0.7rem;
+    }
+    .chip {
+      padding: 0.25rem 0.7rem;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      cursor: pointer;
+      font-family: inherit;
+    }
+    .chip:hover { border-color: var(--accent); color: var(--accent); }
+    .chip.active {
+      background: var(--accent-soft);
+      border-color: var(--accent);
+      color: var(--accent);
+      font-weight: 600;
+    }
+
+    main { max-width: 1200px; margin: 0 auto; padding: 1.25rem 1.5rem 3rem; }
+    #count { color: var(--text-muted); font-size: 0.85rem; margin-bottom: 1rem; }
+    .section-title {
+      font-size: 1.05rem;
+      font-weight: 700;
+      margin: 1.75rem 0 0.25rem;
+    }
+    .section-title:first-of-type { margin-top: 0.5rem; }
+    .section-blurb { color: var(--text-muted); font-size: 0.88rem; margin-bottom: 0.9rem; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+      gap: 0.85rem;
+      margin-bottom: 0.5rem;
+    }
+    .card {
+      display: flex;
+      flex-direction: column;
+      gap: 0.45rem;
+      padding: 0.95rem 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      box-shadow: var(--shadow);
+    }
+    .card-head {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0.6rem;
+    }
+    .card-name { font-weight: 600; font-size: 0.98rem; }
+    .card-badge img { height: 20px; display: block; }
+    .card-desc { color: var(--text-muted); font-size: 0.88rem; flex: 1; }
+    .card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .tag {
+      padding: 0.1rem 0.55rem;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      background: var(--tag-bg);
+      border-radius: 999px;
+    }
+    #status { color: var(--text-muted); padding: 2rem 0; text-align: center; }
+    footer {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem 2.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 0.85rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="header-inner">
+      <div class="header-top">
+        <h1>🤖 Awesome AI Agents</h1>
+        <span class="subtitle">A curated, searchable directory of frameworks, tools, and resources for building AI agents</span>
+        <a class="gh-link" href="https://github.com/NipunaRanasinghe/awesome-ai-agents">GitHub&nbsp;↗</a>
+      </div>
+      <input id="search" type="search" placeholder="Search by name, description, or language…" autocomplete="off">
+      <div class="chips" id="chips"></div>
+    </div>
+  </header>
+
+  <main>
+    <div id="count"></div>
+    <div id="status">Loading the list…</div>
+    <div id="results"></div>
+  </main>
+
+  <footer>
+    Generated live from the repository's
+    <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/README.md">README.md</a>
+    — the list itself is maintained there.
+    Want to add a project? See the
+    <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/CONTRIBUTING.md">contributing guide</a>.
+  </footer>
+
+  <script>
+    // PARSER-START (pure string -> data; no DOM access, testable in Node)
+    const LINK_RE = /\[([^\]]+)\]\(([^)\s]+)\)/;
+    const BADGE_RE = /!\[[^\]]*\]\((https:\/\/img\.shields\.io[^)\s]+)\)/;
+
+    function splitRow(line) {
+      return line.replace(/^\|/, '').replace(/\|\s*$/, '').split('|').map(c => c.trim());
+    }
+
+    function parseReadme(md) {
+      const lines = md.split('\n');
+      const sections = [];
+      let heading = null, blurb = '', headerCells = null;
+
+      for (const line of lines) {
+        const h = line.match(/^#{2,3} (.+)$/);
+        if (h) {
+          heading = h[1].trim();
+          blurb = '';
+          headerCells = null;
+          continue;
+        }
+        if (!heading || heading === 'Contents' || heading === 'Contributing') continue;
+
+        if (/^\|/.test(line)) {
+          if (/^[|\s\-]+$/.test(line)) continue; // separator row
+          const cells = splitRow(line);
+          if (!headerCells) { headerCells = cells.map(c => c.toLowerCase()); continue; }
+
+          let section = sections[sections.length - 1];
+          if (!section || section.title !== heading) {
+            section = { title: heading, blurb, items: [] };
+            sections.push(section);
+          }
+
+          const item = { name: '', url: '', badge: '', desc: '', lang: '', category: heading };
+          const descIdx = headerCells.indexOf('description');
+          const langIdx = headerCells.indexOf('language');
+          if (descIdx !== -1) item.desc = cells[descIdx] || '';
+          if (langIdx !== -1) item.lang = cells[langIdx] || '';
+
+          const nameLink = (cells[0] || '').match(LINK_RE);
+          item.name = nameLink ? nameLink[1] : (cells[0] || '');
+
+          for (const cell of cells) {
+            const badge = cell.match(BADGE_RE);
+            if (badge) { item.badge = badge[1]; continue; }
+            if (!item.url && !cell.startsWith('!')) {
+              const link = cell.match(LINK_RE);
+              if (link) item.url = link[2];
+            }
+          }
+          if (item.name) section.items.push(item);
+        } else if (line.trim() && !line.startsWith('#') && !line.startsWith('<') &&
+                   !line.startsWith('---') && !line.startsWith('!') && !line.startsWith('-')) {
+          if (!headerCells) blurb = line.trim();
+        }
+      }
+      return sections.filter(s => s.items.length);
+    }
+    // PARSER-END
+
+    const $ = id => document.getElementById(id);
+    const esc = s => s.replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+    let sections = [], activeCategory = 'All';
+
+    function card(item) {
+      const badge = item.badge
+        ? `<span class="card-badge"><img src="${esc(item.badge)}" alt="GitHub stars" loading="lazy"></span>` : '';
+      const lang = item.lang ? `<span class="tag">${esc(item.lang)}</span>` : '';
+      const name = item.url
+        ? `<a class="card-name" href="${esc(item.url)}">${esc(item.name)}</a>`
+        : `<span class="card-name">${esc(item.name)}</span>`;
+      return `<div class="card">
+        <div class="card-head">${name}${badge}</div>
+        <div class="card-desc">${esc(item.desc)}</div>
+        <div class="card-tags"><span class="tag">${esc(item.category)}</span>${lang}</div>
+      </div>`;
+    }
+
+    function render() {
+      const q = $('search').value.trim().toLowerCase();
+      const html = [];
+      let shown = 0, total = 0;
+
+      for (const section of sections) {
+        total += section.items.length;
+        if (activeCategory !== 'All' && section.title !== activeCategory) continue;
+        const items = section.items.filter(i =>
+          !q || (i.name + ' ' + i.desc + ' ' + i.lang + ' ' + i.category).toLowerCase().includes(q));
+        if (!items.length) continue;
+        shown += items.length;
+        html.push(`<h2 class="section-title">${esc(section.title)}</h2>`);
+        if (section.blurb) html.push(`<p class="section-blurb">${esc(section.blurb)}</p>`);
+        html.push(`<div class="grid">${items.map(card).join('')}</div>`);
+      }
+
+      $('count').textContent = q || activeCategory !== 'All'
+        ? `Showing ${shown} of ${total} entries` : `${total} entries`;
+      $('results').innerHTML = html.join('');
+      $('status').textContent = html.length ? '' : 'No entries match your search.';
+    }
+
+    function renderChips() {
+      const names = ['All', ...sections.map(s => s.title)];
+      $('chips').innerHTML = names.map(n =>
+        `<button class="chip${n === activeCategory ? ' active' : ''}" data-cat="${esc(n)}">${esc(n)}</button>`).join('');
+    }
+
+    $('chips').addEventListener('click', e => {
+      const chip = e.target.closest('.chip');
+      if (!chip) return;
+      activeCategory = chip.dataset.cat;
+      renderChips();
+      render();
+    });
+    $('search').addEventListener('input', render);
+
+    fetch('README.md')
+      .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
+      .then(md => {
+        sections = parseReadme(md);
+        renderChips();
+        render();
+      })
+      .catch(() => {
+        $('status').innerHTML = 'Could not load the list. View it on <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents">GitHub</a> instead.';
+      });
+  </script>
+</body>
+</html>
