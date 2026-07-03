@@ -12,15 +12,15 @@
 
 _A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology._
 
+<p>
+  <a href="https://nipunaranasinghe.github.io/awesome-ai-agents/"><img src="https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" height="40" alt="Browse the list as a website"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white" height="40" alt="What's new — Changelog"></a>
+</p>
+
 <!-- image -->
 
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
   <img src="resources/images/image.png" alt="Awesome AI Agents Logo">
 </a>
-
-<!-- website -->
-
-**[🌐 Browse this list as a website](https://nipunaranasinghe.github.io/awesome-ai-agents/)**
 
 </div>
 
