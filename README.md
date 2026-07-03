@@ -33,13 +33,16 @@ _A curated list of frameworks, tools, and resources for building and deploying A
   - [💻 Coding Agents](#-coding-agents)
   - [🔬 Research Agents](#-research-agents)
   - [🎨 Creative Agents](#-creative-agents)
-  - [🌐 Web Agents](#-web-agents)
+  - [🌐 Web & Computer Use Agents](#-web--computer-use-agents)
   - [🗣️ Programming Language Agents](#-programming-language-agents)
+  - [🎙️ Voice Agents](#-voice-agents)
 - [⚙️ Agent Operations](#-agent-operations)
   - [🧠 Memory](#-memory)
   - [📊 Evaluation](#-evaluation)
+  - [📈 Observability](#-observability)
   - [🚀 Deployment](#-deployment)
   - [🔒 Security & Governance](#-security--governance)
+  - [🔌 Protocols](#-protocols)
 - [📚 Research & Benchmarks](#-research--benchmarks)
   - [📄 Papers](#-papers)
   - [📊 Benchmarks](#-benchmarks)
@@ -131,16 +134,20 @@ Agents designed for specific tasks or industries.
 | [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | Short-form video generation agent       |
 | [AI-town](https://github.com/a16z-infra/ai-town)   | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world simulation with AI agents |
 
-### 🌐 Web Agents
+### 🌐 Web & Computer Use Agents
 
-| Name                                                      | Stars                                                                | Description                                                                                              |
-| --------------------------------------------------------- | -------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------- |
-| [Browser Use](https://github.com/browser-use/browser-use) | ![](https://img.shields.io/github/stars/browser-use/browser-use)     | Make websites accessible for AI agents, automate tasks with ease                                         |
-| [NanoBrowser](https://github.com/nanobrowser/nanobrowser) | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)     | TypeScript-based AI browsing agent                                                                       |
-| [Firecrawl](https://github.com/firecrawl/firecrawl)       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)         | Turn websites into LLM-ready markdown or structured data                                                 |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai)         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)          | Open-source LLM-friendly web crawler and scraper                                                         |
-| [Stagehand](https://github.com/browserbase/stagehand)     | ![](https://img.shields.io/github/stars/browserbase/stagehand)       | AI browser automation framework with natural language and code                                           |
-| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)   | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter data and action API (REST, MCP, webhooks) that agents call for search, monitoring, and posting |
+| Name                                                            | Stars                                                                | Description                                                                                                      |
+| --------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [Browser Use](https://github.com/browser-use/browser-use)       | ![](https://img.shields.io/github/stars/browser-use/browser-use)     | Make websites accessible for AI agents, automate tasks with ease                                                 |
+| [NanoBrowser](https://github.com/nanobrowser/nanobrowser)       | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)     | TypeScript-based AI browsing agent                                                                               |
+| [Firecrawl](https://github.com/firecrawl/firecrawl)             | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)         | Turn websites into LLM-ready markdown or structured data                                                         |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai)               | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)          | Open-source LLM-friendly web crawler and scraper                                                                 |
+| [Stagehand](https://github.com/browserbase/stagehand)           | ![](https://img.shields.io/github/stars/browserbase/stagehand)       | AI browser automation framework with natural language and code                                                   |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)         | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter data and action API (REST, MCP, webhooks) that agents call for search, monitoring, and posting         |
+| [Skyvern](https://github.com/Skyvern-AI/skyvern)                | ![](https://img.shields.io/github/stars/Skyvern-AI/skyvern)          | Browser automation agent using LLMs and computer vision to complete web workflows                                |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp)   | ![](https://img.shields.io/github/stars/microsoft/playwright-mcp)    | MCP server exposing Playwright browser automation to AI agents                                                   |
+| [Agent S](https://github.com/simular-ai/Agent-S)                | ![](https://img.shields.io/github/stars/simular-ai/Agent-S)          | Open framework for computer-use agents that operate desktop GUIs like a human                                    |
+| [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)   | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
 
 ### 🗣️ Programming Language Agents
 
@@ -160,6 +167,16 @@ Agents and frameworks specialized for specific programming languages.
 | [Swarms-rs](https://github.com/The-Swarm-Corporation/swarms-rs)          | Rust       | ![](https://img.shields.io/github/stars/The-Swarm-Corporation/swarms-rs) | Swarm-based agent orchestration in Rust        |
 | [AnythingLLM](https://github.com/Mintplex-Labs/anything-llm)             | JavaScript | ![](https://img.shields.io/github/stars/Mintplex-Labs/anything-llm)      | All-in-one AI agent builder with RAG and UI    |
 
+### 🎙️ Voice Agents
+
+Frameworks for building real-time voice and conversational AI agents.
+
+| Name                                                            | Stars                                                                | Description                                                                             |
+| --------------------------------------------------------------- | -------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [Pipecat](https://github.com/pipecat-ai/pipecat)                | ![](https://img.shields.io/github/stars/pipecat-ai/pipecat)          | Open-source framework for building real-time voice and multimodal conversational agents |
+| [LiveKit Agents](https://github.com/livekit/agents)             | ![](https://img.shields.io/github/stars/livekit/agents)              | Framework for real-time voice AI agents with WebRTC transport, built on LiveKit         |
+| [TEN Framework](https://github.com/TEN-framework/ten-framework) | ![](https://img.shields.io/github/stars/TEN-framework/ten-framework) | Open-source framework for real-time conversational voice agents with multimodal support |
+
 ---
 
 ## ⚙️ Agent Operations
@@ -177,14 +194,26 @@ Tools and systems for managing AI agents.
 
 ### 📊 Evaluation
 
-| Name                                                              | Stars                                                                       | Description                                                                                       |
-| ----------------------------------------------------------------- | --------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| [AgentBench](https://github.com/THUDM/AgentBench)                 | ![](https://img.shields.io/github/stars/THUDM/AgentBench)                   | Multi-environment testing for agents                                                              |
-| [LangTrace](https://github.com/Scale3-Labs/langtrace)             | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)              | Monitoring and trace visualization                                                                |
-| [agenttrace](https://github.com/luoyuctl/agenttrace)              | ![](https://img.shields.io/github/stars/luoyuctl/agenttrace)                | Local TUI and reports for AI coding agent session cost, latency, failures, and health             |
-| [ax](https://github.com/Necmttn/ax)                               | ![](https://img.shields.io/github/stars/Necmttn/ax)                         | Local-first evidence graph for coding-agent sessions, tool calls, skills, and cost                |
-| [Agent Evaluation](https://github.com/awslabs/agent-evaluation)   | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation)           | Benchmarking agent capabilities                                                                   |
-| [Simple Evals](https://github.com/openai/simple-evals)            | ![](https://img.shields.io/github/stars/openai/simple-evals)                | OpenAI's lightweight LLM evaluation library                                                       |
+| Name                                                            | Stars                                                             | Description                                                                           |
+| --------------------------------------------------------------- | ----------------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [AgentBench](https://github.com/THUDM/AgentBench)               | ![](https://img.shields.io/github/stars/THUDM/AgentBench)         | Multi-environment testing for agents                                                  |
+| [LangTrace](https://github.com/Scale3-Labs/langtrace)           | ![](https://img.shields.io/github/stars/Scale3-Labs/langtrace)    | Monitoring and trace visualization                                                    |
+| [agenttrace](https://github.com/luoyuctl/agenttrace)            | ![](https://img.shields.io/github/stars/luoyuctl/agenttrace)      | Local TUI and reports for AI coding agent session cost, latency, failures, and health |
+| [ax](https://github.com/Necmttn/ax)                             | ![](https://img.shields.io/github/stars/Necmttn/ax)               | Local-first evidence graph for coding-agent sessions, tool calls, skills, and cost    |
+| [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmarking agent capabilities                                                       |
+| [Simple Evals](https://github.com/openai/simple-evals)          | ![](https://img.shields.io/github/stars/openai/simple-evals)      | OpenAI's lightweight LLM evaluation library                                           |
+
+### 📈 Observability
+
+Tracing, monitoring, and debugging tools for agents in production.
+
+| Name                                                    | Stars                                                          | Description                                                                          |
+| ------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [Langfuse](https://github.com/langfuse/langfuse)        | ![](https://img.shields.io/github/stars/langfuse/langfuse)     | Open-source LLM engineering platform for tracing, prompt management, and evaluations |
+| [Arize Phoenix](https://github.com/Arize-ai/phoenix)    | ![](https://img.shields.io/github/stars/Arize-ai/phoenix)      | Open-source AI observability with OpenTelemetry tracing, evals, and agent debugging  |
+| [Helicone](https://github.com/Helicone/helicone)        | ![](https://img.shields.io/github/stars/Helicone/helicone)     | Open-source LLM observability with one-line integration for cost and usage tracking  |
+| [OpenLLMetry](https://github.com/traceloop/openllmetry) | ![](https://img.shields.io/github/stars/traceloop/openllmetry) | OpenTelemetry-based instrumentation for LLM and agent frameworks                     |
+| [Laminar](https://github.com/lmnr-ai/lmnr)              | ![](https://img.shields.io/github/stars/lmnr-ai/lmnr)          | Open-source platform for tracing and evaluating AI agents                            |
 
 ### 🚀 Deployment
 
@@ -206,6 +235,17 @@ Tools and systems for managing AI agents.
 | [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)                      | ![](https://img.shields.io/github/stars/NVIDIA-NeMo/Guardrails)             | Programmable guardrails for LLM-based conversational systems                               |
 | [LLM Guard](https://github.com/protectai/llm-guard)                               | ![](https://img.shields.io/github/stars/protectai/llm-guard)                | Security toolkit for scanning and sanitizing LLM prompts and outputs                       |
 | [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents - 7-layer threat detection and spend controls |
+
+### 🔌 Protocols
+
+Open protocols and implementations for agent-to-tool and agent-to-agent interoperability.
+
+| Name                                                                                   | Stars                                                                              | Description                                                                             |
+| -------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| [Model Context Protocol](https://github.com/modelcontextprotocol/modelcontextprotocol) | ![](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol) | Anthropic's open protocol standardizing how AI agents connect to tools and data sources |
+| [MCP Servers](https://github.com/modelcontextprotocol/servers)                         | ![](https://img.shields.io/github/stars/modelcontextprotocol/servers)              | Official collection of reference MCP server implementations                             |
+| [A2A](https://github.com/a2aproject/A2A)                                               | ![](https://img.shields.io/github/stars/a2aproject/A2A)                            | Open protocol started by Google for agent-to-agent communication across frameworks      |
+| [FastMCP](https://github.com/PrefectHQ/fastmcp)                                        | ![](https://img.shields.io/github/stars/PrefectHQ/fastmcp)                         | Pythonic framework for building MCP servers and clients                                 |
 
 ---
 
@@ -248,9 +288,9 @@ Join the conversation and stay updated on AI agent developments.
 
 ### 📰 Newsletters
 
-| Name                        | Link                                                | Description                                   |
-| --------------------------- | --------------------------------------------------- | --------------------------------------------- |
-| The Batch (DeepLearning.AI) | [Subscribe](https://www.deeplearning.ai/the-batch/) | Weekly AI industry insights                   |
+| Name                        | Link                                                | Description                 |
+| --------------------------- | --------------------------------------------------- | --------------------------- |
+| The Batch (DeepLearning.AI) | [Subscribe](https://www.deeplearning.ai/the-batch/) | Weekly AI industry insights |
 
 ---
 
