@@ -20,7 +20,8 @@ _A curated list of frameworks, tools, and resources for building and deploying A
 
 <!-- website -->
 
-**[🌐 Browse this list as a website](https://nipunaranasinghe.github.io/awesome-ai-agents/)** • **[📆 What's new](CHANGELOG.md)**
+[![Browse the list as a website](https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://nipunaranasinghe.github.io/awesome-ai-agents/)
+[![What's new](https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white)](CHANGELOG.md)
 
 </div>
 
