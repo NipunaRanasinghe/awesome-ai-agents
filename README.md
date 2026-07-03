@@ -8,6 +8,9 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Lint](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/lint.yml/badge.svg)](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/lint.yml) [![Check Links](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml/badge.svg)](https://github.com/NipunaRanasinghe/awesome-ai-agents/actions/workflows/links.yml) [![Last Commit](https://img.shields.io/github/last-commit/NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/commits/main) [![Contributors](https://img.shields.io/github/contributors/NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/pulse)
 
+[![Browse the list as a website](https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://nipunaranasinghe.github.io/awesome-ai-agents/)
+[![What's new](https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white)](CHANGELOG.md)
+
 <!-- description -->
 
 _A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology._
@@ -17,11 +20,6 @@ _A curated list of frameworks, tools, and resources for building and deploying A
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
   <img src="resources/images/image.png" alt="Awesome AI Agents Logo">
 </a>
-
-<!-- website -->
-
-[![Browse the list as a website](https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white)](https://nipunaranasinghe.github.io/awesome-ai-agents/)
-[![What's new](https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white)](CHANGELOG.md)
 
 </div>
 
