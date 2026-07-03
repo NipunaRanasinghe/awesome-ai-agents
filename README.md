@@ -20,7 +20,7 @@ _A curated list of frameworks, tools, and resources for building and deploying A
 
 <!-- website -->
 
-**[🌐 Browse this list as a website](https://nipunaranasinghe.github.io/awesome-ai-agents/)**
+**[🌐 Browse this list as a website](https://nipunaranasinghe.github.io/awesome-ai-agents/)** • **[📆 What's new](CHANGELOG.md)**
 
 </div>
 
