@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-07-05
+
+- Added [Hivekeep](https://github.com/MarlBurroW/hivekeep) to 🌟 Core Frameworks
+
 ## 2026-07-03
 
 - Updated [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) link (repo moved)
