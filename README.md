@@ -10,7 +10,7 @@
 
 <!-- description -->
 
-_A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology._
+_A curated, actively maintained directory of 100+ frameworks, tools, and resources for building AI agents — from multi-agent systems and autonomous coding assistants to memory, evaluation, and deployment. ⭐ Star it to keep the fast-moving AI agent ecosystem one click away._
 
 <p>
   <a href="https://nipunaranasinghe.github.io/awesome-ai-agents/"><img src="https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" height="40" alt="Browse the list as a website"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white" height="40" alt="What's new — Changelog"></a>
