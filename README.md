@@ -188,12 +188,13 @@ Tools and systems for managing AI agents.
 
 ### 🧠 Memory
 
-| Name                                                         | Stars                                                       | Description                            |
-| ------------------------------------------------------------ | ----------------------------------------------------------- | -------------------------------------- |
-| [Letta (formerly MemGPT)](https://github.com/letta-ai/letta) | ![](https://img.shields.io/github/stars/letta-ai/letta)     | Dynamic, adaptive agent memory system  |
-| [Mem0](https://github.com/mem0ai/mem0)                       | ![](https://img.shields.io/github/stars/mem0ai/mem0)        | Universal memory layer for AI agents   |
-| [ChromaDB](https://github.com/chroma-core/chroma)            | ![](https://img.shields.io/github/stars/chroma-core/chroma) | Vector DB for memory/context           |
-| [Weaviate](https://github.com/weaviate/weaviate)             | ![](https://img.shields.io/github/stars/weaviate/weaviate)  | Scalable vector DB for semantic memory |
+| Name                                                                   | Stars                                                                    | Description                                                                       |
+| ---------------------------------------------------------------------- | -----------------------------------------------------------------------  | --------------------------------------------------------------------------------- |
+| [Letta (formerly MemGPT)](https://github.com/letta-ai/letta)           | ![](https://img.shields.io/github/stars/letta-ai/letta)                  | Dynamic, adaptive agent memory system                                             |
+| [Mem0](https://github.com/mem0ai/mem0)                                 | ![](https://img.shields.io/github/stars/mem0ai/mem0)                     | Universal memory layer for AI agents                                              |
+| [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | ![](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory) | Local-first CLI/TUI for agent memory recall, forgetting, audit, and consolidation |
+| [ChromaDB](https://github.com/chroma-core/chroma)                      | ![](https://img.shields.io/github/stars/chroma-core/chroma)              | Vector DB for memory/context                                                      |
+| [Weaviate](https://github.com/weaviate/weaviate)                       | ![](https://img.shields.io/github/stars/weaviate/weaviate)               | Scalable vector DB for semantic memory                                            |
 
 ### 📊 Evaluation
 
