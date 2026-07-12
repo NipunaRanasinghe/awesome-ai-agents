@@ -7,6 +7,7 @@ Entries added to or removed from the list, generated automatically from README c
 - Added [Agon](https://github.com/AutoResearch-Factory/Agon) to 🔬 Research Agents
 - Added [AutoNumerics](https://github.com/Daviddjddu/Autonumerics) to 🔬 Research Agents
 - Added [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) to 📊 Benchmarks
+- Added [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) to 🧠 Memory
 
 ## 2026-07-05
 
