@@ -122,13 +122,13 @@ Agents designed for specific tasks or industries.
 
 ### 🔬 Research Agents
 
-| Name                                                            | Stars                                                               | Description                                                      |
-| --------------------------------------------------------------- | ------------------------------------------------------------------- | ---------------------------------------------------------------- |
-| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ![](https://img.shields.io/github/stars/assafelovic/gpt-researcher) | Autonomous agent for comprehensive research                      |
-| [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative reasoning                   |
-| [DeerFlow](https://github.com/bytedance/deer-flow)              | ![](https://img.shields.io/github/stars/bytedance/deer-flow)        | Framework for deep research with web search and Python execution |
-| [Agon](https://github.com/AutoResearch-Factory/Agon) | ![](https://img.shields.io/github/stars/AutoResearch-Factory/Agon) | Prompt Economy orchestrator: reusable scientist/coder/auditor loops instead of per-task prompts, 18 roles, 10+ disciplines |
-| [AutoNumerics](https://github.com/Daviddjddu/Autonumerics) | ![](https://img.shields.io/github/stars/Daviddjddu/Autonumerics) | Writes, debugs, and validates classical PDE numerical solvers from plain-language problem descriptions |
+| Name                                                            | Stars                                                               | Description                                                                                                                |
+| --------------------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
+| [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ![](https://img.shields.io/github/stars/assafelovic/gpt-researcher) | Autonomous agent for comprehensive research                                                                                |
+| [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative reasoning                                                                             |
+| [DeerFlow](https://github.com/bytedance/deer-flow)              | ![](https://img.shields.io/github/stars/bytedance/deer-flow)        | Framework for deep research with web search and Python execution                                                           |
+| [Agon](https://github.com/AutoResearch-Factory/Agon)            | ![](https://img.shields.io/github/stars/AutoResearch-Factory/Agon)  | Prompt Economy orchestrator: reusable scientist/coder/auditor loops instead of per-task prompts, 18 roles, 10+ disciplines |
+| [AutoNumerics](https://github.com/Daviddjddu/Autonumerics)      | ![](https://img.shields.io/github/stars/Daviddjddu/Autonumerics)    | Writes, debugs, and validates classical PDE numerical solvers from plain-language problem descriptions                     |
 
 ### 🎨 Creative Agents
 
@@ -258,22 +258,22 @@ Key research papers, benchmarks, and surveys on AI agents.
 
 ### 📄 Papers
 
-| Title                                   | Link                                      | Description                               |
-| --------------------------------------- | ----------------------------------------- | ----------------------------------------- |
-| The Rise of LLM-Based Agents            | [arXiv](https://arxiv.org/abs/2309.07864) | Comprehensive survey on LLM-based agents  |
-| Tool Learning with Foundation Models    | [arXiv](https://arxiv.org/abs/2304.08354) | Tool usage in AI agents                   |
-| Multi-Agent Collaboration               | [arXiv](https://arxiv.org/abs/2308.08262) | Collaboration in multi-agent systems      |
-| Large Language Model based Multi-Agents | [arXiv](https://arxiv.org/abs/2312.01845) | Survey of progress and challenges         |
-| Agentic AI Systems                      | [arXiv](https://arxiv.org/abs/2401.08231) | Components and applications of agentic AI |
-| A Survey on LLM-based Autonomous Agents | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents            |
+| Title                                                                   | Link                                      | Description                                                                             |
+| ----------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------- |
+| The Rise of LLM-Based Agents                                            | [arXiv](https://arxiv.org/abs/2309.07864) | Comprehensive survey on LLM-based agents                                                |
+| Tool Learning with Foundation Models                                    | [arXiv](https://arxiv.org/abs/2304.08354) | Tool usage in AI agents                                                                 |
+| Multi-Agent Collaboration                                               | [arXiv](https://arxiv.org/abs/2308.08262) | Collaboration in multi-agent systems                                                    |
+| Large Language Model based Multi-Agents                                 | [arXiv](https://arxiv.org/abs/2312.01845) | Survey of progress and challenges                                                       |
+| Agentic AI Systems                                                      | [arXiv](https://arxiv.org/abs/2401.08231) | Components and applications of agentic AI                                               |
+| A Survey on LLM-based Autonomous Agents                                 | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents                                                          |
 | OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents | [arXiv](https://arxiv.org/abs/2504.16918) | Four-agent pipeline with bandit scheduling turns optimization problems into solver code |
 
 ### 📊 Benchmarks
 
-| Name                                                   | Stars                                                           | Description                                           |
-| ------------------------------------------------------ | --------------------------------------------------------------- | ----------------------------------------------------- |
-| [ToolBench](https://github.com/OpenBMB/ToolBench)      | ![](https://img.shields.io/github/stars/OpenBMB/ToolBench)      | Benchmark for tool learning                           |
-| [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi) | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi) | Social intelligence benchmark for multi-agent systems |
+| Name                                                                  | Stars                                                                     | Description                                                                                            |
+| --------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [ToolBench](https://github.com/OpenBMB/ToolBench)                     | ![](https://img.shields.io/github/stars/OpenBMB/ToolBench)                | Benchmark for tool learning                                                                            |
+| [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi)                | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi)           | Social intelligence benchmark for multi-agent systems                                                  |
 | [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) | ![](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap) | Benchmark for writing orchestration prompts in multi-agent systems, 110 scenarios across 10 topologies |
 
 ---
