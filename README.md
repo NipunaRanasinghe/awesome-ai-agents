@@ -10,7 +10,7 @@
 
 <!-- description -->
 
-_A curated list of frameworks, tools, and resources for building and deploying AI agents. From multi-agent systems to autonomous coding assistants, this repository covers the latest advancements in AI agent technology._
+_A curated, actively maintained directory of 100+ frameworks, tools, and resources for building AI agents — from multi-agent systems and autonomous coding assistants to memory, evaluation, and deployment. ⭐ Star it to keep the fast-moving AI agent ecosystem one click away._
 
 <!-- image -->
 
