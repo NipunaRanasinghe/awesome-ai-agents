@@ -292,12 +292,60 @@
       color: var(--text-muted);
       font-size: 0.85rem;
     }
+    .modal {
+      position: fixed;
+      inset: 0;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .modal[hidden] { display: none; }
+    .modal-backdrop { position: absolute; inset: 0; background: rgba(0, 0, 0, 0.5); }
+    .modal-card {
+      position: relative;
+      width: 100%;
+      max-width: 640px;
+      max-height: 80vh;
+      display: flex;
+      flex-direction: column;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+      overflow: hidden;
+    }
+    .modal-head {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 1rem 1.25rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .modal-head h2 { font-size: 1.1rem; font-weight: 700; }
+    .modal-close {
+      padding: 0.25rem;
+      font-size: 1.1rem;
+      line-height: 1;
+      color: var(--text-muted);
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+    .modal-close:hover { color: var(--text); }
+    .modal-body { padding: 1rem 1.25rem 1.5rem; overflow-y: auto; }
+    .modal-body h3 { font-size: 0.95rem; font-weight: 700; margin: 1.1rem 0 0.4rem; }
+    .modal-body h3:first-child { margin-top: 0; }
+    .modal-body p { color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.6rem; }
+    .modal-body ul { margin: 0 0 0.6rem 1.1rem; }
+    .modal-body li { font-size: 0.9rem; margin-bottom: 0.25rem; }
   </style>
 </head>
 <body>
   <section class="hero">
     <div class="topbar">
-      <a class="hdr-link" href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/CHANGELOG.md" target="_blank" rel="noopener" title="What's new — Changelog">What's new</a>
+      <a class="hdr-link" id="changelog-link" href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/CHANGELOG.md" target="_blank" rel="noopener" title="What's new — Changelog">What's new</a>
       <a class="star-btn" href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener" title="Star on GitHub">
         <span class="star-btn-label">⭐ Star</span>
         <span class="star-btn-count" id="star-count"></span>
@@ -329,6 +377,17 @@
   </main>
 
   <button id="back-to-top" title="Back to top" aria-label="Back to top">↑</button>
+
+  <div id="changelog-modal" class="modal" hidden>
+    <div class="modal-backdrop" data-close></div>
+    <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="changelog-title">
+      <div class="modal-head">
+        <h2 id="changelog-title">What's new</h2>
+        <button class="modal-close" data-close aria-label="Close changelog">✕</button>
+      </div>
+      <div class="modal-body" id="changelog-body">Loading…</div>
+    </div>
+  </div>
 
   <footer>
     Generated live from the repository's
@@ -507,6 +566,45 @@
       $('back-to-top').classList.toggle('visible', window.scrollY > 600);
     }, { passive: true });
     $('back-to-top').addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Changelog modal
+    function renderChangelog(md) {
+      const inline = s => esc(s).replace(/\[([^\]]+)\]\(([^)\s]+)\)/g,
+        '<a href="$2" target="_blank" rel="noopener">$1</a>');
+      const out = [];
+      let inList = false;
+      const closeList = () => { if (inList) { out.push('</ul>'); inList = false; } };
+      for (const raw of md.split('\n')) {
+        const line = raw.trim();
+        if (/^#\s/.test(line)) continue; // skip the top-level "# Changelog"
+        const h2 = line.match(/^##\s+(.+)/);
+        if (h2) { closeList(); out.push(`<h3>${esc(h2[1])}</h3>`); continue; }
+        const li = line.match(/^-\s+(.+)/);
+        if (li) { if (!inList) { out.push('<ul>'); inList = true; } out.push(`<li>${inline(li[1])}</li>`); continue; }
+        if (!line) continue;
+        closeList();
+        out.push(`<p>${inline(line)}</p>`);
+      }
+      closeList();
+      return out.join('');
+    }
+
+    const modal = $('changelog-modal');
+    let changelogHtml = null;
+    function openChangelog() {
+      modal.hidden = false;
+      document.body.style.overflow = 'hidden';
+      if (changelogHtml !== null) { $('changelog-body').innerHTML = changelogHtml; return; }
+      fetch('CHANGELOG.md')
+        .then(r => r.ok ? r.text() : Promise.reject())
+        .then(md => { changelogHtml = renderChangelog(md); $('changelog-body').innerHTML = changelogHtml; })
+        .catch(() => { $('changelog-body').innerHTML =
+          'Could not load the changelog. <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/CHANGELOG.md" target="_blank" rel="noopener">View it on GitHub</a>.'; });
+    }
+    function closeChangelog() { modal.hidden = true; document.body.style.overflow = ''; }
+    $('changelog-link').addEventListener('click', e => { e.preventDefault(); openChangelog(); });
+    modal.addEventListener('click', e => { if ('close' in e.target.dataset) closeChangelog(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.hidden) closeChangelog(); });
 
     fetch('https://api.github.com/repos/NipunaRanasinghe/awesome-ai-agents')
       .then(r => r.ok ? r.json() : Promise.reject())
