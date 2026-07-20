@@ -96,6 +96,7 @@ Frameworks for building and managing AI agents.
 | [LlamaIndex](https://github.com/run-llama/llama_index)                     | ![](https://img.shields.io/github/stars/run-llama/llama_index)            | Data framework for LLM apps with RAG, agents, and 300+ integrations                                                                                                            |
 | [Mastra](https://github.com/mastra-ai/mastra)                              | ![](https://img.shields.io/github/stars/mastra-ai/mastra)                 | TypeScript AI framework for agents, workflows, MCP servers, and evals                                                                                                          |
 | [Hivekeep](https://github.com/MarlBurroW/hivekeep)                         | ![](https://img.shields.io/github/stars/MarlBurroW/hivekeep)              | Self-hosted platform to run a team of specialized AI agents with persistent memory, a web UI, and Telegram/Slack/Discord/Matrix channels, in a single Bun and SQLite container |
+| [Better Agent](https://github.com/ofekron/better-agent)                    | ![](https://img.shields.io/github/stars/ofekron/better-agent)             | Source-available workspace for running and supervising Claude, Codex, and Gemini coding-agent sessions                                                                         |
 
 ---
 
