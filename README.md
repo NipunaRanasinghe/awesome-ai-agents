@@ -222,12 +222,13 @@ Tracing, monitoring, and debugging tools for agents in production.
 
 ### 🚀 Deployment
 
-| Name                                                | Stars                                                            | Description                                  |
-| --------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
-| [Daytona](https://github.com/daytonaio/daytona)     | ![](https://img.shields.io/github/stars/daytonaio/daytona)       | Elastic infrastructure for AI-generated code |
-| [E2B](https://github.com/e2b-dev/E2B)               | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents     |
-| [OctoAI](https://github.com/octoai/octoAI)          | ![](https://img.shields.io/github/stars/octoai/octoAI)           | Scalable infrastructure for agent deployment |
-| [Modal](https://github.com/modal-labs/modal-client) | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads          |
+| Name                                                                    | Stars                                                                     | Description                                                                                      |
+| ----------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| [Daytona](https://github.com/daytonaio/daytona)                         | ![](https://img.shields.io/github/stars/daytonaio/daytona)                | Elastic infrastructure for AI-generated code                                                     |
+| [E2B](https://github.com/e2b-dev/E2B)                                   | ![](https://img.shields.io/github/stars/e2b-dev/E2B)                      | Secure sandboxed environments for agents                                                         |
+| [OctoAI](https://github.com/octoai/octoAI)                              | ![](https://img.shields.io/github/stars/octoai/octoAI)                    | Scalable infrastructure for agent deployment                                                     |
+| [Modal](https://github.com/modal-labs/modal-client)                     | ![](https://img.shields.io/github/stars/modal-labs/modal-client)          | Serverless runtime for AI workloads                                                              |
+| [Open Agent Relay](https://github.com/ShakespeareLabs/open-agent-relay) | ![](https://img.shields.io/github/stars/ShakespeareLabs/open-agent-relay) | Expose local agent capabilities over trusted LANs while keeping code and credentials on the host |
 
 ### 🔒 Security & Governance
 
