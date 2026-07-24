@@ -97,6 +97,7 @@ Frameworks for building and managing AI agents.
 | [Mastra](https://github.com/mastra-ai/mastra)                              | ![](https://img.shields.io/github/stars/mastra-ai/mastra)                 | TypeScript AI framework for agents, workflows, MCP servers, and evals                                                                                                          |
 | [Hivekeep](https://github.com/MarlBurroW/hivekeep)                         | ![](https://img.shields.io/github/stars/MarlBurroW/hivekeep)              | Self-hosted platform to run a team of specialized AI agents with persistent memory, a web UI, and Telegram/Slack/Discord/Matrix channels, in a single Bun and SQLite container |
 | [Better Agent](https://github.com/ofekron/better-agent)                    | ![](https://img.shields.io/github/stars/ofekron/better-agent)             | Source-available workspace for running and supervising Claude, Codex, and Gemini coding-agent sessions                                                                         |
+| [fractal](https://github.com/plasma-ai/fractal)                            | ![](https://img.shields.io/github/stars/plasma-ai/fractal)                | Hierarchical coding-agent runtime with bounded autonomous loops, recursive delegation, isolated Git worktrees, persistent SQLite state, and live operator controls             |
 
 ---
 
