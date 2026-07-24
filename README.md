@@ -119,6 +119,7 @@ Agents designed for specific tasks or industries.
 | [AgenticSeek](https://github.com/Fosowl/agenticSeek)      | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)       | Fully local autonomous agent that browses web and codes without APIs    |
 | [Cline](https://github.com/cline/cline)                   | ![](https://img.shields.io/github/stars/cline/cline)              | Autonomous coding agent in VS Code with MCP, browser use, and terminal  |
 | [Goose](https://github.com/aaif-goose/goose)              | ![](https://img.shields.io/github/stars/aaif-goose/goose)         | Open-source extensible AI agent by Block for engineering tasks          |
+| [Orkas](https://github.com/Orkas-AI/Orkas)                | ![](https://img.shields.io/github/stars/Orkas-AI/Orkas)           | Local-first workspace coordinating specialist AI agents across projects |
 | [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)   | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy) | AI-powered full-stack web development in the browser with 19+ LLMs      |
 
 ### 🔬 Research Agents
