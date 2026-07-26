@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-07-26
+
+- Added [fractal](https://github.com/plasma-ai/fractal) to 🌟 Core Frameworks
+
 ## 2026-07-22
 
 - Added [Better Agent](https://github.com/ofekron/better-agent) to 🌟 Core Frameworks
