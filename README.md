@@ -96,6 +96,7 @@ Frameworks for building and managing AI agents.
 | [LlamaIndex](https://github.com/run-llama/llama_index)                     | ![](https://img.shields.io/github/stars/run-llama/llama_index)            | Data framework for LLM apps with RAG, agents, and 300+ integrations                                                                                                            |
 | [Mastra](https://github.com/mastra-ai/mastra)                              | ![](https://img.shields.io/github/stars/mastra-ai/mastra)                 | TypeScript AI framework for agents, workflows, MCP servers, and evals                                                                                                          |
 | [Hivekeep](https://github.com/MarlBurroW/hivekeep)                         | ![](https://img.shields.io/github/stars/MarlBurroW/hivekeep)              | Self-hosted platform to run a team of specialized AI agents with persistent memory, a web UI, and Telegram/Slack/Discord/Matrix channels, in a single Bun and SQLite container |
+| [Orkas](https://github.com/Orkas-AI/Orkas)                                 | ![](https://img.shields.io/github/stars/Orkas-AI/Orkas)                   | Local-first workspace coordinating specialist AI agents across projects                                                                                                       |
 | [Better Agent](https://github.com/ofekron/better-agent)                    | ![](https://img.shields.io/github/stars/ofekron/better-agent)             | Source-available workspace for running and supervising Claude, Codex, and Gemini coding-agent sessions                                                                         |
 
 ---
@@ -119,7 +120,6 @@ Agents designed for specific tasks or industries.
 | [AgenticSeek](https://github.com/Fosowl/agenticSeek)      | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)       | Fully local autonomous agent that browses web and codes without APIs    |
 | [Cline](https://github.com/cline/cline)                   | ![](https://img.shields.io/github/stars/cline/cline)              | Autonomous coding agent in VS Code with MCP, browser use, and terminal  |
 | [Goose](https://github.com/aaif-goose/goose)              | ![](https://img.shields.io/github/stars/aaif-goose/goose)         | Open-source extensible AI agent by Block for engineering tasks          |
-| [Orkas](https://github.com/Orkas-AI/Orkas)                | ![](https://img.shields.io/github/stars/Orkas-AI/Orkas)           | Local-first workspace coordinating specialist AI agents across projects |
 | [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)   | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy) | AI-powered full-stack web development in the browser with 19+ LLMs      |
 
 ### 🔬 Research Agents
