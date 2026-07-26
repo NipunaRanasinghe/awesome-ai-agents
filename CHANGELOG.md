@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README c
 ## 2026-07-26
 
 - Added [fractal](https://github.com/plasma-ai/fractal) to 🌟 Core Frameworks
+- Added [Orkas](https://github.com/Orkas-AI/Orkas) to 🌟 Core Frameworks
 
 ## 2026-07-22
 
