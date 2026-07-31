@@ -242,6 +242,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)                      | ![](https://img.shields.io/github/stars/NVIDIA-NeMo/Guardrails)             | Programmable guardrails for LLM-based conversational systems                               |
 | [LLM Guard](https://github.com/protectai/llm-guard)                               | ![](https://img.shields.io/github/stars/protectai/llm-guard)                | Security toolkit for scanning and sanitizing LLM prompts and outputs                       |
 | [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents - 7-layer threat detection and spend controls |
+| [Agent Approval Inbox](https://github.com/stomeonst/agent-approval-inbox-preview)  | ![](https://img.shields.io/github/stars/stomeonst/agent-approval-inbox-preview) | Local-first macOS approval inbox for agent workflows with persistent action cards and append-only decision logs |
 
 ### 🔌 Protocols
 
