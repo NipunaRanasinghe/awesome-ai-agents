@@ -132,7 +132,7 @@ Agents designed for specific tasks or industries.
 | [DeerFlow](https://github.com/bytedance/deer-flow)              | ![](https://img.shields.io/github/stars/bytedance/deer-flow)        | Framework for deep research with web search and Python execution                                                           |
 | [Agon](https://github.com/AutoResearch-Factory/Agon)            | ![](https://img.shields.io/github/stars/AutoResearch-Factory/Agon)  | Prompt Economy orchestrator: reusable scientist/coder/auditor loops instead of per-task prompts, 18 roles, 10+ disciplines |
 | [AutoNumerics](https://github.com/Daviddjddu/Autonumerics)      | ![](https://img.shields.io/github/stars/Daviddjddu/Autonumerics)    | Writes, debugs, and validates classical PDE numerical solvers from plain-language problem descriptions                     |
-| [Caesar](https://github.com/jasonzliang/caesar-agent) | ![](https://img.shields.io/github/stars/jasonzliang/caesar-agent) | Builds a knowledge graph while exploring the web, then refines drafts via adversarial synthesis |
+| [Caesar](https://github.com/jasonzliang/caesar-agent)           | ![](https://img.shields.io/github/stars/jasonzliang/caesar-agent)   | Builds a knowledge graph while exploring the web, then refines drafts via adversarial synthesis                            |
 
 ### 🎨 Creative Agents
 
