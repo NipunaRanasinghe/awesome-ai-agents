@@ -201,6 +201,7 @@ Tools and systems for managing AI agents.
 | [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | ![](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory) | Local-first CLI/TUI for agent memory recall, forgetting, audit, and consolidation |
 | [ChromaDB](https://github.com/chroma-core/chroma)                      | ![](https://img.shields.io/github/stars/chroma-core/chroma)              | Vector DB for memory/context                                                      |
 | [Weaviate](https://github.com/weaviate/weaviate)                       | ![](https://img.shields.io/github/stars/weaviate/weaviate)               | Scalable vector DB for semantic memory                                            |
+| [Portable Handoff](https://github.com/legoambarish/portable-handoff)   | ![](https://img.shields.io/github/stars/legoambarish/portable-handoff)  | Local-first CLI for handing off coding-agent session context between tools        |
 
 ### 📊 Evaluation
 
