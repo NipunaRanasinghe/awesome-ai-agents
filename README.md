@@ -128,7 +128,7 @@ Agents designed for specific tasks or industries.
 | Name                                                            | Stars                                                               | Description                                                                                                                |
 | --------------------------------------------------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
 | [GPT Researcher](https://github.com/assafelovic/gpt-researcher) | ![](https://img.shields.io/github/stars/assafelovic/gpt-researcher) | Autonomous agent for comprehensive research                                                                                |
-| [Dr. Claw](https://github.com/OpenLAIR/dr-claw)                 | ![](https://img.shields.io/github/stars/OpenLAIR/dr-claw)         | Local research workspace with survey, ideation, experiment, publication, and promotion stages                              |
+| [Dr. Claw](https://github.com/OpenLAIR/dr-claw)                 | ![](https://img.shields.io/github/stars/OpenLAIR/dr-claw)           | Local research workspace with survey, ideation, experiment, publication, and promotion stages                              |
 | [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative reasoning                                                                             |
 | [DeerFlow](https://github.com/bytedance/deer-flow)              | ![](https://img.shields.io/github/stars/bytedance/deer-flow)        | Framework for deep research with web search and Python execution                                                           |
 | [Agon](https://github.com/AutoResearch-Factory/Agon)            | ![](https://img.shields.io/github/stars/AutoResearch-Factory/Agon)  | Prompt Economy orchestrator: reusable scientist/coder/auditor loops instead of per-task prompts, 18 roles, 10+ disciplines |
@@ -202,7 +202,7 @@ Tools and systems for managing AI agents.
 | [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | ![](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory) | Local-first CLI/TUI for agent memory recall, forgetting, audit, and consolidation |
 | [ChromaDB](https://github.com/chroma-core/chroma)                      | ![](https://img.shields.io/github/stars/chroma-core/chroma)              | Vector DB for memory/context                                                      |
 | [Weaviate](https://github.com/weaviate/weaviate)                       | ![](https://img.shields.io/github/stars/weaviate/weaviate)               | Scalable vector DB for semantic memory                                            |
-| [Portable Handoff](https://github.com/legoambarish/portable-handoff)   | ![](https://img.shields.io/github/stars/legoambarish/portable-handoff)  | Local-first CLI for handing off coding-agent session context between tools        |
+| [Portable Handoff](https://github.com/legoambarish/portable-handoff)   | ![](https://img.shields.io/github/stars/legoambarish/portable-handoff)   | Local-first CLI for handing off coding-agent session context between tools        |
 
 ### 📊 Evaluation
 
