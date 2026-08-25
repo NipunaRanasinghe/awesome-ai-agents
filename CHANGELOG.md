@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README c
 ## 2026-08-25
 
 - Added [Portable Handoff](https://github.com/legoambarish/portable-handoff) to 🧠 Memory
+- Added [Dr. Claw](https://github.com/OpenLAIR/dr-claw) to 🔬 Research Agents
 
 ## 2026-08-15
 
