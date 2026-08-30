@@ -2,6 +2,11 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-08-30
+
+- Added [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) to 🌟 Core Frameworks
+- Removed Hephaestus
+
 ## 2026-08-25
 
 - Added [Portable Handoff](https://github.com/legoambarish/portable-handoff) to 🧠 Memory
