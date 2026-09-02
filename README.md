@@ -238,6 +238,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [E2B](https://github.com/e2b-dev/E2B)               | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents     |
 | [OctoAI](https://github.com/octoai/octoAI)          | ![](https://img.shields.io/github/stars/octoai/octoAI)           | Scalable infrastructure for agent deployment |
 | [Modal](https://github.com/modal-labs/modal-client) | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads          |
+| [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) | ![](https://img.shields.io/github/stars/azeemkafridi/bulkpublish-api) | API and AI-agent skills for planning, adapting, reviewing, scheduling, and publishing social media content |
 
 ### 🔒 Security & Governance
 
