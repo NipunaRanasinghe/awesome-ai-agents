@@ -160,6 +160,7 @@ Agents designed for specific tasks or industries.
 | [Playwright MCP](https://github.com/microsoft/playwright-mcp)   | ![](https://img.shields.io/github/stars/microsoft/playwright-mcp)    | MCP server exposing Playwright browser automation to AI agents                                                   |
 | [Agent S](https://github.com/simular-ai/Agent-S)                | ![](https://img.shields.io/github/stars/simular-ai/Agent-S)          | Open framework for computer-use agents that operate desktop GUIs like a human                                    |
 | [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)   | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
+| [agent-qa](https://github.com/vostride/agent-qa)                | ![](https://img.shields.io/github/stars/vostride/agent-qa)           | Self-improving QA agent for natural-language web and mobile tests                                                |
 
 ### 🗣️ Programming Language Agents
 
