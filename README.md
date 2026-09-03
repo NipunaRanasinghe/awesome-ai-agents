@@ -22,6 +22,18 @@ _The most up-to-date awesome list of AI agents — 100+ curated frameworks, tool
   <img src="resources/images/image.png" alt="Awesome AI Agents Logo">
 </a>
 
+<!-- contributors -->
+
+<br><br>
+
+**Built by the community** — <a href="CONTRIBUTING.md">add your project</a>
+
+<br>
+
+<a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents" alt="Contributors">
+</a>
+
 </div>
 
 ---
@@ -313,9 +325,7 @@ Join the conversation and stay updated on AI agent developments.
 
 ## 🚀 Contributors
 
-A huge thank you to all our amazing contributors!
-
-[![Contributors](https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)
+A huge thank you to all our [amazing contributors](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)!
 
 Your contributions make this project better every day.
 
