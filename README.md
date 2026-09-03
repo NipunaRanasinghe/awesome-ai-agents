@@ -99,6 +99,7 @@ Frameworks for building and managing AI agents.
 | [Orkas](https://github.com/Orkas-AI/Orkas)                                 | ![](https://img.shields.io/github/stars/Orkas-AI/Orkas)                   | Local-first workspace coordinating specialist AI agents across projects                                                                                                        |
 | [Better Agent](https://github.com/ofekron/better-agent)                    | ![](https://img.shields.io/github/stars/ofekron/better-agent)             | Source-available workspace for running and supervising Claude, Codex, and Gemini coding-agent sessions                                                                         |
 | [fractal](https://github.com/plasma-ai/fractal)                            | ![](https://img.shields.io/github/stars/plasma-ai/fractal)                | Hierarchical coding-agent runtime with bounded autonomous loops, recursive delegation, isolated Git worktrees, persistent SQLite state, and live operator controls             |
+| [ReadyAgents Core](https://github.com/readyagents/readyagents-core)        | ![](https://img.shields.io/github/stars/readyagents/readyagents-core)     | Local one-shot YAML/JSON agent workflow CLI with tools, approvals, and resume, plus an optional stdio MCP server. Apache-2.0, BYOK.                                            |
 
 [agentlas-stars]: https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS
 
