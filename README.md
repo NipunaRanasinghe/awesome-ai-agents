@@ -10,7 +10,7 @@
 
 <!-- description -->
 
-_A curated, actively maintained directory of 100+ frameworks, tools, and resources for building AI agents — from multi-agent systems and autonomous coding assistants to memory, evaluation, and deployment. ⭐ Star it to keep the fast-moving AI agent ecosystem one click away._
+_The most up-to-date awesome list of AI agents — 100+ curated frameworks, tools, libraries, platforms, and resources for building agentic applications._
 
 <p>
   <a href="https://nipunaranasinghe.github.io/awesome-ai-agents/"><img src="https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" height="40" alt="Browse the list as a website"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white" height="40" alt="What's new — Changelog"></a>
@@ -20,6 +20,18 @@ _A curated, actively maintained directory of 100+ frameworks, tools, and resourc
 
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
   <img src="resources/images/image.png" alt="Awesome AI Agents Logo">
+</a>
+
+<!-- contributors -->
+
+<br><br>
+
+**Built by the community** — <a href="CONTRIBUTING.md">add your project</a>
+
+<br>
+
+<a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents" alt="Contributors">
 </a>
 
 </div>
@@ -313,9 +325,7 @@ Join the conversation and stay updated on AI agent developments.
 
 ## 🚀 Contributors
 
-A huge thank you to all our amazing contributors!
-
-[![Contributors](https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents)](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)
+A huge thank you to all our [amazing contributors](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)!
 
 Your contributions make this project better every day.
 
