@@ -319,6 +319,7 @@ Join the conversation and stay updated on AI agent developments.
 
 | Name                        | Link                                                | Description                 |
 | --------------------------- | --------------------------------------------------- | --------------------------- |
+| AI Weekly                   | [Subscribe](https://aiweekly.co/)                    | Models, agents, research, and policy ranked from expert signals |
 | The Batch (DeepLearning.AI) | [Subscribe](https://www.deeplearning.ai/the-batch/) | Weekly AI industry insights |
 
 ---
