@@ -292,6 +292,7 @@ Key research papers, benchmarks, and surveys on AI agents.
 | Agentic AI Systems                                                      | [arXiv](https://arxiv.org/abs/2401.08231) | Components and applications of agentic AI                                               |
 | A Survey on LLM-based Autonomous Agents                                 | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents                                                          |
 | OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents | [arXiv](https://arxiv.org/abs/2504.16918) | Four-agent pipeline with bandit scheduling turns optimization problems into solver code |
+| Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report | [arXiv](https://arxiv.org/abs/2608.15763) | Harness-aware training for a live-commerce agent, with evaluation on changing Skills, tools, prompts, and Hooks |
 
 ### 📊 Benchmarks
 
