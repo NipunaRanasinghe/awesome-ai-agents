@@ -122,20 +122,21 @@ Agents designed for specific tasks or industries.
 
 ### 💻 Coding Agents
 
-| Name                                                      | Stars                                                             | Description                                                             |
-| --------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent)       | ![](https://img.shields.io/github/stars/SWE-agent/SWE-agent)      | AI agent for software engineering tasks                                 |
-| [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)    | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)   | Assists in writing and debugging code                                   |
-| [OpenHands](https://github.com/OpenHands/OpenHands)       | ![](https://img.shields.io/github/stars/OpenHands/OpenHands)      | Open-source AI software development agents (formerly OpenDevin)         |
-| [Devika](https://github.com/stitionai/devika)             | ![](https://img.shields.io/github/stars/stitionai/devika)         | Agentic AI Software Engineer that writes code from natural instructions |
-| [Aider](https://github.com/Aider-AI/aider)                | ![](https://img.shields.io/github/stars/Aider-AI/aider)           | AI pair programming in terminal                                         |
-| [Plandex](https://github.com/plandex-ai/plandex)          | ![](https://img.shields.io/github/stars/plandex-ai/plandex)       | AI coding engine for complex projects                                   |
-| [TaskWeaver](https://github.com/microsoft/TaskWeaver)     | ![](https://img.shields.io/github/stars/microsoft/TaskWeaver)     | Code-first agent framework for analytical tasks                         |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli) | ![](https://img.shields.io/github/stars/google-gemini/gemini-cli) | Open-source AI agent bringing Gemini to the terminal with MCP support   |
-| [AgenticSeek](https://github.com/Fosowl/agenticSeek)      | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)       | Fully local autonomous agent that browses web and codes without APIs    |
-| [Cline](https://github.com/cline/cline)                   | ![](https://img.shields.io/github/stars/cline/cline)              | Autonomous coding agent in VS Code with MCP, browser use, and terminal  |
-| [Goose](https://github.com/aaif-goose/goose)              | ![](https://img.shields.io/github/stars/aaif-goose/goose)         | Open-source extensible AI agent by Block for engineering tasks          |
-| [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)   | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy) | AI-powered full-stack web development in the browser with 19+ LLMs      |
+| Name                                                         | Stars                                                              | Description                                                             |
+| ------------------------------------------------------------ | ------------------------------------------------------------------ | ----------------------------------------------------------------------- |
+| [SWE-agent](https://github.com/SWE-agent/SWE-agent)          | ![](https://img.shields.io/github/stars/SWE-agent/SWE-agent)       | AI agent for software engineering tasks                                 |
+| [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)       | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)    | Assists in writing and debugging code                                   |
+| [OpenHands](https://github.com/OpenHands/OpenHands)          | ![](https://img.shields.io/github/stars/OpenHands/OpenHands)       | Open-source AI software development agents (formerly OpenDevin)         |
+| [Devika](https://github.com/stitionai/devika)                | ![](https://img.shields.io/github/stars/stitionai/devika)          | Agentic AI Software Engineer that writes code from natural instructions |
+| [Aider](https://github.com/Aider-AI/aider)                   | ![](https://img.shields.io/github/stars/Aider-AI/aider)            | AI pair programming in terminal                                         |
+| [Plandex](https://github.com/plandex-ai/plandex)             | ![](https://img.shields.io/github/stars/plandex-ai/plandex)        | AI coding engine for complex projects                                   |
+| [TaskWeaver](https://github.com/microsoft/TaskWeaver)        | ![](https://img.shields.io/github/stars/microsoft/TaskWeaver)      | Code-first agent framework for analytical tasks                         |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli)    | ![](https://img.shields.io/github/stars/google-gemini/gemini-cli)  | Open-source AI agent bringing Gemini to the terminal with MCP support   |
+| [AgenticSeek](https://github.com/Fosowl/agenticSeek)         | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)        | Fully local autonomous agent that browses web and codes without APIs    |
+| [Cline](https://github.com/cline/cline)                      | ![](https://img.shields.io/github/stars/cline/cline)               | Autonomous coding agent in VS Code with MCP, browser use, and terminal  |
+| [Goose](https://github.com/aaif-goose/goose)                 | ![](https://img.shields.io/github/stars/aaif-goose/goose)          | Open-source extensible AI agent by Block for engineering tasks          |
+| [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)      | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy)  | AI-powered full-stack web development in the browser with 19+ LLMs      |
+| [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) | ![](https://img.shields.io/github/stars/AtomicBot-ai/atomic-agent) | Local-first CLI and TUI coding agent, open-weight models, 56 tools, MCP |
 
 ### 🔬 Research Agents
 
