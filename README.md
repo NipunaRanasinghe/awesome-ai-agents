@@ -45,6 +45,7 @@ _The most up-to-date awesome list of AI agents — 100+ curated frameworks, tool
   - [💻 Coding Agents](#-coding-agents)
   - [🔬 Research Agents](#-research-agents)
   - [🎨 Creative Agents](#-creative-agents)
+  - [💼 Job & Career Agents](#-job--career-agents)
   - [🌐 Web & Computer Use Agents](#-web--computer-use-agents)
   - [🗣️ Programming Language Agents](#-programming-language-agents)
   - [🎙️ Voice Agents](#-voice-agents)
@@ -158,6 +159,14 @@ Agents designed for specific tasks or industries.
 | -------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------- |
 | [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | Short-form video generation agent       |
 | [AI-town](https://github.com/a16z-infra/ai-town)   | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world simulation with AI agents |
+
+### 💼 Job & Career Agents
+
+Agents specialized for job hunting, career planning and recruitment.
+
+| Name                                                         | Stars                                                            | Description                                                                                                |
+| ------------------------------------------------------------ | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------- |
+| [OfferHuntCrew](https://github.com/C571467648/offerhuntcrew) | ![](https://img.shields.io/github/stars/C571467648/offerhuntcrew) | Open-source multi-agent AI team for job seekers — 5 AI roles (Architect / Career Coach / Job Scout / Interview Mentor / Resume Optimizer) covering job intelligence, application tracking, visual dashboards, todo management, interview prep and resume optimization |
 
 ### 🌐 Web & Computer Use Agents
 
