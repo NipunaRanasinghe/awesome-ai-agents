@@ -283,16 +283,16 @@ Key research papers, benchmarks, and surveys on AI agents.
 
 ### 📄 Papers
 
-| Title                                                                   | Link                                      | Description                                                                             |
-| ----------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------- |
-| The Rise of LLM-Based Agents                                            | [arXiv](https://arxiv.org/abs/2309.07864) | Comprehensive survey on LLM-based agents                                                |
-| Tool Learning with Foundation Models                                    | [arXiv](https://arxiv.org/abs/2304.08354) | Tool usage in AI agents                                                                 |
-| Multi-Agent Collaboration                                               | [arXiv](https://arxiv.org/abs/2308.08262) | Collaboration in multi-agent systems                                                    |
-| Large Language Model based Multi-Agents                                 | [arXiv](https://arxiv.org/abs/2312.01845) | Survey of progress and challenges                                                       |
-| Agentic AI Systems                                                      | [arXiv](https://arxiv.org/abs/2401.08231) | Components and applications of agentic AI                                               |
-| A Survey on LLM-based Autonomous Agents                                 | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents                                                          |
-| OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents | [arXiv](https://arxiv.org/abs/2504.16918) | Four-agent pipeline with bandit scheduling turns optimization problems into solver code |
-| Training Agents to Evolve with Their Harness: TaoLive Digital Avatar Agent Technical Report | [arXiv](https://arxiv.org/abs/2608.15763) | Harness-aware training for a live-commerce agent, with evaluation on changing Skills, tools, prompts, and Hooks |
+| Title                                                                   | Link                                      | Description                                                                                                     |
+| ----------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| The Rise of LLM-Based Agents                                            | [arXiv](https://arxiv.org/abs/2309.07864) | Comprehensive survey on LLM-based agents                                                                        |
+| Tool Learning with Foundation Models                                    | [arXiv](https://arxiv.org/abs/2304.08354) | Tool usage in AI agents                                                                                         |
+| Multi-Agent Collaboration                                               | [arXiv](https://arxiv.org/abs/2308.08262) | Collaboration in multi-agent systems                                                                            |
+| Large Language Model based Multi-Agents                                 | [arXiv](https://arxiv.org/abs/2312.01845) | Survey of progress and challenges                                                                               |
+| Agentic AI Systems                                                      | [arXiv](https://arxiv.org/abs/2401.08231) | Components and applications of agentic AI                                                                       |
+| A Survey on LLM-based Autonomous Agents                                 | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents                                                                                  |
+| OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents | [arXiv](https://arxiv.org/abs/2504.16918) | Four-agent pipeline with bandit scheduling turns optimization problems into solver code                         |
+| Training Agents to Evolve with Their Harness (HAT)                      | [arXiv](https://arxiv.org/abs/2608.15763) | Harness-aware training for a live-commerce agent, with evaluation on changing skills, tools, prompts, and hooks |
 
 ### 📊 Benchmarks
 
