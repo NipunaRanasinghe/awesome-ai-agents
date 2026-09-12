@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-12
+
+- Added [YYLO](https://github.com/yylo-dev/yylo) to 🌟 Core Frameworks
+
 ## 2026-09-08
 
 - Added [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) to 💻 Coding Agents
