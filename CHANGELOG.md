@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-14
+
+- Added [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) to 🎨 Creative Agents
+
 ## 2026-09-12
 
 - Added [YYLO](https://github.com/yylo-dev/yylo) to 🌟 Core Frameworks
