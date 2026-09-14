@@ -155,10 +155,11 @@ Agents designed for specific tasks or industries.
 
 ### 🎨 Creative Agents
 
-| Name                                               | Stars                                                        | Description                             |
-| -------------------------------------------------- | ------------------------------------------------------------ | --------------------------------------- |
-| [ShortGPT](https://github.com/RayVentura/ShortGPT) | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT) | Short-form video generation agent       |
-| [AI-town](https://github.com/a16z-infra/ai-town)   | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)  | Virtual world simulation with AI agents |
+| Name                                                           | Stars                                                                 | Description                                                                        |
+| -------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| [ShortGPT](https://github.com/RayVentura/ShortGPT)             | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT)          | Short-form video generation agent                                                  |
+| [AI-town](https://github.com/a16z-infra/ai-town)               | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)           | Virtual world simulation with AI agents                                            |
+| [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) | ![](https://img.shields.io/github/stars/azeemkafridi/bulkpublish-api) | API and agent skills for drafting, scheduling, and publishing social media content |
 
 ### 🌐 Web & Computer Use Agents
 
