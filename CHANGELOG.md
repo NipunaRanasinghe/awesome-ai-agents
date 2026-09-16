@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-16
+
+- Added [sofagent](https://github.com/KongFangXun/sofagent) to 🔒 Security & Governance
+
 ## 2026-09-14
 
 - Added [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) to 🎨 Creative Agents
