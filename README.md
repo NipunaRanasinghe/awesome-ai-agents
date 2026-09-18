@@ -267,6 +267,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [LLM Guard](https://github.com/protectai/llm-guard)                               | ![](https://img.shields.io/github/stars/protectai/llm-guard)                | Security toolkit for scanning and sanitizing LLM prompts and outputs                       |
 | [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents - 7-layer threat detection and spend controls |
 | [sofagent](https://github.com/KongFangXun/sofagent)                               | ![](https://img.shields.io/github/stars/KongFangXun/sofagent)               | Commit-time audit harness for coding agents - git-diff rules, HMAC audit trail, rollback   |
+| [AffixIO](https://github.com/AffixIO/SDK)                                                 | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Host-side signed ACTION attestation before agent pay or tool use           |
 
 ### 🔌 Protocols
 
