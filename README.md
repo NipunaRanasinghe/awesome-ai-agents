@@ -281,7 +281,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/hermes-jailbench)    | Deterministic jailbreak regression benchmark for known-pattern attacks                     |
 | [LintLang](https://github.com/hermes-labs-ai/lintlang)                            | ![](https://img.shields.io/github/stars/hermes-labs-ai/lintlang)            | Zero-LLM static analysis for agent configs, tool descriptions, and prompts                 |
 | [Little Canary](https://github.com/hermes-labs-ai/little-canary)                  | ![](https://img.shields.io/github/stars/hermes-labs-ai/little-canary)       | Sacrificial-canary prompt-injection preflight (block / flag / pass)                        |
-| [AffixIO](https://github.com/AffixIO/SDK)                                             | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Policy gate for agent tool calls that returns signed allow or deny decisions, verifiable offline |
+| [AffixIO](https://github.com/AffixIO/SDK)                                         | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Policy gate for agent tool calls with signed allow or deny decisions, verified offline     |
 
 ### 🔌 Protocols
 
