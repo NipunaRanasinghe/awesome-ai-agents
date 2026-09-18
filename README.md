@@ -293,7 +293,6 @@ Open protocols and implementations for agent-to-tool and agent-to-agent interope
 | [MCP Servers](https://github.com/modelcontextprotocol/servers)                         | ![](https://img.shields.io/github/stars/modelcontextprotocol/servers)              | Official collection of reference MCP server implementations                             |
 | [A2A](https://github.com/a2aproject/A2A)                                               | ![](https://img.shields.io/github/stars/a2aproject/A2A)                            | Open protocol started by Google for agent-to-agent communication across frameworks      |
 | [FastMCP](https://github.com/PrefectHQ/fastmcp)                                        | ![](https://img.shields.io/github/stars/PrefectHQ/fastmcp)                         | Pythonic framework for building MCP servers and clients                                 |
-| [AffixIO](https://github.com/AffixIO/SDK)                                                 | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Host-side signed ACTION attestation before agent pay or tool use           |
 
 ---
 
@@ -322,11 +321,7 @@ Key research papers, benchmarks, and surveys on AI agents.
 | [ToolBench](https://github.com/OpenBMB/ToolBench)                     | ![](https://img.shields.io/github/stars/OpenBMB/ToolBench)                | Benchmark for tool learning                                                                            |
 | [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi)                | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi)           | Social intelligence benchmark for multi-agent systems                                                  |
 | [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) | ![](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap) | Benchmark for writing orchestration prompts in multi-agent systems, 110 scenarios across 10 topologies |
-<<<<<<< HEAD
 | [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)                | ![](https://img.shields.io/github/stars/TIGER-AI-Lab/ClawBench)           | Live-web browser-agent benchmark with 283 tasks across 163 real websites                               |
-=======
-| [AffixIO](https://github.com/AffixIO/SDK)                                                 | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Host-side signed ACTION attestation before agent pay or tool use           |
->>>>>>> 9df574a (Add AffixIO to Security & Governance)
 
 ---
 
@@ -342,14 +337,12 @@ Join the conversation and stay updated on AI agent developments.
 | AutoGen Discussions | [GitHub](https://github.com/microsoft/autogen/discussions) | Microsoft AutoGen community forum                    |
 | AgentOps Discord    | [Join](https://discord.gg/agentops)                        | Developer space for observability and testing agents |
 | Letta AI Community  | [Discord](https://discord.gg/letta)                        | Discussions on adaptive memory in AI agents          |
-| [AffixIO](https://github.com/AffixIO/SDK)                                                 | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Host-side signed ACTION attestation before agent pay or tool use           |
 
 ### 📰 Newsletters
 
 | Name                        | Link                                                | Description                 |
 | --------------------------- | --------------------------------------------------- | --------------------------- |
 | The Batch (DeepLearning.AI) | [Subscribe](https://www.deeplearning.ai/the-batch/) | Weekly AI industry insights |
-| [AffixIO](https://github.com/AffixIO/SDK)                                                 | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Host-side signed ACTION attestation before agent pay or tool use           |
 
 ---
 
