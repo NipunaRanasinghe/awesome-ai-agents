@@ -232,6 +232,7 @@ Tools and systems for managing AI agents.
 | [ax](https://github.com/Necmttn/ax)                             | ![](https://img.shields.io/github/stars/Necmttn/ax)               | Local-first evidence graph for coding-agent sessions, tool calls, skills, and cost    |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmarking agent capabilities                                                       |
 | [Simple Evals](https://github.com/openai/simple-evals)          | ![](https://img.shields.io/github/stars/openai/simple-evals)      | OpenAI's lightweight LLM evaluation library                                           |
+| [YYLO Benchmark](https://github.com/yylo-dev/yylo-benchmark)    | ![](https://img.shields.io/github/stars/yylo-dev/yylo-benchmark)  | Two evaluation lanes: isolated task runs and governed workflows with blinded judging  |
 
 ### 📈 Observability
 
