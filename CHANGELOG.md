@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-18
+
+- Added [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) to 🧠 Memory
+
 ## 2026-09-16
 
 - Added [sofagent](https://github.com/KongFangXun/sofagent) to 🔒 Security & Governance
