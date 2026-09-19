@@ -1,0 +1,28 @@
+name: Thanks
+
+on:
+  pull_request_target:
+    types: [closed]
+
+permissions:
+  pull-requests: write
+
+jobs:
+  thanks:
+    if: >
+      github.event.pull_request.merged == true &&
+      github.event.pull_request.user.login != github.repository_owner
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/github-script@v7
+        with:
+          script: |
+            const author = context.payload.pull_request.user.login;
+            await github.rest.issues.createComment({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              body: 'Thanks @' + author + ' for your contribution! Your entry is live on the '
+                + '[website](https://nipunaranasinghe.github.io/awesome-ai-agents/).\n\n'
+                + 'If the list is useful to you, **please consider starring the repository to show your support**. It helps us reach more people and grow the community.'
+            })
