@@ -245,7 +245,8 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [OpenLLMetry](https://github.com/traceloop/openllmetry) | ![](https://img.shields.io/github/stars/traceloop/openllmetry) | OpenTelemetry-based instrumentation for LLM and agent frameworks                     |
 | [Laminar](https://github.com/lmnr-ai/lmnr)              | ![](https://img.shields.io/github/stars/lmnr-ai/lmnr)          | Open-source platform for tracing and evaluating AI agents                            |
 
-| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | ![](https://img.shields.io/github/stars/flik2002/openclaw-monitor) | Free open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends |
+| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | ![](https://img.shields.io/github/stars/flik2002/openclaw-monitor) | Open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends |
+
 ### 🚀 Deployment
 
 | Name                                                | Stars                                                            | Description                                  |
