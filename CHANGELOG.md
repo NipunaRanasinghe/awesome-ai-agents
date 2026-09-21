@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-21
+
+- Added [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) to 📈 Observability
+
 ## 2026-09-18
 
 - Added [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) to 🧠 Memory
