@@ -224,6 +224,7 @@ Tools and systems for managing AI agents.
 | [Portable Handoff](https://github.com/legoambarish/portable-handoff)   | ![](https://img.shields.io/github/stars/legoambarish/portable-handoff)   | Local-first CLI for handing off coding-agent session context between tools        |
 | [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)          | ![](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server)    | MIT MCP memory server; a hosted engine re-ranks recall from reported outcomes     |
 | [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API          |
+| [Busabase](https://github.com/busabase/busabase)                       | ![](https://img.shields.io/github/stars/busabase/busabase)               | Open-source agent workspace with auditable, permission-aware ChangeRequests       |
 
 ### 📊 Evaluation
 
