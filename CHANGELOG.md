@@ -6,6 +6,7 @@ Entries added to or removed from the list, generated automatically from README c
 
 - Added [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) to 🔒 Security & Governance
 - Added [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) to 📈 Observability
+- Added [Screenpipe](https://github.com/screenpipe/screenpipe) to 🧠 Memory
 
 ## 2026-09-21
 
