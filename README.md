@@ -48,6 +48,7 @@ _A curated list of frameworks, tools, libraries, platforms, and resources for bu
   - [🌐 Web & Computer Use Agents](#-web--computer-use-agents)
   - [🗣️ Programming Language Agents](#-programming-language-agents)
   - [🎙️ Voice Agents](#-voice-agents)
+  - [📋 Productivity Agents](#-productivity-agents)
 - [⚙️ Agent Operations](#-agent-operations)
   - [🧠 Memory](#-memory)
   - [📊 Evaluation](#-evaluation)
@@ -204,6 +205,15 @@ Frameworks for building real-time voice and conversational AI agents.
 | [Pipecat](https://github.com/pipecat-ai/pipecat)                | ![](https://img.shields.io/github/stars/pipecat-ai/pipecat)          | Open-source framework for building real-time voice and multimodal conversational agents |
 | [LiveKit Agents](https://github.com/livekit/agents)             | ![](https://img.shields.io/github/stars/livekit/agents)              | Framework for real-time voice AI agents with WebRTC transport, built on LiveKit         |
 | [TEN Framework](https://github.com/TEN-framework/ten-framework) | ![](https://img.shields.io/github/stars/TEN-framework/ten-framework) | Open-source framework for real-time conversational voice agents with multimodal support |
+
+### 📋 Productivity Agents
+
+Task-focused agents that automate everyday personal or professional workflows.
+
+| Name                                         | Stars                                                              | Description                                                                                                                     |
+| -------------------------------------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------- |
+| [Keel](https://github.com/KeelDev-tech/keel) | ![](https://img.shields.io/github/stars/KeelDev-tech/keel)         | Open-core job-application autopilot with honesty gates: refuses to invent qualifications, fails closed on ambiguity. Apache-2.0 |
+
 
 ---
 
