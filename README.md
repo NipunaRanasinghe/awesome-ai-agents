@@ -245,7 +245,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [Helicone](https://github.com/Helicone/helicone)        | ![](https://img.shields.io/github/stars/Helicone/helicone)     | Open-source LLM observability with one-line integration for cost and usage tracking  |
 | [OpenLLMetry](https://github.com/traceloop/openllmetry) | ![](https://img.shields.io/github/stars/traceloop/openllmetry) | OpenTelemetry-based instrumentation for LLM and agent frameworks                     |
 | [Laminar](https://github.com/lmnr-ai/lmnr)              | ![](https://img.shields.io/github/stars/lmnr-ai/lmnr)          | Open-source platform for tracing and evaluating AI agents                            |
-| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | ![](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay) | Records a coding-agent run below the harness and replays it offline byte-for-byte, or forks it from a checkpoint onto another model |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | ![](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay) | Records a coding-agent run below the harness and replays it offline byte-for-byte |
 
 ### 🚀 Deployment
 
