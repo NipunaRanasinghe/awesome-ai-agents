@@ -246,6 +246,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [Helicone](https://github.com/Helicone/helicone)              | ![](https://img.shields.io/github/stars/Helicone/helicone)            | Open-source LLM observability with one-line integration for cost and usage tracking  |
 | [OpenLLMetry](https://github.com/traceloop/openllmetry)       | ![](https://img.shields.io/github/stars/traceloop/openllmetry)        | OpenTelemetry-based instrumentation for LLM and agent frameworks                     |
 | [Laminar](https://github.com/lmnr-ai/lmnr)                    | ![](https://img.shields.io/github/stars/lmnr-ai/lmnr)                 | Open-source platform for tracing and evaluating AI agents                            |
+| [Noveum Trace](https://github.com/Noveum/noveum-trace) | ![](https://img.shields.io/github/stars/Noveum/noveum-trace) | Python SDK for tracing LLM calls and agent workflows in the hosted Noveum platform |
 | [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | ![](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay) | Records a coding-agent run below the harness and replays it offline byte-for-byte    |
 
 | [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | ![](https://img.shields.io/github/stars/flik2002/openclaw-monitor) | Open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends |
