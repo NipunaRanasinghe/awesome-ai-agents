@@ -273,6 +273,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents - 7-layer threat detection and spend controls |
 | [sofagent](https://github.com/KongFangXun/sofagent)                               | ![](https://img.shields.io/github/stars/KongFangXun/sofagent)               | Commit-time audit harness for coding agents - git-diff rules, HMAC audit trail, rollback   |
 | [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/hermes-jailbench)    | Deterministic jailbreak regression benchmark for known-pattern attacks                     |
+| [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) | ![](https://img.shields.io/github/stars/ASCIT31/Dark-Moon) | Autonomous AI pentest CLI/SDK with a dedicated LLM-security agent for the OWASP LLM Top 10; 50 specialist agents, 140+ offensive tools over MCP, runs on a local or cloud LLM |
 
 ### 🔌 Protocols
 
