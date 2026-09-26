@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README c
 ## 2026-09-26
 
 - Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
+- Added [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) to 📊 Benchmarks
 
 ## 2026-09-23
 
