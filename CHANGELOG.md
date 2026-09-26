@@ -6,6 +6,7 @@ Entries added to or removed from the list, generated automatically from README c
 
 - Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
 - Added [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) to 📊 Benchmarks
+- Added [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) to 🌟 Core Frameworks
 
 ## 2026-09-23
 
