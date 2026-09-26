@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-26
+
+- Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
+
 ## 2026-09-23
 
 - Added [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) to 🔒 Security & Governance
