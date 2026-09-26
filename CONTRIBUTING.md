@@ -7,8 +7,9 @@ Thank you for your interest in contributing to **Awesome AI Agents**! Your contr
 ### 1. Submitting a New Entry
 If you have a framework, tool, or resource that should be added to this list, follow these steps:
 
-- Ensure the project is **actively maintained** and relevant to AI agents.
+- Ensure the project is **actively maintained** (updated within the last 6 months) and relevant to AI agents.
 - Check that the project is not already listed.
+- Show some **use beyond the author** — stars, forks, dependents, package downloads, or coverage elsewhere. Brand-new projects with no outside signal yet are usually too early to list; please come back once people are using it.
 - Open a Pull Request (PR) with the following format:
 
   ```markdown

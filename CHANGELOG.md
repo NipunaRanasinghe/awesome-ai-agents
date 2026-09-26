@@ -2,6 +2,63 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-26
+
+- Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
+
+## 2026-09-23
+
+- Added [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) to 🔒 Security & Governance
+- Added [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) to 📈 Observability
+- Added [Screenpipe](https://github.com/screenpipe/screenpipe) to 🧠 Memory
+
+## 2026-09-21
+
+- Added [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) to 📈 Observability
+
+## 2026-09-18
+
+- Added [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) to 🧠 Memory
+
+## 2026-09-16
+
+- Added [sofagent](https://github.com/KongFangXun/sofagent) to 🔒 Security & Governance
+
+## 2026-09-14
+
+- Added [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) to 🎨 Creative Agents
+
+## 2026-09-12
+
+- Added [YYLO](https://github.com/yylo-dev/yylo) to 🌟 Core Frameworks
+
+## 2026-09-08
+
+- Added [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) to 💻 Coding Agents
+
+## 2026-09-02
+
+- Added [agent-qa](https://github.com/vostride/agent-qa) to 🌐 Web & Computer Use Agents
+
+## 2026-08-30
+
+- Added [Agentlas OS](https://github.com/agentlas-ai/Agentlas-OS) to 🌟 Core Frameworks
+- Removed Hephaestus
+
+## 2026-08-25
+
+- Added [Portable Handoff](https://github.com/legoambarish/portable-handoff) to 🧠 Memory
+- Added [Dr. Claw](https://github.com/OpenLAIR/dr-claw) to 🔬 Research Agents
+
+## 2026-08-15
+
+- Added [CAJAL](https://github.com/Agnuxo1/CAJAL) to 🔬 Research Agents
+- Added [P2PCLAW](https://github.com/Agnuxo1/OpenCLAW-P2P) to 🔬 Research Agents
+
+## 2026-08-09
+
+- Added [Caesar](https://github.com/jasonzliang/caesar-agent) to 🔬 Research Agents
+
 ## 2026-07-26
 
 - Added [fractal](https://github.com/plasma-ai/fractal) to 🌟 Core Frameworks
