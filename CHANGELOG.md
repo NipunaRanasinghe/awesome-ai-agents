@@ -2,6 +2,26 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-26
+
+- Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
+- Added [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) to 📊 Benchmarks
+- Added [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) to 🌟 Core Frameworks
+
+## 2026-09-23
+
+- Added [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) to 🔒 Security & Governance
+- Added [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) to 📈 Observability
+- Added [Screenpipe](https://github.com/screenpipe/screenpipe) to 🧠 Memory
+
+## 2026-09-21
+
+- Added [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) to 📈 Observability
+
+## 2026-09-18
+
+- Added [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) to 🧠 Memory
+
 ## 2026-09-16
 
 - Added [sofagent](https://github.com/KongFangXun/sofagent) to 🔒 Security & Governance
