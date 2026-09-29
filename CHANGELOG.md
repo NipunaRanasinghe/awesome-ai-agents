@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-09-29
+
+- Added [Bifrost](https://github.com/maximhq/bifrost) to 📈 Observability
+
 ## 2026-09-26
 
 - Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
