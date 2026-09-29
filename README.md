@@ -223,7 +223,7 @@ Tools and systems for managing AI agents.
 | [Weaviate](https://github.com/weaviate/weaviate)                       | ![](https://img.shields.io/github/stars/weaviate/weaviate)               | Scalable vector DB for semantic memory                                            |
 | [Portable Handoff](https://github.com/legoambarish/portable-handoff)   | ![](https://img.shields.io/github/stars/legoambarish/portable-handoff)   | Local-first CLI for handing off coding-agent session context between tools        |
 | [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)          | ![](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server)    | MIT MCP memory server; a hosted engine re-ranks recall from reported outcomes     |
-| [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/fidelis)          | Local-first MCP memory: BM25 + dense + RRF recall, no LLM by default              |
+| [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/fidelis)          | Local-first MCP memory: local vector recall, optional keyword+vector hybrid mode  |
 | [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API          |
 
 ### 📊 Evaluation
