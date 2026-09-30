@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README c
 ## 2026-09-30
 
 - Added [Busabase](https://github.com/busabase/busabase) to 🧠 Memory
+- Added [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis) to 🧠 Memory
 
 ## 2026-09-29
 
