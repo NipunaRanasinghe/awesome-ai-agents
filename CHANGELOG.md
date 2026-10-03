@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-10-03
+
+- Added [Tale](https://github.com/tale-project/tale) to 🌟 Core Frameworks
+
 ## 2026-09-30
 
 - Added [Busabase](https://github.com/busabase/busabase) to 🧠 Memory
