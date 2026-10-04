@@ -206,6 +206,7 @@ Frameworks for building real-time voice and conversational AI agents.
 | [Pipecat](https://github.com/pipecat-ai/pipecat)                | ![](https://img.shields.io/github/stars/pipecat-ai/pipecat)          | Open-source framework for building real-time voice and multimodal conversational agents |
 | [LiveKit Agents](https://github.com/livekit/agents)             | ![](https://img.shields.io/github/stars/livekit/agents)              | Framework for real-time voice AI agents with WebRTC transport, built on LiveKit         |
 | [TEN Framework](https://github.com/TEN-framework/ten-framework) | ![](https://img.shields.io/github/stars/TEN-framework/ten-framework) | Open-source framework for real-time conversational voice agents with multimodal support |
+| [AI Group Call](https://aigroupcall.app) | - | Facilitate a live AI panel: agents answer one at a time, build on each other, and leave notes and action items after the call. |
 
 ---
 
