@@ -114,6 +114,7 @@ Frameworks for building and managing AI agents.
 | [YYLO](https://github.com/yylo-dev/yylo)                                   | ![](https://img.shields.io/github/stars/yylo-dev/yylo)                    | Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries, a dedicated branch/worktree, and risk-based merge review     |
 | [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)         | ![](https://img.shields.io/github/stars/sandbaseai/sandbase-harness)      | Local-first, self-hosted TypeScript agent runtime and MCP bridge with sandboxed sessions and audit/replay                                                                      |
 | [Tale](https://github.com/tale-project/tale)                               | ![](https://img.shields.io/github/stars/tale-project/tale)                | Self-hosted workspace for people and AI agents, with shared project tasks, manager delegation, persistent sandbox workspaces, and human review of results                      |
+| [Raven](https://github.com/EverMind-AI/Raven)                              | ![](https://img.shields.io/github/stars/EverMind-AI/Raven)                | Harness of harnesses: plans a complex task as a DAG and runs it across built-in and third-party agents, with a self-evolving loop that installs only verified changes.         |
 
 [agentlas-stars]: https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS
 
