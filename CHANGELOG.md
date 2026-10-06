@@ -2,6 +2,11 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-10-06
+
+- Added [LintLang](https://github.com/hermes-labs-ai/lintlang) to 🔒 Security & Governance
+- Added [Little Canary](https://github.com/hermes-labs-ai/little-canary) to 🔒 Security & Governance
+
 ## 2026-10-03
 
 - Added [Tale](https://github.com/tale-project/tale) to 🌟 Core Frameworks
