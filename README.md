@@ -112,6 +112,8 @@ Frameworks for building and managing AI agents.
 | [Better Agent](https://github.com/ofekron/better-agent)                    | ![](https://img.shields.io/github/stars/ofekron/better-agent)             | Source-available workspace for running and supervising Claude, Codex, and Gemini coding-agent sessions                                                                         |
 | [fractal](https://github.com/plasma-ai/fractal)                            | ![](https://img.shields.io/github/stars/plasma-ai/fractal)                | Hierarchical coding-agent runtime with bounded autonomous loops, recursive delegation, isolated Git worktrees, persistent SQLite state, and live operator controls             |
 | [YYLO](https://github.com/yylo-dev/yylo)                                   | ![](https://img.shields.io/github/stars/yylo-dev/yylo)                    | Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries, a dedicated branch/worktree, and risk-based merge review     |
+| [SandBase Harness](https://github.com/sandbaseai/sandbase-harness)         | ![](https://img.shields.io/github/stars/sandbaseai/sandbase-harness)      | Local-first, self-hosted TypeScript agent runtime and MCP bridge with sandboxed sessions and audit/replay                                                                      |
+| [Tale](https://github.com/tale-project/tale)                               | ![](https://img.shields.io/github/stars/tale-project/tale)                | Self-hosted workspace for people and AI agents, with shared project tasks, manager delegation, persistent sandbox workspaces, and human review of results                      |
 
 [agentlas-stars]: https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS
 
@@ -222,7 +224,9 @@ Tools and systems for managing AI agents.
 | [Weaviate](https://github.com/weaviate/weaviate)                       | ![](https://img.shields.io/github/stars/weaviate/weaviate)               | Scalable vector DB for semantic memory                                            |
 | [Portable Handoff](https://github.com/legoambarish/portable-handoff)   | ![](https://img.shields.io/github/stars/legoambarish/portable-handoff)   | Local-first CLI for handing off coding-agent session context between tools        |
 | [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)          | ![](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server)    | MIT MCP memory server; a hosted engine re-ranks recall from reported outcomes     |
+| [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/fidelis)          | Local-first MCP memory: local vector recall, optional keyword+vector hybrid mode  |
 | [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API          |
+| [Busabase](https://github.com/busabase/busabase)                       | ![](https://img.shields.io/github/stars/busabase/busabase)               | Open-source agent workspace with auditable, permission-aware ChangeRequests       |
 
 ### 📊 Evaluation
 
@@ -239,16 +243,17 @@ Tools and systems for managing AI agents.
 
 Tracing, monitoring, and debugging tools for agents in production.
 
-| Name                                                          | Stars                                                                 | Description                                                                          |
-| ------------------------------------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [Langfuse](https://github.com/langfuse/langfuse)              | ![](https://img.shields.io/github/stars/langfuse/langfuse)            | Open-source LLM engineering platform for tracing, prompt management, and evaluations |
-| [Arize Phoenix](https://github.com/Arize-ai/phoenix)          | ![](https://img.shields.io/github/stars/Arize-ai/phoenix)             | Open-source AI observability with OpenTelemetry tracing, evals, and agent debugging  |
-| [Helicone](https://github.com/Helicone/helicone)              | ![](https://img.shields.io/github/stars/Helicone/helicone)            | Open-source LLM observability with one-line integration for cost and usage tracking  |
-| [OpenLLMetry](https://github.com/traceloop/openllmetry)       | ![](https://img.shields.io/github/stars/traceloop/openllmetry)        | OpenTelemetry-based instrumentation for LLM and agent frameworks                     |
-| [Laminar](https://github.com/lmnr-ai/lmnr)                    | ![](https://img.shields.io/github/stars/lmnr-ai/lmnr)                 | Open-source platform for tracing and evaluating AI agents                            |
-| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) | ![](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay) | Records a coding-agent run below the harness and replays it offline byte-for-byte    |
-
-| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | ![](https://img.shields.io/github/stars/flik2002/openclaw-monitor) | Open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends |
+| Name                                                             | Stars                                                                 | Description                                                                                           |
+| ---------------------------------------------------------------- | --------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| [Langfuse](https://github.com/langfuse/langfuse)                 | ![](https://img.shields.io/github/stars/langfuse/langfuse)            | Open-source LLM engineering platform for tracing, prompt management, and evaluations                  |
+| [Arize Phoenix](https://github.com/Arize-ai/phoenix)             | ![](https://img.shields.io/github/stars/Arize-ai/phoenix)             | Open-source AI observability with OpenTelemetry tracing, evals, and agent debugging                   |
+| [Helicone](https://github.com/Helicone/helicone)                 | ![](https://img.shields.io/github/stars/Helicone/helicone)            | Open-source LLM observability with one-line integration for cost and usage tracking                   |
+| [OpenLLMetry](https://github.com/traceloop/openllmetry)          | ![](https://img.shields.io/github/stars/traceloop/openllmetry)        | OpenTelemetry-based instrumentation for LLM and agent frameworks                                      |
+| [Laminar](https://github.com/lmnr-ai/lmnr)                       | ![](https://img.shields.io/github/stars/lmnr-ai/lmnr)                 | Open-source platform for tracing and evaluating AI agents                                             |
+| [Noveum Trace](https://github.com/Noveum/noveum-trace)           | ![](https://img.shields.io/github/stars/Noveum/noveum-trace)          | Python SDK for tracing LLM calls and agent workflows in the hosted Noveum platform                    |
+| [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)    | ![](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay) | Records a coding-agent run below the harness and replays it offline byte-for-byte                     |
+| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | ![](https://img.shields.io/github/stars/flik2002/openclaw-monitor)    | Open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends |
+| [Bifrost](https://github.com/maximhq/bifrost)                    | ![](https://img.shields.io/github/stars/maximhq/bifrost)              | OpenAI-compatible LLM gateway with multi-provider routing, failover, and tracing                      |
 
 ### 🚀 Deployment
 
@@ -272,7 +277,9 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents - 7-layer threat detection and spend controls |
 | [sofagent](https://github.com/KongFangXun/sofagent)                               | ![](https://img.shields.io/github/stars/KongFangXun/sofagent)               | Commit-time audit harness for coding agents - git-diff rules, HMAC audit trail, rollback   |
 | [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/hermes-jailbench)    | Deterministic jailbreak regression benchmark for known-pattern attacks                     |
-| [Dark-Moon](https://github.com/ASCIT31/Dark-Moon)                                 | ![](https://img.shields.io/github/stars/ASCIT31/Dark-Moon)                  | Autonomous AI pentest CLI/SDK with an OWASP LLM Top 10 agent; local or cloud LLM           |
+| [Dark-Moon](https://github.com/ASCIT31/Dark-Moon)                                 | ![](https://img.shields.io/github/stars/ASCIT31/Dark-Moon)                  | Autonomous AI pentest CLI/SDK with 50 specialist agents and an OWASP LLM Top 10 agent      |
+| [LintLang](https://github.com/hermes-labs-ai/lintlang)                            | ![](https://img.shields.io/github/stars/hermes-labs-ai/lintlang)            | Zero-LLM static analysis for agent configs, tool descriptions, and prompts                 |
+| [Little Canary](https://github.com/hermes-labs-ai/little-canary)                  | ![](https://img.shields.io/github/stars/hermes-labs-ai/little-canary)       | Sacrificial-canary prompt-injection preflight (block / flag / pass)                        |
 
 ### 🔌 Protocols
 
@@ -303,6 +310,7 @@ Key research papers, benchmarks, and surveys on AI agents.
 | A Survey on LLM-based Autonomous Agents                                 | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents                                                                                  |
 | OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents | [arXiv](https://arxiv.org/abs/2504.16918) | Four-agent pipeline with bandit scheduling turns optimization problems into solver code                         |
 | Training Agents to Evolve with Their Harness (HAT)                      | [arXiv](https://arxiv.org/abs/2608.15763) | Harness-aware training for a live-commerce agent, with evaluation on changing skills, tools, prompts, and hooks |
+| The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses   | [SSRN](https://ssrn.com/abstract=7186738) | Control strategies, agentic RL, termination and recovery, skills, and harnesses around the agent loop           |
 
 ### 📊 Benchmarks
 
@@ -311,6 +319,7 @@ Key research papers, benchmarks, and surveys on AI agents.
 | [ToolBench](https://github.com/OpenBMB/ToolBench)                     | ![](https://img.shields.io/github/stars/OpenBMB/ToolBench)                | Benchmark for tool learning                                                                            |
 | [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi)                | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi)           | Social intelligence benchmark for multi-agent systems                                                  |
 | [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) | ![](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap) | Benchmark for writing orchestration prompts in multi-agent systems, 110 scenarios across 10 topologies |
+| [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)                | ![](https://img.shields.io/github/stars/TIGER-AI-Lab/ClawBench)           | Live-web browser-agent benchmark with 283 tasks across 163 real websites                               |
 
 ---
 
