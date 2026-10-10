@@ -330,6 +330,7 @@ Join the conversation and stay updated on AI agent developments.
 
 | Name                | Link                                                       | Description                                          |
 | ------------------- | ---------------------------------------------------------- | ---------------------------------------------------- |
+| 1human | [Browse](https://reels.1human.tech/) | Shared human-agent motion references and recipes, with creator credits and owner-controlled participation |
 | LangChain Community | [Discord](https://discord.gg/langchain)                    | Active developer community                           |
 | AutoGen Discussions | [GitHub](https://github.com/microsoft/autogen/discussions) | Microsoft AutoGen community forum                    |
 | AgentOps Discord    | [Join](https://discord.gg/agentops)                        | Developer space for observability and testing agents |
