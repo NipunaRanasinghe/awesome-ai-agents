@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-10-10
+
+- Added [Orbi](https://github.com/orbi-build/orbi) to 💻 Coding Agents
+
 ## 2026-10-06
 
 - Added [LintLang](https://github.com/hermes-labs-ai/lintlang) to 🔒 Security & Governance
