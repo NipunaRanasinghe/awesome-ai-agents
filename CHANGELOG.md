@@ -2,6 +2,28 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-10-10
+
+- Added [Orbi](https://github.com/orbi-build/orbi) to 💻 Coding Agents
+
+## 2026-10-06
+
+- Added [LintLang](https://github.com/hermes-labs-ai/lintlang) to 🔒 Security & Governance
+- Added [Little Canary](https://github.com/hermes-labs-ai/little-canary) to 🔒 Security & Governance
+
+## 2026-10-03
+
+- Added [Tale](https://github.com/tale-project/tale) to 🌟 Core Frameworks
+
+## 2026-09-30
+
+- Added [Busabase](https://github.com/busabase/busabase) to 🧠 Memory
+- Added [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis) to 🧠 Memory
+
+## 2026-09-29
+
+- Added [Bifrost](https://github.com/maximhq/bifrost) to 📈 Observability
+
 ## 2026-09-26
 
 - Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
