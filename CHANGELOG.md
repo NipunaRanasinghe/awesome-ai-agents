@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README c
 ## 2026-10-14
 
 - Added [Raven](https://github.com/EverMind-AI/Raven) to 🌟 Core Frameworks
+- Added [Markus](https://github.com/markus-global/markus) to 🌟 Core Frameworks
 
 ## 2026-10-10
 
