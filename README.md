@@ -143,6 +143,7 @@ Agents designed for specific tasks or industries.
 | [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)      | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy)  | AI-powered full-stack web development in the browser with 19+ LLMs      |
 | [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) | ![](https://img.shields.io/github/stars/AtomicBot-ai/atomic-agent) | Local-first CLI and TUI coding agent, open-weight models, 56 tools, MCP |
 | [Orbi](https://github.com/orbi-build/orbi)                   | ![](https://img.shields.io/github/stars/orbi-build/orbi)           | Takes a labeled GitHub issue to a reviewed PR and a tagged release      |
+| [Octomind](https://github.com/muvon/octomind)                | ![](https://img.shields.io/github/stars/muvon/octomind)            | CLI coding agent with MCP tools, multiple providers, and daemon mode    |
 
 ### 🔬 Research Agents
 
