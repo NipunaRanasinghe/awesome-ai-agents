@@ -2,6 +2,15 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-10-20
+
+- Removed Better Agent
+- Removed Daytona
+- Removed LlamaIndex.js
+- Removed LLM Guard
+- Removed OctoAI
+- Removed TaskWeaver
+
 ## 2026-10-14
 
 - Added [Raven](https://github.com/EverMind-AI/Raven) to 🌟 Core Frameworks
