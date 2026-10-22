@@ -115,6 +115,7 @@ Frameworks for building and managing AI agents.
 | [Tale](https://github.com/tale-project/tale)                               | ![](https://img.shields.io/github/stars/tale-project/tale)                | Self-hosted workspace for people and AI agents, with shared project tasks, manager delegation, persistent sandbox workspaces, and human review of results                      |
 | [Raven](https://github.com/EverMind-AI/Raven)                              | ![](https://img.shields.io/github/stars/EverMind-AI/Raven)                | Plans a complex task as a DAG and runs it across built-in and third-party agents, with a self-evolving loop that installs only verified changes                                |
 | [Markus](https://github.com/markus-global/markus)                          | ![](https://img.shields.io/github/stars/markus-global/markus)             | Platform for building and running teams of AI agents with roles, task delegation, and persistent memory                                                                        |
+| [Qualixar OS](https://github.com/qualixar/qualixar-os) | ![](https://img.shields.io/github/stars/qualixar/qualixar-os) | Agent operating system with a Forge team designer, selectable execution topologies, dashboard, and skill marketplace |
 
 [agentlas-stars]: https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS
 
@@ -227,6 +228,7 @@ Tools and systems for managing AI agents.
 | [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/fidelis)          | Local-first MCP memory: local vector recall, optional keyword+vector hybrid mode  |
 | [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API          |
 | [Busabase](https://github.com/busabase/busabase)                       | ![](https://img.shields.io/github/stars/busabase/busabase)               | Open-source agent workspace with auditable, permission-aware ChangeRequests       |
+| [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) | ![](https://img.shields.io/github/stars/qualixar/superlocalmemory) | Local-first governed memory shared across Claude Code, Codex, Cursor and any MCP client |
 
 ### 📊 Evaluation
 
@@ -238,6 +240,8 @@ Tools and systems for managing AI agents.
 | [ax](https://github.com/Necmttn/ax)                             | ![](https://img.shields.io/github/stars/Necmttn/ax)               | Local-first evidence graph for coding-agent sessions, tool calls, skills, and cost    |
 | [Agent Evaluation](https://github.com/awslabs/agent-evaluation) | ![](https://img.shields.io/github/stars/awslabs/agent-evaluation) | Benchmarking agent capabilities                                                       |
 | [Simple Evals](https://github.com/openai/simple-evals)          | ![](https://img.shields.io/github/stars/openai/simple-evals)      | OpenAI's lightweight LLM evaluation library                                           |
+| [AgentAssay](https://github.com/qualixar/agentassay) | ![](https://img.shields.io/github/stars/qualixar/agentassay) | Token-efficient stochastic testing for AI agents, with adapters for common frameworks |
+| [AgentAssert](https://github.com/qualixar/agentassert-abc) | ![](https://img.shields.io/github/stars/qualixar/agentassert-abc) | Runtime behavioral contracts for AI agents: YAML contracts and explicit violations |
 
 ### 📈 Observability
 
