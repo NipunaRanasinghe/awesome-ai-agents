@@ -277,6 +277,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/hermes-jailbench)    | Deterministic jailbreak regression benchmark for known-pattern attacks                     |
 | [LintLang](https://github.com/hermes-labs-ai/lintlang)                            | ![](https://img.shields.io/github/stars/hermes-labs-ai/lintlang)            | Zero-LLM static analysis for agent configs, tool descriptions, and prompts                 |
 | [Little Canary](https://github.com/hermes-labs-ai/little-canary)                  | ![](https://img.shields.io/github/stars/hermes-labs-ai/little-canary)       | Sacrificial-canary prompt-injection preflight (block / flag / pass)                        |
+| [AgentRedactor](https://github.com/Negative-Star-Innovators/AgentRedactor)        | ![](https://img.shields.io/github/stars/Negative-Star-Innovators/AgentRedactor) | Local privacy proxy that redacts PII and secrets from AI coding-agent requests and restores values in responses |
 
 ### 🔌 Protocols
 
