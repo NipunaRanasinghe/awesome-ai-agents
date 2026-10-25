@@ -179,6 +179,7 @@ Agents designed for specific tasks or industries.
 | [Agent S](https://github.com/simular-ai/Agent-S)                | ![](https://img.shields.io/github/stars/simular-ai/Agent-S)          | Open framework for computer-use agents that operate desktop GUIs like a human                                    |
 | [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)   | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
 | [agent-qa](https://github.com/vostride/agent-qa)                | ![](https://img.shields.io/github/stars/vostride/agent-qa)           | Self-improving QA agent for natural-language web and mobile tests                                                |
+| [ANKITA](https://github.com/akyourowngames/A.N.K.I.T.A) | ![](https://img.shields.io/github/stars/akyourowngames/A.N.K.I.T.A) | Open-source desktop and CLI workspace with browser and Windows tools, teammate conversations, MCP integrations, and project memory |
 
 ### 🗣️ Programming Language Agents
 
