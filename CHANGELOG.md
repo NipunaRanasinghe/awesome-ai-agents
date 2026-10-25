@@ -2,6 +2,15 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-10-25
+
+- Added [Octomind](https://github.com/muvon/octomind) to 💻 Coding Agents
+- Added [PlaceCall](https://github.com/voygr-tech/placecall) to 🎙️ Voice Agents
+
+## 2026-10-21
+
+- Added [Agent Barn](https://github.com/aai-labs/agent-barn) to 🚀 Deployment
+
 ## 2026-10-20
 
 - Removed Better Agent

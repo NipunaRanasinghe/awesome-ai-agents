@@ -18,20 +18,18 @@ _A curated list of frameworks, tools, libraries, platforms, and resources for bu
 
 <!-- image -->
 
+<p>
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
-  <img src="resources/images/image.png" alt="Awesome AI Agents Logo">
+  <img src="resources/images/image.jpg" alt="Awesome AI Agents banner">
 </a>
+</p>
 
 <!-- contributors -->
 
-<br><br>
-
-**Built by the community** — <a href="CONTRIBUTING.md">add your project</a>
-
-<br>
+<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Built_by_the_community-Add_your_project-8250df?style=for-the-badge&logo=github&logoColor=white" height="40" alt="Built by the community — Add your project"></a>
 
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents" alt="Contributors">
+  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents&columns=16" alt="Contributors">
 </a>
 
 </div>
@@ -141,7 +139,8 @@ Agents designed for specific tasks or industries.
 | [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)      | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy)  | AI-powered full-stack web development in the browser with 19+ LLMs      |
 | [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) | ![](https://img.shields.io/github/stars/AtomicBot-ai/atomic-agent) | Local-first CLI and TUI coding agent, open-weight models, 56 tools, MCP |
 | [Orbi](https://github.com/orbi-build/orbi)                   | ![](https://img.shields.io/github/stars/orbi-build/orbi)           | Takes a labeled GitHub issue to a reviewed PR and a tagged release      |
-| [5dive](https://github.com/5dive-ai/5dive) | ![](https://img.shields.io/github/stars/5dive-ai/5dive) | Self-hosted team of coding agents with an org chart and shared backlog |
+| [Octomind](https://github.com/muvon/octomind)                | ![](https://img.shields.io/github/stars/muvon/octomind)            | CLI coding agent with MCP tools, multiple providers, and daemon mode    |
+| [5dive](https://github.com/5dive-ai/5dive)                   | ![](https://img.shields.io/github/stars/5dive-ai/5dive)            | Self-hosted team of coding agents with an org chart and shared backlog  |
 
 ### 🔬 Research Agents
 
@@ -207,6 +206,7 @@ Frameworks for building real-time voice and conversational AI agents.
 | [Pipecat](https://github.com/pipecat-ai/pipecat)                | ![](https://img.shields.io/github/stars/pipecat-ai/pipecat)          | Open-source framework for building real-time voice and multimodal conversational agents |
 | [LiveKit Agents](https://github.com/livekit/agents)             | ![](https://img.shields.io/github/stars/livekit/agents)              | Framework for real-time voice AI agents with WebRTC transport, built on LiveKit         |
 | [TEN Framework](https://github.com/TEN-framework/ten-framework) | ![](https://img.shields.io/github/stars/TEN-framework/ten-framework) | Open-source framework for real-time conversational voice agents with multimodal support |
+| [PlaceCall](https://github.com/voygr-tech/placecall)            | ![](https://img.shields.io/github/stars/voygr-tech/placecall)        | Agent skill and remote MCP server that phone US businesses and return the call outcome  |
 
 ---
 
@@ -258,10 +258,11 @@ Tracing, monitoring, and debugging tools for agents in production.
 
 ### 🚀 Deployment
 
-| Name                                                | Stars                                                            | Description                                  |
-| --------------------------------------------------- | ---------------------------------------------------------------- | -------------------------------------------- |
-| [E2B](https://github.com/e2b-dev/E2B)               | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents     |
-| [Modal](https://github.com/modal-labs/modal-client) | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads          |
+| Name                                                 | Stars                                                            | Description                                                            |
+| ---------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
+| [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                               |
+| [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                    |
+| [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm) |
 
 ### 🔒 Security & Governance
 

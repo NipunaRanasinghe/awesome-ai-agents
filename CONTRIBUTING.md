@@ -18,6 +18,14 @@ If you have a framework, tool, or resource that should be added to this list, fo
 
 - Add it to the correct section in `README.md`.
 
+Once your entry is merged, you can add this badge to your project's README:
+
+[![Featured in Awesome AI Agents](https://img.shields.io/badge/Featured_in-Awesome_AI_Agents-2ea44f)](https://github.com/NipunaRanasinghe/awesome-ai-agents)
+
+```markdown
+[![Featured in Awesome AI Agents](https://img.shields.io/badge/Featured_in-Awesome_AI_Agents-2ea44f)](https://github.com/NipunaRanasinghe/awesome-ai-agents)
+```
+
 ### 2. Fixing Issues or Broken Links
 If you find broken links or outdated information, please:
 

@@ -24,5 +24,9 @@ jobs:
               issue_number: context.issue.number,
               body: 'Thanks @' + author + ' for your contribution! Your entry is live on the '
                 + '[website](https://nipunaranasinghe.github.io/awesome-ai-agents/).\n\n'
+                + 'You can add this badge to your project\'s README to show it is listed:\n\n'
+                + '```markdown\n'
+                + '[![Featured in Awesome AI Agents](https://img.shields.io/badge/Featured_in-Awesome_AI_Agents-2ea44f)](https://github.com/NipunaRanasinghe/awesome-ai-agents)\n'
+                + '```\n\n'
                 + 'If the list is useful to you, **please consider starring the repository to show your support**. It helps us reach more people and grow the community.'
             })
