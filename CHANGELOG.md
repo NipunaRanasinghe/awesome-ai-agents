@@ -6,6 +6,7 @@ Entries added to or removed from the list, generated automatically from README c
 
 - Added [Octomind](https://github.com/muvon/octomind) to 💻 Coding Agents
 - Added [PlaceCall](https://github.com/voygr-tech/placecall) to 🎙️ Voice Agents
+- Added [5dive](https://github.com/5dive-ai/5dive) to 💻 Coding Agents
 
 ## 2026-10-21
 
