@@ -24,9 +24,9 @@ _A curated list of frameworks, tools, libraries, platforms, and resources for bu
 
 <!-- contributors -->
 
-<h3>🤝 Built by the community</h3>
+<br>
 
-<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Add_your_project-8250df?style=for-the-badge&logo=github&logoColor=white" height="40" alt="Add your project"></a>
+<a href="CONTRIBUTING.md"><img src="https://img.shields.io/badge/Built_by_the_community-Add_your_project-8250df?style=for-the-badge&logo=github&logoColor=white" height="40" alt="Built by the community — Add your project"></a>
 
 <br>
 
