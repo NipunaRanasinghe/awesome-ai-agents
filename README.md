@@ -19,7 +19,7 @@ _A curated list of frameworks, tools, libraries, platforms, and resources for bu
 <!-- image -->
 
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
-  <img src="resources/images/image.png" alt="Awesome AI Agents Logo">
+  <img src="resources/images/image.png" alt="Awesome AI Agents banner">
 </a>
 
 <!-- contributors -->
