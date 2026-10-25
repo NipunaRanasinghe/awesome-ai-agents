@@ -24,14 +24,12 @@ _A curated list of frameworks, tools, libraries, platforms, and resources for bu
 
 <!-- contributors -->
 
-<br><br>
-
 **Built by the community** — <a href="CONTRIBUTING.md">add your project</a>
 
 <br>
 
 <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents" alt="Contributors">
+  <img src="https://contrib.rocks/image?repo=NipunaRanasinghe/awesome-ai-agents&columns=16" alt="Contributors">
 </a>
 
 </div>
