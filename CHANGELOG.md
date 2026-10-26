@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
 
+## 2026-10-26
+
+- Added [AffixIO](https://github.com/AffixIO/SDK) to 🔒 Security & Governance
+
 ## 2026-10-25
 
 - Added [Octomind](https://github.com/muvon/octomind) to 💻 Coding Agents
