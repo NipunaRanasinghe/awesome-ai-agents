@@ -268,8 +268,8 @@
       box-shadow: 0 6px 18px rgba(71, 86, 227, 0.15);
     }
     .card-title { display: flex; align-items: center; gap: 0.6rem; min-width: 0; }
-    .card-title > div { min-width: 0; }
-    .card-avatar { width: 32px; height: 32px; flex: none; border-radius: 8px; background: var(--tag-bg); }
+    .card-title > div { flex: 1; min-width: 0; }
+    .card-avatar { width: 32px; height: 32px; flex: none; border: 1px solid var(--border); border-radius: 8px; background: var(--tag-bg); }
     .card-name { font-weight: 600; font-size: 0.98rem; }
     a.card-name::after { content: ''; position: absolute; inset: 0; border-radius: 10px; }
     a.card-name:hover { text-decoration: none; }
@@ -281,7 +281,10 @@
       text-overflow: ellipsis;
       white-space: nowrap;
     }
-    .card-badge img { height: 20px; display: block; }
+    .card-head { display: flex; align-items: flex-start; gap: 0.6rem; }
+    .card-head .card-title { flex: 1; min-width: 0; }
+    .card-badge { flex: none; margin-top: 2px; }
+    .card-badge img { height: 18px; display: block; border-radius: 999px; }
     .card-desc { color: var(--text-muted); font-size: 0.88rem; flex: 1; }
     .card-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
     .tag {
@@ -525,9 +528,15 @@
       if (q) $('search').value = q;
     }
 
+    // Flat star badge in the card's tag colour; shields.io picks a readable text colour.
+    function starBadge(url) {
+      const bg = isDark() ? '262b34' : 'f0f2f5';
+      return `${url}?style=flat-square&label=%E2%98%85&labelColor=${bg}&color=${bg}`;
+    }
+
     function card(item, showCategory) {
       const badge = item.badge
-        ? `<span class="card-badge"><img src="${esc(item.badge)}" alt="GitHub stars" loading="lazy"></span>` : '';
+        ? `<span class="card-badge"><img src="${esc(starBadge(item.badge))}" alt="GitHub stars" loading="lazy"></span>` : '';
       const tags = [
         showCategory ? `<span class="tag">${esc(item.category)}</span>` : '',
         item.lang ? `<span class="tag">${esc(item.lang)}</span>` : '',
@@ -540,9 +549,9 @@
         ? `<img class="card-avatar" src="https://github.com/${esc(repo[0])}.png?size=64" alt="" loading="lazy">` : '';
       const repoLine = repo.length ? `<span class="card-repo">${esc(repo.join('/'))}</span>` : '';
       return `<div class="card">
-        <div class="card-title">${avatar}<div>${name}${repoLine}</div></div>
+        <div class="card-head"><div class="card-title">${avatar}<div>${name}${repoLine}</div></div>${badge}</div>
         <div class="card-desc">${esc(item.desc)}</div>
-        ${badge || tags ? `<div class="card-tags">${badge}${tags}</div>` : ''}
+        ${tags ? `<div class="card-tags">${tags}</div>` : ''}
       </div>`;
     }
 
@@ -608,8 +617,12 @@
       document.documentElement.dataset.theme = next;
       localStorage.setItem('theme', next);
       updateToggleIcon();
+      if (sections.length) render();
     });
-    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateToggleIcon);
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      updateToggleIcon();
+      if (sections.length) render();
+    });
     updateToggleIcon();
 
     window.addEventListener('scroll', () => {
