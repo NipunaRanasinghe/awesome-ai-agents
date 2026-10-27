@@ -4,24 +4,16 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome AI Agents
+# [![Awesome AI Agents](resources/images/image.jpg)](https://nipunaranasinghe.github.io/awesome-ai-agents/)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <!-- description -->
 
-_A curated list of frameworks, tools, libraries, platforms, and resources for building and deploying AI agents._
+_Autonomous software systems that use AI models to plan and take actions._
 
 <p>
   <a href="https://nipunaranasinghe.github.io/awesome-ai-agents/"><img src="https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" height="40" alt="Browse the list as a website"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white" height="40" alt="What's new — Changelog"></a>
-</p>
-
-<!-- image -->
-
-<p>
-<a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
-  <img src="resources/images/image.jpg" alt="Awesome AI Agents banner">
-</a>
 </p>
 
 <!-- contributors -->
@@ -59,7 +51,6 @@ _A curated list of frameworks, tools, libraries, platforms, and resources for bu
 - [🌐 Community Resources](#-community-resources)
   - [👥 Communities](#-communities)
   - [📰 Newsletters](#-newsletters)
-- [🚀 Contributors](#-contributors)
 
 ---
 
@@ -345,15 +336,6 @@ Join the conversation and stay updated on AI agent developments.
 
 ---
 
-## 🚀 Contributors
-
-A huge thank you to all our [amazing contributors](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)!
-
-Your contributions make this project better every day.
-
-⭐ A special shoutout to all our [stargazers](https://github.com/NipunaRanasinghe/awesome-ai-agents/stargazers) for your support!
-**Star this repository** to stay updated and help grow the community of AI enthusiasts!
-
 ## Contributing
 
 Your contributions are welcome! Here's how to get started:
@@ -367,3 +349,12 @@ Your contributions are welcome! Here's how to get started:
 - Submit a pull request with a clear description of your changes.
 
 For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
+
+## Footnotes
+
+A huge thank you to all our [amazing contributors](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)!
+
+Your contributions make this project better every day.
+
+⭐ A special shoutout to all our [stargazers](https://github.com/NipunaRanasinghe/awesome-ai-agents/stargazers) for your support!
+**Star this repository** to stay updated and help grow the community of AI enthusiasts!
