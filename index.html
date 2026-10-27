@@ -62,10 +62,21 @@
     a:hover { text-decoration: underline; }
 
     .hero {
+      /* The hero stays dark in both themes, matching the README banner. */
+      --surface: rgba(255, 255, 255, 0.06);
+      --border: rgba(255, 255, 255, 0.14);
+      --text: #ffffff;
+      --text-muted: #b9c0e4;
+      --tag-bg: rgba(255, 255, 255, 0.08);
+      --accent: #7dd3fc;
       position: relative;
       text-align: center;
-      padding: 2.75rem 1.5rem 2.25rem;
-      background: linear-gradient(180deg, var(--accent-soft), var(--bg));
+      padding: 4rem 1.5rem 3.25rem;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse 45% 70% at 20% 30%, rgba(34, 211, 238, 0.22), transparent 70%),
+        radial-gradient(ellipse 45% 70% at 80% 40%, rgba(168, 85, 247, 0.26), transparent 70%),
+        linear-gradient(180deg, #0b1030, #141a4a);
     }
     .topbar {
       position: absolute;
@@ -75,34 +86,44 @@
       align-items: center;
       gap: 0.5rem;
     }
-    .hero h1 { font-size: 1.9rem; font-weight: 800; }
+    .hero h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; }
+    .hero h1 .grad {
+      background: linear-gradient(90deg, #22d3ee, #818cf8 50%, #c084fc);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
     .tagline {
       max-width: 38rem;
-      margin: 0.5rem auto 0;
+      margin: 0.75rem auto 0;
       color: var(--text-muted);
-      font-size: 0.95rem;
+      font-size: 1.05rem;
     }
     .hero-stats {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 2.5rem;
       justify-content: center;
-      margin-top: 1rem;
-      font-size: 0.85rem;
+      margin-top: 1.75rem;
+      font-size: 0.8rem;
       color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
-    .hero-stats .stat {
-      padding: 0.2rem 0.75rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 999px;
+    .hero-stats .stat { display: flex; flex-direction: column; align-items: center; }
+    .hero-stats .stat b {
+      font-size: 1.9rem;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: normal;
+      line-height: 1.2;
     }
     .hero-actions {
       display: flex;
       flex-wrap: wrap;
       gap: 0.6rem;
       justify-content: center;
-      margin-top: 1.1rem;
+      margin-top: 1.75rem;
     }
     .btn {
       padding: 0.5rem 1.1rem;
@@ -114,8 +135,8 @@
       border-radius: 8px;
     }
     .btn:hover { text-decoration: none; border-color: var(--accent); }
-    .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-    .btn-primary:hover { opacity: 0.92; }
+    .btn-primary { background: linear-gradient(90deg, #0891b2, #6d28d9); border-color: transparent; color: #fff; }
+    .btn-primary:hover { border-color: transparent; filter: brightness(1.12); }
 
     header {
       position: sticky;
@@ -229,6 +250,12 @@
       border: 1px solid var(--border);
       border-radius: 10px;
       box-shadow: var(--shadow);
+      transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
+    }
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(71, 86, 227, 0.15);
     }
     .card-head {
       display: flex;
@@ -270,7 +297,8 @@
     #back-to-top:hover { border-color: var(--accent); color: var(--accent); }
     @media (max-width: 640px) {
       .hero { padding: 2rem 1.5rem 1.75rem; }
-      .hero h1 { font-size: 1.5rem; }
+      .hero h1 { font-size: 2rem; }
+      .hero-stats { gap: 1.5rem; }
       .topbar { position: static; justify-content: flex-end; margin: 0 0 0.75rem; }
       .chips {
         flex-wrap: nowrap;
@@ -352,7 +380,7 @@
       </a>
       <button id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode"></button>
     </div>
-    <h1>🤖 Awesome AI Agents</h1>
+    <h1>Awesome <span class="grad">AI Agents</span></h1>
     <p class="tagline">A curated, searchable directory of frameworks, tools, and resources for building and deploying AI agents</p>
     <div class="hero-stats" id="hero-stats"></div>
     <div class="hero-actions">
@@ -615,13 +643,21 @@
       })
       .catch(() => {});
 
+    fetch('https://api.github.com/repos/NipunaRanasinghe/awesome-ai-agents/contributors?per_page=100')
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(list => {
+        if (!Array.isArray(list)) return;
+        $('hero-stats').insertAdjacentHTML('beforeend', `<span class="stat"><b>${list.length}</b>contributors</span>`);
+      })
+      .catch(() => {});
+
     fetch('README.md')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
       .then(md => {
         sections = parseReadme(md);
         const total = sections.reduce((n, s) => n + s.items.length, 0);
-        $('hero-stats').innerHTML =
-          `<span class="stat">${total} entries</span><span class="stat">${sections.length} categories</span>`;
+        $('hero-stats').insertAdjacentHTML('afterbegin',
+          `<span class="stat"><b>${total}</b>entries</span><span class="stat"><b>${sections.length}</b>categories</span>`);
         applyUrlState();
         renderChips();
         render();
