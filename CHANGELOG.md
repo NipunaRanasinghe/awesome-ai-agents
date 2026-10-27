@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README c
 ## 2026-10-27
 
 - Added [Benzi](https://github.com/oooscoos/Benzi) to 💻 Coding Agents
+- Added [3code](https://github.com/capocasa/3code) to 💻 Coding Agents
 
 ## 2026-10-26
 
