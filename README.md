@@ -258,11 +258,12 @@ Tracing, monitoring, and debugging tools for agents in production.
 
 ### 🚀 Deployment
 
-| Name                                                 | Stars                                                            | Description                                                            |
-| ---------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                               |
-| [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                    |
-| [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm) |
+| Name                                                 | Stars                                                            | Description                                                                                       |
+| ---------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                                                          |
+| [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                                               |
+| [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm)                            |
+| [Warren](https://github.com/jayminwest/warren)       | ![](https://img.shields.io/github/stars/jayminwest/warren)       | Runs coding agents with isolation, lifecycle management, spend limits, recovery, and Git delivery |
 
 ### 🔒 Security & Governance
 
