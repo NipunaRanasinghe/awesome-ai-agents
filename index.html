@@ -70,6 +70,7 @@
       --tag-bg: rgba(255, 255, 255, 0.08);
       --accent: #7dd3fc;
       position: relative;
+      isolation: isolate;
       text-align: center;
       padding: 4rem 1.5rem 3.25rem;
       color: var(--text);
@@ -85,6 +86,14 @@
       display: flex;
       align-items: center;
       gap: 0.5rem;
+    }
+    .hero-net {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
     }
     .hero h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; }
     .hero h1 .grad {
@@ -372,6 +381,7 @@
 </head>
 <body>
   <section class="hero">
+    <canvas class="hero-net" aria-hidden="true"></canvas>
     <div class="topbar">
       <a class="hdr-link" id="changelog-link" href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/CHANGELOG.md" target="_blank" rel="noopener" title="What's new — Changelog">What's new</a>
       <a class="star-btn" href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener" title="Star on GitHub">
@@ -665,6 +675,101 @@
       .catch(() => {
         $('status').innerHTML = 'Could not load the list. View it on <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents">GitHub</a> instead.';
       });
+
+    // Animated node network behind the hero. Draws one still frame when the
+    // viewer prefers reduced motion; pauses while off-screen or in a hidden tab.
+    (() => {
+      const canvas = document.querySelector('.hero-net');
+      const hero = canvas.parentElement;
+      const ctx = canvas.getContext('2d');
+      const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+      const LINK = 130, MOUSE = 170;
+      let w = 0, h = 0, dots = [], mouse = null, frame = null, onScreen = true;
+
+      function resize() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        w = hero.clientWidth;
+        h = hero.clientHeight;
+        canvas.width = w * dpr;
+        canvas.height = h * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        const count = Math.round(Math.min(90, (w * h) / 9000));
+        dots = Array.from({ length: count }, () => ({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: (Math.random() - 0.5) * 0.35,
+          rgb: Math.random() < 0.5 ? '34, 211, 238' : '192, 132, 252',
+        }));
+        draw();
+      }
+
+      function line(a, b, rgb, alpha) {
+        ctx.strokeStyle = `rgba(${rgb}, ${alpha})`;
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.stroke();
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, w, h);
+        ctx.lineWidth = 1;
+        for (let i = 0; i < dots.length; i++) {
+          const a = dots[i];
+          for (let j = i + 1; j < dots.length; j++) {
+            const d = Math.hypot(a.x - dots[j].x, a.y - dots[j].y);
+            if (d < LINK) line(a, dots[j], a.rgb, 0.22 * (1 - d / LINK));
+          }
+          if (mouse) {
+            const d = Math.hypot(a.x - mouse.x, a.y - mouse.y);
+            if (d < MOUSE) line(a, mouse, a.rgb, 0.45 * (1 - d / MOUSE));
+          }
+          ctx.fillStyle = `rgba(${a.rgb}, 0.75)`;
+          ctx.beginPath();
+          ctx.arc(a.x, a.y, 1.6, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      function step() {
+        for (const p of dots) {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.x < 0 || p.x > w) p.vx *= -1;
+          if (p.y < 0 || p.y > h) p.vy *= -1;
+        }
+        draw();
+        frame = requestAnimationFrame(step);
+      }
+
+      function start() {
+        if (frame === null && onScreen && !document.hidden && !reduceMotion.matches) {
+          frame = requestAnimationFrame(step);
+        }
+      }
+      function stop() {
+        cancelAnimationFrame(frame);
+        frame = null;
+      }
+
+      hero.addEventListener('mousemove', e => {
+        const r = hero.getBoundingClientRect();
+        mouse = { x: e.clientX - r.left, y: e.clientY - r.top };
+        if (frame === null) draw();
+      });
+      hero.addEventListener('mouseleave', () => {
+        mouse = null;
+        if (frame === null) draw();
+      });
+      new ResizeObserver(resize).observe(hero);
+      new IntersectionObserver(([entry]) => {
+        onScreen = entry.isIntersecting;
+        onScreen ? start() : stop();
+      }).observe(hero);
+      document.addEventListener('visibilitychange', () => (document.hidden ? stop() : start()));
+      reduceMotion.addEventListener('change', () => (reduceMotion.matches ? stop() : start()));
+    })();
   </script>
 </body>
 </html>
