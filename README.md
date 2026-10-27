@@ -141,6 +141,7 @@ Agents designed for specific tasks or industries.
 | [Orbi](https://github.com/orbi-build/orbi)                   | ![](https://img.shields.io/github/stars/orbi-build/orbi)           | Takes a labeled GitHub issue to a reviewed PR and a tagged release      |
 | [Octomind](https://github.com/muvon/octomind)                | ![](https://img.shields.io/github/stars/muvon/octomind)            | CLI coding agent with MCP tools, multiple providers, and daemon mode    |
 | [5dive](https://github.com/5dive-ai/5dive)                   | ![](https://img.shields.io/github/stars/5dive-ai/5dive)            | Self-hosted team of coding agents with an org chart and shared backlog  |
+| [Aster](https://github.com/Zfinix/aster)                     | ![](https://img.shields.io/github/stars/Zfinix/aster)              | Open-source agent harness for software engineering work                 |
 
 ### 🔬 Research Agents
 
