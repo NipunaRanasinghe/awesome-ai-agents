@@ -251,6 +251,7 @@
       margin-bottom: 0.5rem;
     }
     .card {
+      position: relative;
       display: flex;
       flex-direction: column;
       gap: 0.45rem;
@@ -266,16 +267,23 @@
       transform: translateY(-2px);
       box-shadow: 0 6px 18px rgba(71, 86, 227, 0.15);
     }
-    .card-head {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 0.6rem;
-    }
+    .card-title { display: flex; align-items: center; gap: 0.6rem; min-width: 0; }
+    .card-title > div { min-width: 0; }
+    .card-avatar { width: 32px; height: 32px; flex: none; border-radius: 8px; background: var(--tag-bg); }
     .card-name { font-weight: 600; font-size: 0.98rem; }
+    a.card-name::after { content: ''; position: absolute; inset: 0; border-radius: 10px; }
+    a.card-name:hover { text-decoration: none; }
+    .card-repo {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
     .card-badge img { height: 20px; display: block; }
     .card-desc { color: var(--text-muted); font-size: 0.88rem; flex: 1; }
-    .card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .card-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
     .tag {
       padding: 0.1rem 0.55rem;
       font-size: 0.75rem;
@@ -527,10 +535,14 @@
       const name = item.url
         ? `<a class="card-name" href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name)}</a>`
         : `<span class="card-name">${esc(item.name)}</span>`;
+      const repo = (item.url.match(/^https:\/\/github\.com\/([^/]+)\/([^/#?]+)/) || []).slice(1);
+      const avatar = repo.length
+        ? `<img class="card-avatar" src="https://github.com/${esc(repo[0])}.png?size=64" alt="" loading="lazy">` : '';
+      const repoLine = repo.length ? `<span class="card-repo">${esc(repo.join('/'))}</span>` : '';
       return `<div class="card">
-        <div class="card-head">${name}${badge}</div>
+        <div class="card-title">${avatar}<div>${name}${repoLine}</div></div>
         <div class="card-desc">${esc(item.desc)}</div>
-        ${tags ? `<div class="card-tags">${tags}</div>` : ''}
+        ${badge || tags ? `<div class="card-tags">${badge}${tags}</div>` : ''}
       </div>`;
     }
 
