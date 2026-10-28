@@ -254,6 +254,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | Name                                                 | Stars                                                            | Description                                                            |
 | ---------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
 | [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                               |
+| [CreateOS Sandbox](https://github.com/NodeOps-app/createos-sandbox-sdk) | ![](https://img.shields.io/github/stars/NodeOps-app/createos-sandbox-sdk) | Firecracker micro-VMs for AI agents (own kernel, private networking, pause-to-zero, no egress fees) |
 | [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                    |
 | [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm) |
 
