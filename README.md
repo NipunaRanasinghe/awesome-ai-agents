@@ -134,6 +134,7 @@ Agents designed for specific tasks or industries.
 | [5dive](https://github.com/5dive-ai/5dive)                   | ![](https://img.shields.io/github/stars/5dive-ai/5dive)            | Self-hosted team of coding agents with an org chart and shared backlog           |
 | [Benzi](https://github.com/oooscoos/Benzi)                   | ![](https://img.shields.io/github/stars/oooscoos/Benzi)            | Compiles a codebase into a queryable index so coding agents read less raw source |
 | [3code](https://github.com/capocasa/3code)                   | ![](https://img.shields.io/github/stars/capocasa/3code)            | Coding agent designed to keep model costs low                                    |
+| [Frink](https://github.com/benord-labs/frink)                | ![](https://img.shields.io/github/stars/benord-labs/frink)         | Desktop-first app for parallel agents and custom workflows                       |
 
 ### 🔬 Research Agents
 
