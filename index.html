@@ -10,7 +10,7 @@
   <meta property="og:title" content="Awesome AI Agents">
   <meta property="og:description" content="A curated, searchable directory of frameworks, tools, and resources for building and deploying AI agents">
   <meta property="og:url" content="https://nipunaranasinghe.github.io/awesome-ai-agents/">
-  <meta property="og:image" content="https://nipunaranasinghe.github.io/awesome-ai-agents/resources/images/image.png">
+  <meta property="og:image" content="https://nipunaranasinghe.github.io/awesome-ai-agents/resources/images/image.jpg">
   <meta name="twitter:card" content="summary_large_image">
   <script>
     const savedTheme = localStorage.getItem('theme');
@@ -62,10 +62,58 @@
     a:hover { text-decoration: underline; }
 
     .hero {
+      /* Light hero; the dark-theme overrides below match the README banner. */
+      --hero-glow-a: rgba(34, 211, 238, 0.16);
+      --hero-glow-b: rgba(168, 85, 247, 0.16);
+      --hero-top: #e9ecff;
+      --hero-bottom: var(--bg);
+      --hero-grad: linear-gradient(90deg, #0891b2, #4f46e5 50%, #9333ea);
+      --net-a: 8, 145, 178;
+      --net-b: 124, 58, 237;
+      --net-strength: 1.6;
       position: relative;
+      isolation: isolate;
       text-align: center;
-      padding: 2.75rem 1.5rem 2.25rem;
-      background: linear-gradient(180deg, var(--accent-soft), var(--bg));
+      padding: 4rem 1.5rem 3.25rem;
+      color: var(--text);
+      background:
+        radial-gradient(ellipse 45% 70% at 20% 30%, var(--hero-glow-a), transparent 70%),
+        radial-gradient(ellipse 45% 70% at 80% 40%, var(--hero-glow-b), transparent 70%),
+        linear-gradient(180deg, var(--hero-top), var(--hero-bottom));
+    }
+    :root[data-theme="dark"] .hero {
+      --surface: rgba(255, 255, 255, 0.06);
+      --border: rgba(255, 255, 255, 0.14);
+      --text: #ffffff;
+      --text-muted: #b9c0e4;
+      --tag-bg: rgba(255, 255, 255, 0.08);
+      --accent: #7dd3fc;
+      --hero-glow-a: rgba(34, 211, 238, 0.22);
+      --hero-glow-b: rgba(168, 85, 247, 0.26);
+      --hero-top: #0b1030;
+      --hero-bottom: #141a4a;
+      --hero-grad: linear-gradient(90deg, #22d3ee, #818cf8 50%, #c084fc);
+      --net-a: 34, 211, 238;
+      --net-b: 192, 132, 252;
+      --net-strength: 1;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) .hero {
+        --surface: rgba(255, 255, 255, 0.06);
+        --border: rgba(255, 255, 255, 0.14);
+        --text: #ffffff;
+        --text-muted: #b9c0e4;
+        --tag-bg: rgba(255, 255, 255, 0.08);
+        --accent: #7dd3fc;
+        --hero-glow-a: rgba(34, 211, 238, 0.22);
+        --hero-glow-b: rgba(168, 85, 247, 0.26);
+        --hero-top: #0b1030;
+        --hero-bottom: #141a4a;
+        --hero-grad: linear-gradient(90deg, #22d3ee, #818cf8 50%, #c084fc);
+        --net-a: 34, 211, 238;
+        --net-b: 192, 132, 252;
+        --net-strength: 1;
+      }
     }
     .topbar {
       position: absolute;
@@ -75,34 +123,52 @@
       align-items: center;
       gap: 0.5rem;
     }
-    .hero h1 { font-size: 1.9rem; font-weight: 800; }
+    .hero-net {
+      position: absolute;
+      inset: 0;
+      z-index: -1;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+    }
+    .hero h1 { font-size: clamp(2.2rem, 6vw, 3.2rem); font-weight: 800; line-height: 1.15; letter-spacing: -0.02em; }
+    .hero h1 .grad {
+      background: var(--hero-grad);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+    }
     .tagline {
       max-width: 38rem;
-      margin: 0.5rem auto 0;
+      margin: 0.75rem auto 0;
       color: var(--text-muted);
-      font-size: 0.95rem;
+      font-size: 1.05rem;
     }
     .hero-stats {
       display: flex;
       flex-wrap: wrap;
-      gap: 0.5rem;
+      gap: 2.5rem;
       justify-content: center;
-      margin-top: 1rem;
-      font-size: 0.85rem;
+      margin-top: 1.75rem;
+      font-size: 0.8rem;
       color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
-    .hero-stats .stat {
-      padding: 0.2rem 0.75rem;
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: 999px;
+    .hero-stats .stat { display: flex; flex-direction: column; align-items: center; }
+    .hero-stats .stat b {
+      font-size: 1.9rem;
+      font-weight: 800;
+      color: var(--text);
+      letter-spacing: normal;
+      line-height: 1.2;
     }
     .hero-actions {
       display: flex;
       flex-wrap: wrap;
       gap: 0.6rem;
       justify-content: center;
-      margin-top: 1.1rem;
+      margin-top: 1.75rem;
     }
     .btn {
       padding: 0.5rem 1.1rem;
@@ -114,8 +180,8 @@
       border-radius: 8px;
     }
     .btn:hover { text-decoration: none; border-color: var(--accent); }
-    .btn-primary { background: var(--accent); border-color: var(--accent); color: #fff; }
-    .btn-primary:hover { opacity: 0.92; }
+    .btn-primary { background: linear-gradient(90deg, #0891b2, #6d28d9); border-color: transparent; color: #fff; }
+    .btn-primary:hover { border-color: transparent; filter: brightness(1.12); }
 
     header {
       position: sticky;
@@ -221,6 +287,7 @@
       margin-bottom: 0.5rem;
     }
     .card {
+      position: relative;
       display: flex;
       flex-direction: column;
       gap: 0.45rem;
@@ -229,17 +296,51 @@
       border: 1px solid var(--border);
       border-radius: 10px;
       box-shadow: var(--shadow);
+      transition: border-color 0.15s, transform 0.15s, box-shadow 0.15s;
     }
-    .card-head {
-      display: flex;
-      align-items: flex-start;
-      justify-content: space-between;
-      gap: 0.6rem;
+    .card:hover {
+      border-color: var(--accent);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(71, 86, 227, 0.15);
     }
-    .card-name { font-weight: 600; font-size: 0.98rem; }
-    .card-badge img { height: 20px; display: block; }
-    .card-desc { color: var(--text-muted); font-size: 0.88rem; flex: 1; }
-    .card-tags { display: flex; flex-wrap: wrap; gap: 0.35rem; }
+    .card-title { display: flex; align-items: center; gap: 0.6rem; min-width: 0; }
+    .card-title > div { flex: 1; min-width: 0; }
+    .card-avatar { width: 32px; height: 32px; flex: none; border: 1px solid var(--border); border-radius: 8px; background: var(--tag-bg); }
+    .card-name {
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--text);
+    }
+    .card:hover a.card-name { color: var(--accent); }
+    a.card-name::after { content: ''; position: absolute; inset: 0; border-radius: 10px; }
+    a.card-name:hover { text-decoration: none; }
+    a.card-name:focus-visible { outline: none; }
+    a.card-name:focus-visible::after { outline: 2px solid var(--accent); outline-offset: 2px; }
+    .card-repo {
+      display: block;
+      font-size: 0.75rem;
+      color: var(--text-muted);
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .card-head { display: flex; align-items: flex-start; gap: 0.6rem; }
+    .card-head .card-title { flex: 1; min-width: 0; }
+    .card-badge { flex: none; margin-top: 2px; }
+    .card-badge img { height: 18px; display: block; border-radius: 999px; }
+    .card-desc {
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      color: var(--text-muted);
+      font-size: 0.88rem;
+    }
+    .card-tags { display: flex; flex-wrap: wrap; align-items: center; gap: 0.35rem; }
     .tag {
       padding: 0.1rem 0.55rem;
       font-size: 0.75rem;
@@ -270,7 +371,8 @@
     #back-to-top:hover { border-color: var(--accent); color: var(--accent); }
     @media (max-width: 640px) {
       .hero { padding: 2rem 1.5rem 1.75rem; }
-      .hero h1 { font-size: 1.5rem; }
+      .hero h1 { font-size: 2rem; }
+      .hero-stats { gap: 1.5rem; }
       .topbar { position: static; justify-content: flex-end; margin: 0 0 0.75rem; }
       .chips {
         flex-wrap: nowrap;
@@ -344,6 +446,7 @@
 </head>
 <body>
   <section class="hero">
+    <canvas class="hero-net" aria-hidden="true"></canvas>
     <div class="topbar">
       <a class="hdr-link" id="changelog-link" href="https://github.com/NipunaRanasinghe/awesome-ai-agents/blob/main/CHANGELOG.md" target="_blank" rel="noopener" title="What's new — Changelog">What's new</a>
       <a class="star-btn" href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener" title="Star on GitHub">
@@ -352,7 +455,7 @@
       </a>
       <button id="theme-toggle" title="Toggle light/dark mode" aria-label="Toggle light/dark mode"></button>
     </div>
-    <h1>🤖 Awesome AI Agents</h1>
+    <h1>Awesome <span class="grad">AI Agents</span></h1>
     <p class="tagline">A curated, searchable directory of frameworks, tools, and resources for building and deploying AI agents</p>
     <div class="hero-stats" id="hero-stats"></div>
     <div class="hero-actions">
@@ -479,18 +582,28 @@
       if (q) $('search').value = q;
     }
 
+    // Flat star badge in the card's tag colour; shields.io picks a readable text colour.
+    function starBadge(url) {
+      const bg = isDark() ? '262b34' : 'f0f2f5';
+      return `${url}?style=flat-square&label=%E2%98%85&labelColor=${bg}&color=${bg}`;
+    }
+
     function card(item, showCategory) {
       const badge = item.badge
-        ? `<span class="card-badge"><img src="${esc(item.badge)}" alt="GitHub stars" loading="lazy"></span>` : '';
+        ? `<span class="card-badge"><img src="${esc(starBadge(item.badge))}" alt="GitHub stars" loading="lazy"></span>` : '';
       const tags = [
         showCategory ? `<span class="tag">${esc(item.category)}</span>` : '',
         item.lang ? `<span class="tag">${esc(item.lang)}</span>` : '',
       ].join('');
       const name = item.url
-        ? `<a class="card-name" href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name)}</a>`
+        ? `<a class="card-name" href="${esc(item.url)}" title="${esc(item.name)}" target="_blank" rel="noopener">${esc(item.name)}</a>`
         : `<span class="card-name">${esc(item.name)}</span>`;
+      const repo = (item.url.match(/^https:\/\/github\.com\/([^/]+)\/([^/#?]+)/) || []).slice(1);
+      const avatar = repo.length
+        ? `<img class="card-avatar" src="https://github.com/${esc(repo[0])}.png?size=64" alt="" loading="lazy">` : '';
+      const repoLine = repo.length ? `<span class="card-repo">${esc(repo.join('/'))}</span>` : '';
       return `<div class="card">
-        <div class="card-head">${name}${badge}</div>
+        <div class="card-head"><div class="card-title">${avatar}<div>${name}${repoLine}</div></div>${badge}</div>
         <div class="card-desc">${esc(item.desc)}</div>
         ${tags ? `<div class="card-tags">${tags}</div>` : ''}
       </div>`;
@@ -558,8 +671,12 @@
       document.documentElement.dataset.theme = next;
       localStorage.setItem('theme', next);
       updateToggleIcon();
+      if (sections.length) render();
     });
-    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', updateToggleIcon);
+    matchMedia('(prefers-color-scheme: dark)').addEventListener('change', () => {
+      updateToggleIcon();
+      if (sections.length) render();
+    });
     updateToggleIcon();
 
     window.addEventListener('scroll', () => {
@@ -615,13 +732,21 @@
       })
       .catch(() => {});
 
+    fetch('https://api.github.com/repos/NipunaRanasinghe/awesome-ai-agents/contributors?per_page=100')
+      .then(r => r.ok ? r.json() : Promise.reject())
+      .then(list => {
+        if (!Array.isArray(list)) return;
+        $('hero-stats').insertAdjacentHTML('beforeend', `<span class="stat"><b>${list.length}</b>contributors</span>`);
+      })
+      .catch(() => {});
+
     fetch('README.md')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
       .then(md => {
         sections = parseReadme(md);
         const total = sections.reduce((n, s) => n + s.items.length, 0);
-        $('hero-stats').innerHTML =
-          `<span class="stat">${total} entries</span><span class="stat">${sections.length} categories</span>`;
+        $('hero-stats').insertAdjacentHTML('afterbegin',
+          `<span class="stat"><b>${total}</b>entries</span><span class="stat"><b>${sections.length}</b>categories</span>`);
         applyUrlState();
         renderChips();
         render();
@@ -629,6 +754,115 @@
       .catch(() => {
         $('status').innerHTML = 'Could not load the list. View it on <a href="https://github.com/NipunaRanasinghe/awesome-ai-agents">GitHub</a> instead.';
       });
+
+    // Animated node network behind the hero. Draws one still frame when the
+    // viewer prefers reduced motion; pauses while off-screen or in a hidden tab.
+    (() => {
+      const canvas = document.querySelector('.hero-net');
+      const hero = canvas.parentElement;
+      const ctx = canvas.getContext('2d');
+      const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)');
+      const LINK = 130, MOUSE = 170;
+      let w = 0, h = 0, dots = [], mouse = null, frame = null, onScreen = true;
+      let colors = [], strength = 1;
+
+      function readColors() {
+        const cs = getComputedStyle(hero);
+        colors = [cs.getPropertyValue('--net-a').trim(), cs.getPropertyValue('--net-b').trim()];
+        strength = parseFloat(cs.getPropertyValue('--net-strength')) || 1;
+      }
+
+      function resize() {
+        const dpr = Math.min(window.devicePixelRatio || 1, 2);
+        w = hero.clientWidth;
+        h = hero.clientHeight;
+        canvas.width = w * dpr;
+        canvas.height = h * dpr;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        const count = Math.round(Math.min(90, (w * h) / 9000));
+        dots = Array.from({ length: count }, () => ({
+          x: Math.random() * w,
+          y: Math.random() * h,
+          vx: (Math.random() - 0.5) * 0.35,
+          vy: (Math.random() - 0.5) * 0.35,
+          c: Math.random() < 0.5 ? 0 : 1,
+        }));
+        draw();
+      }
+
+      function line(a, b, rgb, alpha) {
+        ctx.strokeStyle = `rgba(${rgb}, ${alpha})`;
+        ctx.beginPath();
+        ctx.moveTo(a.x, a.y);
+        ctx.lineTo(b.x, b.y);
+        ctx.stroke();
+      }
+
+      function draw() {
+        ctx.clearRect(0, 0, w, h);
+        ctx.lineWidth = 1;
+        for (let i = 0; i < dots.length; i++) {
+          const a = dots[i];
+          for (let j = i + 1; j < dots.length; j++) {
+            const d = Math.hypot(a.x - dots[j].x, a.y - dots[j].y);
+            if (d < LINK) line(a, dots[j], colors[a.c], 0.22 * strength * (1 - d / LINK));
+          }
+          if (mouse) {
+            const d = Math.hypot(a.x - mouse.x, a.y - mouse.y);
+            if (d < MOUSE) line(a, mouse, colors[a.c], Math.min(1, 0.45 * strength) * (1 - d / MOUSE));
+          }
+          ctx.fillStyle = `rgba(${colors[a.c]}, 0.75)`;
+          ctx.beginPath();
+          ctx.arc(a.x, a.y, 1.6, 0, Math.PI * 2);
+          ctx.fill();
+        }
+      }
+
+      function step() {
+        for (const p of dots) {
+          p.x += p.vx;
+          p.y += p.vy;
+          if (p.x < 0 || p.x > w) p.vx *= -1;
+          if (p.y < 0 || p.y > h) p.vy *= -1;
+        }
+        draw();
+        frame = requestAnimationFrame(step);
+      }
+
+      function start() {
+        if (frame === null && onScreen && !document.hidden && !reduceMotion.matches) {
+          frame = requestAnimationFrame(step);
+        }
+      }
+      function stop() {
+        cancelAnimationFrame(frame);
+        frame = null;
+      }
+
+      hero.addEventListener('mousemove', e => {
+        const r = hero.getBoundingClientRect();
+        mouse = { x: e.clientX - r.left, y: e.clientY - r.top };
+        if (frame === null) draw();
+      });
+      hero.addEventListener('mouseleave', () => {
+        mouse = null;
+        if (frame === null) draw();
+      });
+      function onThemeChange() {
+        readColors();
+        if (frame === null) draw();
+      }
+      readColors();
+      new MutationObserver(onThemeChange).observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] });
+      matchMedia('(prefers-color-scheme: dark)').addEventListener('change', onThemeChange);
+      new ResizeObserver(resize).observe(hero);
+      new IntersectionObserver(([entry]) => {
+        onScreen = entry.isIntersecting;
+        onScreen ? start() : stop();
+      }).observe(hero);
+      document.addEventListener('visibilitychange', () => (document.hidden ? stop() : start()));
+      reduceMotion.addEventListener('change', () => (reduceMotion.matches ? stop() : start()));
+    })();
   </script>
 </body>
 </html>
