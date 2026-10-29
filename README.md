@@ -327,6 +327,7 @@ Join the conversation and stay updated on AI agent developments.
 | AutoGen Discussions | [GitHub](https://github.com/microsoft/autogen/discussions) | Microsoft AutoGen community forum                    |
 | AgentOps Discord    | [Join](https://discord.gg/agentops)                        | Developer space for observability and testing agents |
 | Letta AI Community  | [Discord](https://discord.gg/letta)                        | Discussions on adaptive memory in AI agents          |
+| AgentConfs          | [Website](https://agentconfs.com)                          | Directory of AI and agent-engineering events         |
 
 ### 📰 Newsletters
 
