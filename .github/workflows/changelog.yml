@@ -3,7 +3,7 @@ name: Changelog
 on:
   push:
     branches: [main]
-    paths: [README.md]
+    paths: [README.md, EMERGING.md]
 
 permissions:
   contents: write

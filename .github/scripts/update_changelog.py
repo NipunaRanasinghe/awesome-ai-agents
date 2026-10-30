@@ -3,11 +3,13 @@
 
 Usage: update_changelog.py <base-sha> <head-sha> [--date YYYY-MM-DD]
 
-Reads the README.md diff between the two commits, extracts added and
-removed table entries (rows of the form `| [Name](url) | ... |`), and
-writes them under a date heading in CHANGELOG.md. Rows whose link is
-unchanged (formatting-only edits) are ignored; rows where the same name
-appears with a different URL are recorded as link updates.
+Reads the README.md and EMERGING.md diffs between the two commits,
+extracts added and removed table entries (rows of the form
+`| [Name](url) | ... |`), and writes them under a date heading in
+CHANGELOG.md. Rows whose link is unchanged within a file (formatting-only
+edits) are ignored; rows whose link moves between the files are recorded
+as moves; rows where the same name appears with a different URL are
+recorded as link updates.
 """
 
 import argparse
@@ -20,6 +22,7 @@ ENTRY_ROW = re.compile(r"^\| *\[([^\]]+)\]\((https?://[^)\s]+)\)")
 HEADING = re.compile(r"^(#{2,3}) +(.*\S)")
 
 CHANGELOG = Path("CHANGELOG.md")
+LIST_FILES = ("README.md", "EMERGING.md")
 HEADER = (
     "# Changelog\n"
     "\n"
@@ -35,42 +38,62 @@ def git(*args):
 
 
 def diff_entries(base, head):
-    """Return ({url: name} added, {url: name} removed) between two commits."""
-    diff = git("diff", base, head, "--", "README.md")
+    """Return ({url: name} added, {url: name} removed, {url: name} moved)
+    between two commits, across README.md and EMERGING.md."""
     added, removed = {}, {}
-    for line in diff.splitlines():
-        if line.startswith("+"):
-            m = ENTRY_ROW.match(line[1:])
-            if m:
-                added[m.group(2)] = m.group(1)
-        elif line.startswith("-"):
-            m = ENTRY_ROW.match(line[1:])
-            if m:
-                removed[m.group(2)] = m.group(1)
-    # Same URL on both sides = formatting-only change; drop it.
+    added_in, removed_in = {}, {}
+    for path in LIST_FILES:
+        diff = git("diff", base, head, "--", path)
+        for line in diff.splitlines():
+            if line.startswith("+"):
+                m = ENTRY_ROW.match(line[1:])
+                if m:
+                    added[m.group(2)] = m.group(1)
+                    added_in[m.group(2)] = path
+            elif line.startswith("-"):
+                m = ENTRY_ROW.match(line[1:])
+                if m:
+                    removed[m.group(2)] = m.group(1)
+                    removed_in[m.group(2)] = path
+    # Same URL on both sides = formatting-only change, or a move between files.
+    moved = {}
     for url in set(added) & set(removed):
+        if added_in[url] != removed_in[url]:
+            moved[url] = added[url]
         del added[url]
         del removed[url]
-    return added, removed
+    return added, removed, moved
 
 
 def section_map(head):
-    """Map entry URL -> nearest preceding section heading in README at head."""
+    """Map entry URL -> nearest preceding section heading at head.
+
+    Entries in EMERGING.md map to "Emerging"."""
     sections = {}
-    current = ""
-    for line in git("show", f"{head}:README.md").splitlines():
-        h = HEADING.match(line)
-        if h:
-            current = h.group(2)
+    for path in LIST_FILES:
+        try:
+            text = git("show", f"{head}:{path}")
+        except subprocess.CalledProcessError:
             continue
-        m = ENTRY_ROW.match(line)
-        if m:
-            sections[m.group(2)] = current
+        current = ""
+        for line in text.splitlines():
+            h = HEADING.match(line)
+            if h:
+                current = h.group(2)
+                continue
+            m = ENTRY_ROW.match(line)
+            if m:
+                sections[m.group(2)] = "Emerging" if path == "EMERGING.md" else current
     return sections
 
 
-def build_lines(added, removed, sections):
+def build_lines(added, removed, moved, sections):
     lines = []
+    for url, name in sorted(moved.items(), key=lambda kv: kv[1].lower()):
+        if sections.get(url) == "Emerging":
+            lines.append(f"- Moved [{name}]({url}) to Emerging")
+        else:
+            lines.append(f"- Moved [{name}]({url}) from Emerging to {sections.get(url, 'the main list')}")
     # Same name on both sides with different URLs = repo moved/renamed.
     renamed = {
         name: url
@@ -127,11 +150,11 @@ def main():
     date = args.date or git(
         "log", "-1", "--format=%cs", args.head
     ).strip()
-    added, removed = diff_entries(args.base, args.head)
-    if not added and not removed:
+    added, removed, moved = diff_entries(args.base, args.head)
+    if not added and not removed and not moved:
         print("No entry changes; changelog untouched.")
         return
-    lines = build_lines(added, removed, section_map(args.head))
+    lines = build_lines(added, removed, moved, section_map(args.head))
     update_changelog(date, lines)
     print(f"Recorded {len(lines)} change(s) under {date}.")
 

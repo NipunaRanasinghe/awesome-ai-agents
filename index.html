@@ -740,13 +740,19 @@
       })
       .catch(() => {});
 
+    // EMERGING.md is optional: if it fails to load, show the main list alone.
+    const emerging = fetch('EMERGING.md').then(r => r.ok ? r.text() : '').catch(() => '');
     fetch('README.md')
       .then(r => { if (!r.ok) throw new Error(r.status); return r.text(); })
-      .then(md => {
+      .then(md => emerging.then(em => [md, em]))
+      .then(([md, em]) => {
         sections = parseReadme(md);
+        // Hero stats count the main list only.
         const total = sections.reduce((n, s) => n + s.items.length, 0);
+        const mainCount = sections.length;
+        sections = sections.concat(parseReadme(em));
         $('hero-stats').insertAdjacentHTML('afterbegin',
-          `<span class="stat"><b>${total}</b>entries</span><span class="stat"><b>${sections.length}</b>categories</span>`);
+          `<span class="stat"><b>${total}</b>entries</span><span class="stat"><b>${mainCount}</b>categories</span>`);
         applyUrlState();
         renderChips();
         render();
