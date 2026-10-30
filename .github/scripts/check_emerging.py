@@ -13,7 +13,8 @@ if set) and lists it as:
   for STALE_DAYS days, or was added (`Added` column, YYYY-MM) more than
   EXPIRE_MONTHS calendar months ago, so it has been listed at least
   EXPIRE_MONTHS months;
-- to check by hand: the link is not a GitHub repo, or `Added` is malformed.
+- to check by hand: the link is not a GitHub repo, `Added` is malformed, or
+  `Section` does not name a section heading in README.md.
 
 Prints a markdown report, or nothing when there is nothing to report.
 """
@@ -40,7 +41,7 @@ def cells(line):
 
 
 def entries(text):
-    """Yield (name, url, repo, added) for each entry row.
+    """Yield (name, url, repo, added, section) for each entry row.
 
     The first table row is the header. For rows that do not link to a
     GitHub repo, url and repo are None and name is the raw first cell."""
@@ -52,13 +53,19 @@ def entries(text):
         if header is None:
             header = [c.lower() for c in row]
             continue
-        i = header.index("added") if "added" in header else len(row)
-        added = row[i] if i < len(row) else ""
+        cols = dict(zip(header, row))
+        added, section = cols.get("added", ""), cols.get("section", "")
         m = ENTRY_ROW.match(line)
         if not m:
-            yield row[0], None, None, added
+            yield row[0], None, None, added, section
             continue
-        yield m.group(1), m.group(2), m.group(3), added
+        yield m.group(1), m.group(2), m.group(3), added, section
+
+
+def readme_sections():
+    """Section headings in README.md, without their leading emoji."""
+    text = Path("README.md").read_text()
+    return {re.sub(r"^\W+", "", h) for h in re.findall(r"^#{2,3} +(.*\S)", text, re.M)}
 
 
 def fetch_repo(repo):
@@ -92,7 +99,10 @@ def main():
     main_stale_before = (today - timedelta(days=MAIN_STALE_DAYS)).isoformat()
 
     move, remove, manual = [], [], []
-    for name, url, repo, added in entries(Path("EMERGING.md").read_text()):
+    sections = readme_sections()
+    for name, url, repo, added, section in entries(Path("EMERGING.md").read_text()):
+        if section not in sections:
+            manual.append(f"- {name}: `Section` is not a README.md section ({section!r})")
         if repo is None:
             manual.append(f"- {name}: not a GitHub repo link")
             continue

@@ -38,8 +38,9 @@ def git(*args):
 
 
 def diff_entries(base, head):
-    """Return ({url: name} added, {url: name} removed, {url: name} moved)
-    between two commits, across README.md and EMERGING.md."""
+    """Return ({url: name} added, {url: name} removed, {url: name} moved,
+    {url: path} removed_in) between two commits, across README.md and
+    EMERGING.md."""
     added, removed = {}, {}
     added_in, removed_in = {}, {}
     for path in LIST_FILES:
@@ -62,7 +63,7 @@ def diff_entries(base, head):
             moved[url] = added[url]
         del added[url]
         del removed[url]
-    return added, removed, moved
+    return added, removed, moved, removed_in
 
 
 def section_map(head):
@@ -87,7 +88,7 @@ def section_map(head):
     return sections
 
 
-def build_lines(added, removed, moved, sections):
+def build_lines(added, removed, moved, sections, removed_in):
     lines = []
     for url, name in sorted(moved.items(), key=lambda kv: kv[1].lower()):
         if sections.get(url) == "Emerging":
@@ -109,7 +110,8 @@ def build_lines(added, removed, moved, sections):
             lines.append(f"- Added [{name}]({url})")
     for url, name in sorted(removed.items(), key=lambda kv: kv[1].lower()):
         if name not in renamed:
-            lines.append(f"- Removed {name}")
+            where = " from Emerging" if removed_in.get(url) == "EMERGING.md" else ""
+            lines.append(f"- Removed {name}{where}")
     return lines
 
 
@@ -150,11 +152,11 @@ def main():
     date = args.date or git(
         "log", "-1", "--format=%cs", args.head
     ).strip()
-    added, removed, moved = diff_entries(args.base, args.head)
+    added, removed, moved, removed_in = diff_entries(args.base, args.head)
     if not added and not removed and not moved:
         print("No entry changes; changelog untouched.")
         return
-    lines = build_lines(added, removed, moved, section_map(args.head))
+    lines = build_lines(added, removed, moved, section_map(args.head), removed_in)
     update_changelog(date, lines)
     print(f"Recorded {len(lines)} change(s) under {date}.")
 
