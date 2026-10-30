@@ -51,7 +51,8 @@ def entries(text):
         if header is None:
             header = [c.lower() for c in row]
             continue
-        added = row[header.index("added")] if "added" in header else ""
+        i = header.index("added") if "added" in header else len(row)
+        added = row[i] if i < len(row) else ""
         m = ENTRY_ROW.match(line)
         if not m:
             yield row[0], None, None, added
@@ -98,6 +99,9 @@ def main():
         data = fetch_repo(repo)
         if data is None:
             remove.append(f"- {link}: repo not found")
+            continue
+        if data["pushed_at"] is None:
+            remove.append(f"- {link}: empty repo")
             continue
         stars = data["stargazers_count"]
         pushed = data["pushed_at"][:10]
