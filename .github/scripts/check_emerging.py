@@ -9,9 +9,10 @@ if set) and lists it as:
 
 - ready to move: the repo has at least MOVE_STARS stars and a push in the
   last MAIN_STALE_DAYS days (the main list's activity bar);
-- to remove: the repo is archived or not found, has no push for STALE_DAYS
-  days, or was added (`Added` column, YYYY-MM) more than EXPIRE_MONTHS
-  calendar months ago, so it has been listed at least EXPIRE_MONTHS months;
+- to remove: the repo is archived, not found, or blocked, has no push
+  for STALE_DAYS days, or was added (`Added` column, YYYY-MM) more than
+  EXPIRE_MONTHS calendar months ago, so it has been listed at least
+  EXPIRE_MONTHS months;
 - to check by hand: the link is not a GitHub repo, or `Added` is malformed.
 
 Prints a markdown report, or nothing when there is nothing to report.
@@ -69,7 +70,7 @@ def fetch_repo(repo):
         with urllib.request.urlopen(req) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
-        if e.code == 404:
+        if e.code in (404, 451):  # not found, or blocked for legal reasons
             return None
         raise
 
@@ -98,7 +99,7 @@ def main():
         link = f"[{name}]({url})"
         data = fetch_repo(repo)
         if data is None:
-            remove.append(f"- {link}: repo not found")
+            remove.append(f"- {link}: repo not found or blocked")
             continue
         if data["pushed_at"] is None:
             remove.append(f"- {link}: empty repo")
@@ -124,7 +125,7 @@ def main():
         out += [f"### Ready to move to the main list ({MOVE_STARS}+ stars)", ""] + move + [""]
     if remove:
         out += [
-            f"### To remove (archived, not found, no push for {STALE_DAYS} days, "
+            f"### To remove (archived, not found or blocked, no push for {STALE_DAYS} days, "
             f"or below the bar {EXPIRE_MONTHS}+ months after being added)",
             "",
         ] + remove + [""]
