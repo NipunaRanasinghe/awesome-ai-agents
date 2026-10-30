@@ -43,7 +43,7 @@ Add a row to the table in `EMERGING.md`, with the main-list section it belongs i
 A monthly check opens an issue listing emerging entries to move or remove:
 
 - **Moved to the main list** when the repo reaches 50 stars. You can also open a PR to move it earlier if you can show other use, such as 1,000+ monthly package downloads or contributors from outside your team.
-- **Removed** when the repo has no commits for 3 months, or is still below the bar 6 months after it was added. You can submit it again later.
+- **Removed** when nothing has been pushed to the repo for 3 months, or is still below the bar 6 months after it was added. You can submit it again later.
 
 Once your entry is merged, you can add this badge to your project's README:
 

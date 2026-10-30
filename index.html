@@ -747,12 +747,15 @@
       .then(md => emerging.then(em => [md, em]))
       .then(([md, em]) => {
         sections = parseReadme(md);
-        // Hero stats count the main list only.
+        // Hero stats count the main list; emerging entries get their own stat.
         const total = sections.reduce((n, s) => n + s.items.length, 0);
         const mainCount = sections.length;
-        sections = sections.concat(parseReadme(em));
+        const emergingSections = parseReadme(em);
+        const emergingCount = emergingSections.reduce((n, s) => n + s.items.length, 0);
+        sections = sections.concat(emergingSections);
         $('hero-stats').insertAdjacentHTML('afterbegin',
-          `<span class="stat"><b>${total}</b>entries</span><span class="stat"><b>${mainCount}</b>categories</span>`);
+          `<span class="stat"><b>${total}</b>entries</span><span class="stat"><b>${mainCount}</b>categories</span>`
+          + (emergingCount ? `<span class="stat"><b>${emergingCount}</b>emerging</span>` : ''));
         applyUrlState();
         renderChips();
         render();

@@ -27,7 +27,7 @@ HEADER = (
     "# Changelog\n"
     "\n"
     "Entries added to or removed from the list, generated automatically "
-    "from README changes on each merge to main. Newest first.\n"
+    "from README and EMERGING changes on each merge to main. Newest first.\n"
 )
 
 
