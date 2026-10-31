@@ -348,6 +348,7 @@
       background: var(--tag-bg);
       border-radius: 999px;
     }
+    .tag-emerging { font-weight: 600; color: var(--accent); background: var(--accent-soft); }
     #status { color: var(--text-muted); padding: 2rem 0; text-align: center; }
     #status:empty { display: none; }
     #back-to-top {
@@ -535,11 +536,13 @@
             sections.push(section);
           }
 
-          const item = { name: '', url: '', badge: '', desc: '', lang: '', category: heading };
+          const item = { name: '', url: '', badge: '', desc: '', lang: '', section: '', category: heading };
           const descIdx = headerCells.indexOf('description');
           const langIdx = headerCells.indexOf('language');
+          const sectionIdx = headerCells.indexOf('section'); // EMERGING.md only
           if (descIdx !== -1) item.desc = cells[descIdx] || '';
           if (langIdx !== -1) item.lang = cells[langIdx] || '';
+          if (sectionIdx !== -1) item.section = cells[sectionIdx] || '';
 
           const nameLink = (cells[0] || '').match(LINK_RE);
           item.name = nameLink ? nameLink[1] : (cells[0] || '');
@@ -591,8 +594,11 @@
     function card(item, showCategory) {
       const badge = item.badge
         ? `<span class="card-badge"><img src="${esc(starBadge(item.badge))}" alt="GitHub stars" loading="lazy"></span>` : '';
+      const emerging = item.category === 'Emerging';
       const tags = [
-        showCategory ? `<span class="tag">${esc(item.category)}</span>` : '',
+        emerging ? '<span class="tag tag-emerging">Emerging</span>'
+          : showCategory ? `<span class="tag">${esc(item.category)}</span>` : '',
+        item.section ? `<span class="tag">${esc(item.section)}</span>` : '',
         item.lang ? `<span class="tag">${esc(item.lang)}</span>` : '',
       ].join('');
       const name = item.url
@@ -618,7 +624,7 @@
         total += section.items.length;
         if (activeCategory !== 'All' && section.title !== activeCategory) continue;
         const items = section.items.filter(i =>
-          !q || (i.name + ' ' + i.desc + ' ' + i.lang + ' ' + i.category).toLowerCase().includes(q));
+          !q || (i.name + ' ' + i.desc + ' ' + i.lang + ' ' + i.section + ' ' + i.category).toLowerCase().includes(q));
         if (!items.length) continue;
         shown += items.length;
         html.push(`<h2 class="section-title">${esc(section.title)}</h2>`);
