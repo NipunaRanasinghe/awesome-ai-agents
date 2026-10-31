@@ -8,3 +8,4 @@ Newer projects that have not yet reached the main list's adoption bar.
 
 | Name | Stars | Section | Added | Description |
 |------|-------|---------|-------|-------------|
+| [System One API](https://github.com/ziyu/system-one-sdk) | ![](https://img.shields.io/github/stars/ziyu/system-one-sdk) | Core Frameworks | 2026-10 | Multi-provider AI agents SDK with swappable providers |
