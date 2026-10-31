@@ -8,3 +8,4 @@ Newer projects that have not yet reached the main list's adoption bar.
 
 | Name | Stars | Section | Added | Description |
 |------|-------|---------|-------|-------------|
+| [AgentSearch MCP](https://github.com/agentsearchhq-coder/agentsearch-mcp) | ![](https://img.shields.io/github/stars/agentsearchhq-coder/agentsearch-mcp) | Protocols | 2026-10 | MCP server that gives agents live web search, URL-to-markdown extraction, and JavaScript page rendering |
