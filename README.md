@@ -104,6 +104,7 @@ Frameworks for building and managing AI agents.
 | [Tale](https://github.com/tale-project/tale)                               | ![](https://img.shields.io/github/stars/tale-project/tale)                | Self-hosted workspace for people and AI agents, with shared project tasks, manager delegation, persistent sandbox workspaces, and human review of results                      |
 | [Raven](https://github.com/EverMind-AI/Raven)                              | ![](https://img.shields.io/github/stars/EverMind-AI/Raven)                | Plans a complex task as a DAG and runs it across built-in and third-party agents, with a self-evolving loop that installs only verified changes                                |
 | [Markus](https://github.com/markus-global/markus)                          | ![](https://img.shields.io/github/stars/markus-global/markus)             | Platform for building and running teams of AI agents with roles, task delegation, and persistent memory                                                                        |
+| [System One API](https://github.com/ziyu/system-one-sdk)                  | ![](https://img.shields.io/github/stars/ziyu/system-one-sdk)             | Multi-provider AI agents API/SDK (`@system-one-ai/core`) — swappable providers, docs at https://system-one.dev/en/api (stars≈2, early OSS; honest disclosure) |
 
 [agentlas-stars]: https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS
 
