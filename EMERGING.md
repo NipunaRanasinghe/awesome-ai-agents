@@ -8,3 +8,4 @@ Newer projects that have not yet reached the main list's adoption bar.
 
 | Name | Stars | Section | Added | Description |
 |------|-------|---------|-------|-------------|
+| [ANKITA](https://github.com/akyourowngames/A.N.K.I.T.A) | ![](https://img.shields.io/github/stars/akyourowngames/A.N.K.I.T.A) | Web & Computer Use Agents | 2026-10 | Open-source desktop and CLI workspace with browser and Windows tools, MCP integrations, and project memory |
