@@ -283,6 +283,7 @@ Open protocols and implementations for agent-to-tool and agent-to-agent interope
 | [MCP Servers](https://github.com/modelcontextprotocol/servers)                         | ![](https://img.shields.io/github/stars/modelcontextprotocol/servers)              | Official collection of reference MCP server implementations                             |
 | [A2A](https://github.com/a2aproject/A2A)                                               | ![](https://img.shields.io/github/stars/a2aproject/A2A)                            | Open protocol started by Google for agent-to-agent communication across frameworks      |
 | [FastMCP](https://github.com/PrefectHQ/fastmcp)                                        | ![](https://img.shields.io/github/stars/PrefectHQ/fastmcp)                         | Pythonic framework for building MCP servers and clients                                 |
+| [Signbee MCP](https://github.com/signbee/mcp)                                          | ![](https://img.shields.io/github/stars/signbee/mcp)                               | MCP server and agent skill for two-party PDF e-signing with SHA-256 certificates        |
 
 ---
 
