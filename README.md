@@ -349,7 +349,7 @@ Your contributions are welcome! Here's how to get started:
   - Includes a brief description and link.
 - Submit a pull request with a clear description of your changes.
 
-For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
+For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide. Newer projects that don't yet meet the adoption bar can go in [EMERGING.md](EMERGING.md).
 
 ## Footnotes
 
