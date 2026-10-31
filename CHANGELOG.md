@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-10-31
 
 - Added [LazyMind](https://github.com/LazyAGI/LazyMind) to 🌟 Core Frameworks
+- Added [AgentSearch MCP](https://github.com/agentsearchhq-coder/agentsearch-mcp) to Emerging
 
 ## 2026-10-27
 
