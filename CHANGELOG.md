@@ -9,6 +9,16 @@ Entries added to or removed from the list, generated automatically from README a
 - Added [AgentAssert](https://github.com/qualixar/agentassert-abc) to Emerging
 - Added [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) to 🧠 Memory
 - Added [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) to 🔒 Security & Governance
+- Moved [AutoNumerics](https://github.com/Daviddjddu/Autonumerics) to Emerging
+- Moved [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) to Emerging
+- Moved [CAJAL](https://github.com/Agnuxo1/CAJAL) to Emerging
+- Moved [Hivemoot Colony](https://github.com/hivemoot/colony) to Emerging
+- Moved [OIXA Protocol](https://github.com/ivoshemi-sys/oixa-protocol) to Emerging
+- Moved [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) to Emerging
+- Moved [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP) to Emerging
+- Moved [Portable Handoff](https://github.com/legoambarish/portable-handoff) to Emerging
+- Moved [Summoner](https://github.com/Summoner-Network/summoner-agents) to Emerging
+- Moved [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) to Emerging
 
 ## 2026-10-31
 
