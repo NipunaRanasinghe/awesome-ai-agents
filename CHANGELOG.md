@@ -1,6 +1,43 @@
 # Changelog
 
-Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
+Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
+
+## 2026-11-01
+
+- Added [NotFair](https://github.com/nowork-studio/notfair-plugin) to 🎨 Creative Agents
+
+## 2026-10-31
+
+- Added [LazyMind](https://github.com/LazyAGI/LazyMind) to 🌟 Core Frameworks
+- Added [AgentSearch MCP](https://github.com/agentsearchhq-coder/agentsearch-mcp) to Emerging
+
+## 2026-10-27
+
+- Added [Benzi](https://github.com/oooscoos/Benzi) to 💻 Coding Agents
+- Added [3code](https://github.com/capocasa/3code) to 💻 Coding Agents
+
+## 2026-10-26
+
+- Added [AffixIO](https://github.com/AffixIO/SDK) to 🔒 Security & Governance
+
+## 2026-10-25
+
+- Added [Octomind](https://github.com/muvon/octomind) to 💻 Coding Agents
+- Added [PlaceCall](https://github.com/voygr-tech/placecall) to 🎙️ Voice Agents
+- Added [5dive](https://github.com/5dive-ai/5dive) to 💻 Coding Agents
+
+## 2026-10-21
+
+- Added [Agent Barn](https://github.com/aai-labs/agent-barn) to 🚀 Deployment
+
+## 2026-10-20
+
+- Removed Better Agent
+- Removed Daytona
+- Removed LlamaIndex.js
+- Removed LLM Guard
+- Removed OctoAI
+- Removed TaskWeaver
 
 ## 2026-10-14
 
