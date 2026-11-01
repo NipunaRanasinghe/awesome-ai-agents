@@ -8,6 +8,7 @@ Entries added to or removed from the list, generated automatically from README a
 - Added [AgentAssay](https://github.com/qualixar/agentassay) to Emerging
 - Added [AgentAssert](https://github.com/qualixar/agentassert-abc) to Emerging
 - Added [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) to 🧠 Memory
+- Added [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) to 🔒 Security & Governance
 
 ## 2026-10-31
 
