@@ -5,6 +5,9 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-11-01
 
 - Added [NotFair](https://github.com/nowork-studio/notfair-plugin) to 🎨 Creative Agents
+- Added [AgentAssay](https://github.com/qualixar/agentassay) to Emerging
+- Added [AgentAssert](https://github.com/qualixar/agentassert-abc) to Emerging
+- Added [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) to 🧠 Memory
 
 ## 2026-10-31
 
