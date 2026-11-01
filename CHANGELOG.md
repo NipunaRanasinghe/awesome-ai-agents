@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-01
+
+- Added [NotFair](https://github.com/nowork-studio/notfair-plugin) to 🎨 Creative Agents
+
 ## 2026-10-31
 
 - Added [LazyMind](https://github.com/LazyAGI/LazyMind) to 🌟 Core Frameworks
