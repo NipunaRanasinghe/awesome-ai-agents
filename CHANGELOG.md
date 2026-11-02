@@ -1,6 +1,108 @@
 # Changelog
 
-Entries added to or removed from the list, generated automatically from README changes on each merge to main. Newest first.
+Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
+
+## 2026-11-02
+
+- Added [Sno Station](https://github.com/sno-ai/sno-station) to 💻 Coding Agents
+
+## 2026-11-01
+
+- Added [NotFair](https://github.com/nowork-studio/notfair-plugin) to 🎨 Creative Agents
+- Added [AgentAssay](https://github.com/qualixar/agentassay) to Emerging
+- Added [AgentAssert](https://github.com/qualixar/agentassert-abc) to Emerging
+- Added [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) to 🧠 Memory
+- Added [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) to 🔒 Security & Governance
+- Moved [AutoNumerics](https://github.com/Daviddjddu/Autonumerics) to Emerging
+- Moved [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) to Emerging
+- Moved [CAJAL](https://github.com/Agnuxo1/CAJAL) to Emerging
+- Moved [Hivemoot Colony](https://github.com/hivemoot/colony) to Emerging
+- Moved [OIXA Protocol](https://github.com/ivoshemi-sys/oixa-protocol) to Emerging
+- Moved [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) to Emerging
+- Moved [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP) to Emerging
+- Moved [Portable Handoff](https://github.com/legoambarish/portable-handoff) to Emerging
+- Moved [Summoner](https://github.com/Summoner-Network/summoner-agents) to Emerging
+- Moved [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) to Emerging
+
+## 2026-10-31
+
+- Added [LazyMind](https://github.com/LazyAGI/LazyMind) to 🌟 Core Frameworks
+- Added [AgentSearch MCP](https://github.com/agentsearchhq-coder/agentsearch-mcp) to Emerging
+
+## 2026-10-27
+
+- Added [Benzi](https://github.com/oooscoos/Benzi) to 💻 Coding Agents
+- Added [3code](https://github.com/capocasa/3code) to 💻 Coding Agents
+
+## 2026-10-26
+
+- Added [AffixIO](https://github.com/AffixIO/SDK) to 🔒 Security & Governance
+
+## 2026-10-25
+
+- Added [Octomind](https://github.com/muvon/octomind) to 💻 Coding Agents
+- Added [PlaceCall](https://github.com/voygr-tech/placecall) to 🎙️ Voice Agents
+- Added [5dive](https://github.com/5dive-ai/5dive) to 💻 Coding Agents
+
+## 2026-10-21
+
+- Added [Agent Barn](https://github.com/aai-labs/agent-barn) to 🚀 Deployment
+
+## 2026-10-20
+
+- Removed Better Agent
+- Removed Daytona
+- Removed LlamaIndex.js
+- Removed LLM Guard
+- Removed OctoAI
+- Removed TaskWeaver
+
+## 2026-10-14
+
+- Added [Raven](https://github.com/EverMind-AI/Raven) to 🌟 Core Frameworks
+- Added [Markus](https://github.com/markus-global/markus) to 🌟 Core Frameworks
+
+## 2026-10-10
+
+- Added [Orbi](https://github.com/orbi-build/orbi) to 💻 Coding Agents
+
+## 2026-10-06
+
+- Added [LintLang](https://github.com/hermes-labs-ai/lintlang) to 🔒 Security & Governance
+- Added [Little Canary](https://github.com/hermes-labs-ai/little-canary) to 🔒 Security & Governance
+
+## 2026-10-03
+
+- Added [Tale](https://github.com/tale-project/tale) to 🌟 Core Frameworks
+
+## 2026-09-30
+
+- Added [Busabase](https://github.com/busabase/busabase) to 🧠 Memory
+- Added [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis) to 🧠 Memory
+
+## 2026-09-29
+
+- Added [Bifrost](https://github.com/maximhq/bifrost) to 📈 Observability
+
+## 2026-09-26
+
+- Added [Noveum Trace](https://github.com/Noveum/noveum-trace) to 📈 Observability
+- Added [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) to 📊 Benchmarks
+- Added [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) to 🌟 Core Frameworks
+
+## 2026-09-23
+
+- Added [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench) to 🔒 Security & Governance
+- Added [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) to 📈 Observability
+- Added [Screenpipe](https://github.com/screenpipe/screenpipe) to 🧠 Memory
+
+## 2026-09-21
+
+- Added [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) to 📈 Observability
+
+## 2026-09-18
+
+- Added [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server) to 🧠 Memory
 
 ## 2026-09-16
 

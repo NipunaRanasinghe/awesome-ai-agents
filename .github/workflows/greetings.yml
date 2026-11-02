@@ -16,5 +16,3 @@ jobs:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
             Thanks for your first contribution to Awesome AI Agents! A maintainer will review it shortly.
-
-            If this list has been useful to you, feel free to star the repository — it helps other people find it.
