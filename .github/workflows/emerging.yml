@@ -1,0 +1,47 @@
+name: Emerging
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "00 06 1 * *"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write # required for peter-evans/create-issue-from-file
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check emerging entries
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python3 .github/scripts/check_emerging.py > report.md
+
+      - name: Find existing report issue
+        id: existing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          num=$(gh issue list --repo "$GITHUB_REPOSITORY" --state open \
+            --label "automated issue" --search "Emerging Check Report in:title" \
+            --json number --jq '.[0].number // ""')
+          if [ ! -s report.md ]; then
+            # Nothing to report: close last month's report if it is still open.
+            if [ -n "$num" ]; then
+              gh issue close "$num" --repo "$GITHUB_REPOSITORY" \
+                --comment "Nothing to report on $(date -u +%F); closing."
+            fi
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          echo "number=$num" >> "$GITHUB_OUTPUT"
+
+      - name: Create or Update Issue From File
+        if: steps.existing.outputs.skip != 'true'
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Emerging Check Report
+          content-filepath: ./report.md
+          labels: report, automated issue
+          issue-number: ${{ steps.existing.outputs.number }}
