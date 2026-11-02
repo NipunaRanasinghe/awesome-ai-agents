@@ -33,6 +33,6 @@ jobs:
           days-before-close: 7
           stale-issue-label: 'stale'
           stale-pr-label: 'stale'
-          exempt-issue-labels: 'pinned,security,help wanted'
+          exempt-issue-labels: 'pinned,security,help wanted,automated issue'
           exempt-pr-labels: 'pinned,security,work in progress'
           remove-stale-when-updated: true
