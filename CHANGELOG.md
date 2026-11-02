@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-11-02
 
 - Added [Sno Station](https://github.com/sno-ai/sno-station) to 💻 Coding Agents
+- Added [Swarms](https://github.com/kyegomez/swarms) to 🌟 Core Frameworks
 
 ## 2026-11-01
 
