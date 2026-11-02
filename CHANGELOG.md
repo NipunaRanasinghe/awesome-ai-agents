@@ -7,6 +7,7 @@ Entries added to or removed from the list, generated automatically from README a
 - Added [Sno Station](https://github.com/sno-ai/sno-station) to 💻 Coding Agents
 - Added [Swarms](https://github.com/kyegomez/swarms) to 🌟 Core Frameworks
 - Added [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) to 🌐 Web & Computer Use Agents
+- Added [Warren](https://github.com/jayminwest/warren) to 🚀 Deployment
 
 ## 2026-11-01
 
