@@ -4,24 +4,16 @@
 
 <!--lint ignore no-dead-urls-->
 
-# Awesome AI Agents
+# [![Awesome AI Agents](resources/images/image.jpg)](https://nipunaranasinghe.github.io/awesome-ai-agents/)
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 <!-- description -->
 
-_A curated list of frameworks, tools, libraries, platforms, and resources for building and deploying AI agents._
+_Autonomous software systems that use AI models to plan and take actions._
 
 <p>
   <a href="https://nipunaranasinghe.github.io/awesome-ai-agents/"><img src="https://img.shields.io/badge/Browse_the_list_as_a_website-2ea44f?style=for-the-badge&logo=githubpages&logoColor=white" height="40" alt="Browse the list as a website"></a>&nbsp;&nbsp;<a href="CHANGELOG.md"><img src="https://img.shields.io/badge/What%27s_new-Changelog-0a7bbc?style=for-the-badge&logo=keepachangelog&logoColor=white" height="40" alt="What's new — Changelog"></a>
-</p>
-
-<!-- image -->
-
-<p>
-<a href="https://github.com/NipunaRanasinghe/awesome-ai-agents" target="_blank" rel="noopener noreferrer">
-  <img src="resources/images/image.jpg" alt="Awesome AI Agents banner">
-</a>
 </p>
 
 <!-- contributors -->
@@ -59,7 +51,6 @@ _A curated list of frameworks, tools, libraries, platforms, and resources for bu
 - [🌐 Community Resources](#-community-resources)
   - [👥 Communities](#-communities)
   - [📰 Newsletters](#-newsletters)
-- [🚀 Contributors](#-contributors)
 
 ---
 
@@ -98,10 +89,7 @@ Frameworks for building and managing AI agents.
 | [PocketFlow](https://github.com/The-Pocket/PocketFlow)                     | ![](https://img.shields.io/github/stars/The-Pocket/PocketFlow)            | Minimalist 100-line LLM framework for agents, workflows, and RAG                                                                                                               |
 | [CAMEL](https://github.com/camel-ai/camel)                                 | ![](https://img.shields.io/github/stars/camel-ai/camel)                   | Multi-agent framework for communicative agents research                                                                                                                        |
 | [Strands Agents SDK](https://github.com/strands-agents/harness-sdk)        | ![](https://img.shields.io/github/stars/strands-agents/harness-sdk)       | AWS-backed model-driven agent SDK with MCP and multi-provider support                                                                                                          |
-| [Summoner](https://github.com/Summoner-Network/summoner-agents)            | ![](https://img.shields.io/github/stars/Summoner-Network/summoner-agents) | Agent-to-agent networking for server-decoupled agents over long-lived TCP sessions (Python/Rust), 50+ runnable templates                                                       |
 | [KodeAgent](https://github.com/barun-saha/kodeagent)                       | ![](https://img.shields.io/github/stars/barun-saha/kodeagent)             | The Minimal Agent Engine to build ReAct & CodeAct agents, with support for code sandbox and observability                                                                      |
-| [Hivemoot Colony](https://github.com/hivemoot/colony)                      | ![](https://img.shields.io/github/stars/hivemoot/colony)                  | Self-governing multi-agent platform; agents propose, vote, peer-review, and ship software via democratic consensus                                                             |
-| [OIXA Protocol](https://github.com/ivoshemi-sys/oixa-protocol)             | ![](https://img.shields.io/github/stars/ivoshemi-sys/oixa-protocol)       | Agent-to-agent economic marketplace protocol on Base with on-chain escrow and A2A integrations                                                                                 |
 | [smolagents](https://github.com/huggingface/smolagents)                    | ![](https://img.shields.io/github/stars/huggingface/smolagents)           | Code-first agent library by Hugging Face, model-agnostic with MCP and sandbox support                                                                                          |
 | [LlamaIndex](https://github.com/run-llama/llama_index)                     | ![](https://img.shields.io/github/stars/run-llama/llama_index)            | Data framework for LLM apps with RAG, agents, and 300+ integrations                                                                                                            |
 | [Mastra](https://github.com/mastra-ai/mastra)                              | ![](https://img.shields.io/github/stars/mastra-ai/mastra)                 | TypeScript AI framework for agents, workflows, MCP servers, and evals                                                                                                          |
@@ -113,6 +101,8 @@ Frameworks for building and managing AI agents.
 | [Tale](https://github.com/tale-project/tale)                               | ![](https://img.shields.io/github/stars/tale-project/tale)                | Self-hosted workspace for people and AI agents, with shared project tasks, manager delegation, persistent sandbox workspaces, and human review of results                      |
 | [Raven](https://github.com/EverMind-AI/Raven)                              | ![](https://img.shields.io/github/stars/EverMind-AI/Raven)                | Plans a complex task as a DAG and runs it across built-in and third-party agents, with a self-evolving loop that installs only verified changes                                |
 | [Markus](https://github.com/markus-global/markus)                          | ![](https://img.shields.io/github/stars/markus-global/markus)             | Platform for building and running teams of AI agents with roles, task delegation, and persistent memory                                                                        |
+| [LazyMind](https://github.com/LazyAGI/LazyMind)                            | ![](https://img.shields.io/github/stars/LazyAGI/LazyMind)                 | Self-hosted AI Skill Runtime with persisted workflow state and artifacts                                                                                                       |
+| [Swarms](https://github.com/kyegomez/swarms)                               | ![](https://img.shields.io/github/stars/kyegomez/swarms)                  | Multi-agent orchestration framework for building and running agent swarms                                                                                                      |
 
 [agentlas-stars]: https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS
 
@@ -124,24 +114,30 @@ Agents designed for specific tasks or industries.
 
 ### 💻 Coding Agents
 
-| Name                                                         | Stars                                                              | Description                                                                                     |
-| ------------------------------------------------------------ | ------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------- |
-| [SWE-agent](https://github.com/SWE-agent/SWE-agent)          | ![](https://img.shields.io/github/stars/SWE-agent/SWE-agent)       | AI agent for software engineering tasks                                                         |
-| [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)       | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)    | Assists in writing and debugging code                                                           |
-| [OpenHands](https://github.com/OpenHands/OpenHands)          | ![](https://img.shields.io/github/stars/OpenHands/OpenHands)       | Open-source AI software development agents (formerly OpenDevin)                                 |
-| [Devika](https://github.com/stitionai/devika)                | ![](https://img.shields.io/github/stars/stitionai/devika)          | Agentic AI Software Engineer that writes code from natural instructions                         |
-| [Aider](https://github.com/Aider-AI/aider)                   | ![](https://img.shields.io/github/stars/Aider-AI/aider)            | AI pair programming in terminal                                                                 |
-| [Plandex](https://github.com/plandex-ai/plandex)             | ![](https://img.shields.io/github/stars/plandex-ai/plandex)        | AI coding engine for complex projects                                                           |
-| [Gemini CLI](https://github.com/google-gemini/gemini-cli)    | ![](https://img.shields.io/github/stars/google-gemini/gemini-cli)  | Open-source AI agent bringing Gemini to the terminal with MCP support                           |
-| [AgenticSeek](https://github.com/Fosowl/agenticSeek)         | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)        | Fully local autonomous agent that browses web and codes without APIs                            |
-| [Cline](https://github.com/cline/cline)                      | ![](https://img.shields.io/github/stars/cline/cline)               | Autonomous coding agent in VS Code with MCP, browser use, and terminal                          |
-| [Goose](https://github.com/aaif-goose/goose)                 | ![](https://img.shields.io/github/stars/aaif-goose/goose)          | Open-source extensible AI agent by Block for engineering tasks                                  |
-| [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)      | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy)  | AI-powered full-stack web development in the browser with 19+ LLMs                              |
-| [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) | ![](https://img.shields.io/github/stars/AtomicBot-ai/atomic-agent) | Local-first CLI and TUI coding agent, open-weight models, 56 tools, MCP                         |
-| [Orbi](https://github.com/orbi-build/orbi)                   | ![](https://img.shields.io/github/stars/orbi-build/orbi)           | Takes a labeled GitHub issue to a reviewed PR and a tagged release                              |
-| [Octomind](https://github.com/muvon/octomind)                | ![](https://img.shields.io/github/stars/muvon/octomind)            | CLI coding agent with MCP tools, multiple providers, and daemon mode                            |
-| [5dive](https://github.com/5dive-ai/5dive)                   | ![](https://img.shields.io/github/stars/5dive-ai/5dive)            | Self-hosted team of coding agents with an org chart and shared backlog                          |
-| [omk](https://github.com/dmae97/omk)                         | ![](https://img.shields.io/github/stars/dmae97/omk)                | Multi-agent coding CLI that switches models mid-session and finishes goals only when tests pass |
+| Name                                                         | Stars                                                              | Description                                                                      |
+| ------------------------------------------------------------ | ------------------------------------------------------------------ | -------------------------------------------------------------------------------- |
+| [SWE-agent](https://github.com/SWE-agent/SWE-agent)          | ![](https://img.shields.io/github/stars/SWE-agent/SWE-agent)       | AI agent for software engineering tasks                                          |
+| [GPT Pilot](https://github.com/Pythagora-io/gpt-pilot)       | ![](https://img.shields.io/github/stars/Pythagora-io/gpt-pilot)    | Assists in writing and debugging code                                            |
+| [OpenHands](https://github.com/OpenHands/OpenHands)          | ![](https://img.shields.io/github/stars/OpenHands/OpenHands)       | Open-source AI software development agents (formerly OpenDevin)                  |
+| [Devika](https://github.com/stitionai/devika)                | ![](https://img.shields.io/github/stars/stitionai/devika)          | Agentic AI Software Engineer that writes code from natural instructions          |
+| [Aider](https://github.com/Aider-AI/aider)                   | ![](https://img.shields.io/github/stars/Aider-AI/aider)            | AI pair programming in terminal                                                  |
+| [Plandex](https://github.com/plandex-ai/plandex)             | ![](https://img.shields.io/github/stars/plandex-ai/plandex)        | AI coding engine for complex projects                                            |
+| [Gemini CLI](https://github.com/google-gemini/gemini-cli)    | ![](https://img.shields.io/github/stars/google-gemini/gemini-cli)  | Open-source AI agent bringing Gemini to the terminal with MCP support            |
+| [AgenticSeek](https://github.com/Fosowl/agenticSeek)         | ![](https://img.shields.io/github/stars/Fosowl/agenticSeek)        | Fully local autonomous agent that browses web and codes without APIs             |
+| [Cline](https://github.com/cline/cline)                      | ![](https://img.shields.io/github/stars/cline/cline)               | Autonomous coding agent in VS Code with MCP, browser use, and terminal           |
+| [Goose](https://github.com/aaif-goose/goose)                 | ![](https://img.shields.io/github/stars/aaif-goose/goose)          | Open-source extensible AI agent by Block for engineering tasks                   |
+| [bolt.diy](https://github.com/stackblitz-labs/bolt.diy)      | ![](https://img.shields.io/github/stars/stackblitz-labs/bolt.diy)  | AI-powered full-stack web development in the browser with 19+ LLMs               |
+| [Atomic Agent](https://github.com/AtomicBot-ai/atomic-agent) | ![](https://img.shields.io/github/stars/AtomicBot-ai/atomic-agent) | Local-first CLI and TUI coding agent, open-weight models, 56 tools, MCP          |
+| [Orbi](https://github.com/orbi-build/orbi)                   | ![](https://img.shields.io/github/stars/orbi-build/orbi)           | Takes a labeled GitHub issue to a reviewed PR and a tagged release               |
+| [Octomind](https://github.com/muvon/octomind)                | ![](https://img.shields.io/github/stars/muvon/octomind)            | CLI coding agent with MCP tools, multiple providers, and daemon mode             |
+| [5dive](https://github.com/5dive-ai/5dive)                   | ![](https://img.shields.io/github/stars/5dive-ai/5dive)            | Self-hosted team of coding agents with an org chart and shared backlog           |
+| [Benzi](https://github.com/oooscoos/Benzi)                   | ![](https://img.shields.io/github/stars/oooscoos/Benzi)            | Compiles a codebase into a queryable index so coding agents read less raw source |
+| [3code](https://github.com/capocasa/3code)                   | ![](https://img.shields.io/github/stars/capocasa/3code)            | Coding agent designed to keep model costs low                                    |
+| [Sno Station](https://github.com/sno-ai/sno-station)         | ![](https://img.shields.io/github/stars/sno-ai/sno-station)        | Runs Codex, Claude Code and Cursor as one team, with handoff at usage limits     |
+| [Codeman](https://github.com/Ark0N/Codeman)                  | ![](https://img.shields.io/github/stars/Ark0N/Codeman)             | Self-hosted control panel for running Claude Code, Codex and other coding agents |
+| [Albatross](https://github.com/morganlinton/Albatross)       | ![](https://img.shields.io/github/stars/morganlinton/Albatross)    | Terminal coding agent with transparent routing across local and hosted models    |
+| [Operator OSS](https://github.com/iishyfishyy/operator-oss)  | ![](https://img.shields.io/github/stars/iishyfishyy/operator-oss)  | Runs parallel Claude Code or Codex sessions from one screen in Git worktrees     |
+| [omk](https://github.com/dmae97/omk)                         | ![](https://img.shields.io/github/stars/dmae97/omk)                | Multi-agent coding CLI that switches models mid-session and gates goals on tests |
 
 ### 🔬 Research Agents
 
@@ -152,10 +148,8 @@ Agents designed for specific tasks or industries.
 | [Storm](https://github.com/stanford-oval/storm)                 | ![](https://img.shields.io/github/stars/stanford-oval/storm)        | Multi-agent system for collaborative reasoning                                                                             |
 | [DeerFlow](https://github.com/bytedance/deer-flow)              | ![](https://img.shields.io/github/stars/bytedance/deer-flow)        | Framework for deep research with web search and Python execution                                                           |
 | [Agon](https://github.com/AutoResearch-Factory/Agon)            | ![](https://img.shields.io/github/stars/AutoResearch-Factory/Agon)  | Prompt Economy orchestrator: reusable scientist/coder/auditor loops instead of per-task prompts, 18 roles, 10+ disciplines |
-| [AutoNumerics](https://github.com/Daviddjddu/Autonumerics)      | ![](https://img.shields.io/github/stars/Daviddjddu/Autonumerics)    | Writes, debugs, and validates classical PDE numerical solvers from plain-language problem descriptions                     |
 | [Caesar](https://github.com/jasonzliang/caesar-agent)           | ![](https://img.shields.io/github/stars/jasonzliang/caesar-agent)   | Builds a knowledge graph while exploring the web, then refines drafts via adversarial synthesis                            |
 | [P2PCLAW](https://github.com/Agnuxo1/OpenCLAW-P2P)              | ![](https://img.shields.io/github/stars/Agnuxo1/OpenCLAW-P2P)       | Decentralized P2P agent swarm for open scientific research                                                                 |
-| [CAJAL](https://github.com/Agnuxo1/CAJAL)                       | ![](https://img.shields.io/github/stars/Agnuxo1/CAJAL)              | Local scientific paper generation agent with IMRaD structure and citations                                                 |
 
 ### 🎨 Creative Agents
 
@@ -163,23 +157,24 @@ Agents designed for specific tasks or industries.
 | -------------------------------------------------------------- | --------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
 | [ShortGPT](https://github.com/RayVentura/ShortGPT)             | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT)          | Short-form video generation agent                                                  |
 | [AI-town](https://github.com/a16z-infra/ai-town)               | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)           | Virtual world simulation with AI agents                                            |
-| [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) | ![](https://img.shields.io/github/stars/azeemkafridi/bulkpublish-api) | API and agent skills for drafting, scheduling, and publishing social media content |
+| [NotFair](https://github.com/nowork-studio/notfair-plugin)     | ![](https://img.shields.io/github/stars/nowork-studio/notfair-plugin) | Open-source Claude Code agent skills for SEO, Google Ads, and Meta Ads management  |
 
 ### 🌐 Web & Computer Use Agents
 
-| Name                                                            | Stars                                                                | Description                                                                                                      |
-| --------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Browser Use](https://github.com/browser-use/browser-use)       | ![](https://img.shields.io/github/stars/browser-use/browser-use)     | Make websites accessible for AI agents, automate tasks with ease                                                 |
-| [NanoBrowser](https://github.com/nanobrowser/nanobrowser)       | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)     | TypeScript-based AI browsing agent                                                                               |
-| [Firecrawl](https://github.com/firecrawl/firecrawl)             | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)         | Turn websites into LLM-ready markdown or structured data                                                         |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai)               | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)          | Open-source LLM-friendly web crawler and scraper                                                                 |
-| [Stagehand](https://github.com/browserbase/stagehand)           | ![](https://img.shields.io/github/stars/browserbase/stagehand)       | AI browser automation framework with natural language and code                                                   |
-| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)         | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter data and action API (REST, MCP, webhooks) that agents call for search, monitoring, and posting         |
-| [Skyvern](https://github.com/Skyvern-AI/skyvern)                | ![](https://img.shields.io/github/stars/Skyvern-AI/skyvern)          | Browser automation agent using LLMs and computer vision to complete web workflows                                |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp)   | ![](https://img.shields.io/github/stars/microsoft/playwright-mcp)    | MCP server exposing Playwright browser automation to AI agents                                                   |
-| [Agent S](https://github.com/simular-ai/Agent-S)                | ![](https://img.shields.io/github/stars/simular-ai/Agent-S)          | Open framework for computer-use agents that operate desktop GUIs like a human                                    |
-| [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)   | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
-| [agent-qa](https://github.com/vostride/agent-qa)                | ![](https://img.shields.io/github/stars/vostride/agent-qa)           | Self-improving QA agent for natural-language web and mobile tests                                                |
+| Name                                                                      | Stars                                                                     | Description                                                                                                      |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [Browser Use](https://github.com/browser-use/browser-use)                 | ![](https://img.shields.io/github/stars/browser-use/browser-use)          | Make websites accessible for AI agents, automate tasks with ease                                                 |
+| [NanoBrowser](https://github.com/nanobrowser/nanobrowser)                 | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)          | TypeScript-based AI browsing agent                                                                               |
+| [Firecrawl](https://github.com/firecrawl/firecrawl)                       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)              | Turn websites into LLM-ready markdown or structured data                                                         |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai)                         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)               | Open-source LLM-friendly web crawler and scraper                                                                 |
+| [Stagehand](https://github.com/browserbase/stagehand)                     | ![](https://img.shields.io/github/stars/browserbase/stagehand)            | AI browser automation framework with natural language and code                                                   |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)                   | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper)      | X/Twitter data and action API (REST, MCP, webhooks) that agents call for search, monitoring, and posting         |
+| [Skyvern](https://github.com/Skyvern-AI/skyvern)                          | ![](https://img.shields.io/github/stars/Skyvern-AI/skyvern)               | Browser automation agent using LLMs and computer vision to complete web workflows                                |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp)             | ![](https://img.shields.io/github/stars/microsoft/playwright-mcp)         | MCP server exposing Playwright browser automation to AI agents                                                   |
+| [Agent S](https://github.com/simular-ai/Agent-S)                          | ![](https://img.shields.io/github/stars/simular-ai/Agent-S)               | Open framework for computer-use agents that operate desktop GUIs like a human                                    |
+| [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop)           | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)        | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
+| [agent-qa](https://github.com/vostride/agent-qa)                          | ![](https://img.shields.io/github/stars/vostride/agent-qa)                | Self-improving QA agent for natural-language web and mobile tests                                                |
+| [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) | ![](https://img.shields.io/github/stars/onehumanbeing/esp32-iphone-agent) | Lets a vision model operate a real iPhone through a $7 ESP32 using AirPlay and USB HID                           |
 
 ### 🗣️ Programming Language Agents
 
@@ -217,18 +212,17 @@ Tools and systems for managing AI agents.
 
 ### 🧠 Memory
 
-| Name                                                                   | Stars                                                                    | Description                                                                       |
-| ---------------------------------------------------------------------- | -----------------------------------------------------------------------  | --------------------------------------------------------------------------------- |
-| [Letta (formerly MemGPT)](https://github.com/letta-ai/letta)           | ![](https://img.shields.io/github/stars/letta-ai/letta)                  | Dynamic, adaptive agent memory system                                             |
-| [Mem0](https://github.com/mem0ai/mem0)                                 | ![](https://img.shields.io/github/stars/mem0ai/mem0)                     | Universal memory layer for AI agents                                              |
-| [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) | ![](https://img.shields.io/github/stars/TerminallyLazy/Tree-Ring-Memory) | Local-first CLI/TUI for agent memory recall, forgetting, audit, and consolidation |
-| [ChromaDB](https://github.com/chroma-core/chroma)                      | ![](https://img.shields.io/github/stars/chroma-core/chroma)              | Vector DB for memory/context                                                      |
-| [Weaviate](https://github.com/weaviate/weaviate)                       | ![](https://img.shields.io/github/stars/weaviate/weaviate)               | Scalable vector DB for semantic memory                                            |
-| [Portable Handoff](https://github.com/legoambarish/portable-handoff)   | ![](https://img.shields.io/github/stars/legoambarish/portable-handoff)   | Local-first CLI for handing off coding-agent session context between tools        |
-| [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)          | ![](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server)    | MIT MCP memory server; a hosted engine re-ranks recall from reported outcomes     |
-| [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/fidelis)          | Local-first MCP memory: local vector recall, optional keyword+vector hybrid mode  |
-| [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API          |
-| [Busabase](https://github.com/busabase/busabase)                       | ![](https://img.shields.io/github/stars/busabase/busabase)               | Open-source agent workspace with auditable, permission-aware ChangeRequests       |
+| Name                                                                   | Stars                                                                    | Description                                                                             |
+| ---------------------------------------------------------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
+| [Letta (formerly MemGPT)](https://github.com/letta-ai/letta)           | ![](https://img.shields.io/github/stars/letta-ai/letta)                  | Dynamic, adaptive agent memory system                                                   |
+| [Mem0](https://github.com/mem0ai/mem0)                                 | ![](https://img.shields.io/github/stars/mem0ai/mem0)                     | Universal memory layer for AI agents                                                    |
+| [ChromaDB](https://github.com/chroma-core/chroma)                      | ![](https://img.shields.io/github/stars/chroma-core/chroma)              | Vector DB for memory/context                                                            |
+| [Weaviate](https://github.com/weaviate/weaviate)                       | ![](https://img.shields.io/github/stars/weaviate/weaviate)               | Scalable vector DB for semantic memory                                                  |
+| [Mnemoverse](https://github.com/mnemoverse/mcp-memory-server)          | ![](https://img.shields.io/github/stars/mnemoverse/mcp-memory-server)    | MIT MCP memory server; a hosted engine re-ranks recall from reported outcomes           |
+| [Fidelis Memory](https://github.com/hermes-labs-ai/fidelis)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/fidelis)          | Local-first MCP memory: local vector recall, optional keyword+vector hybrid mode        |
+| [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API                |
+| [Busabase](https://github.com/busabase/busabase)                       | ![](https://img.shields.io/github/stars/busabase/busabase)               | Open-source agent workspace with auditable, permission-aware ChangeRequests             |
+| [SuperLocalMemory](https://github.com/qualixar/superlocalmemory)       | ![](https://img.shields.io/github/stars/qualixar/superlocalmemory)       | Local-first governed memory shared across Claude Code, Codex, Cursor and any MCP client |
 
 ### 📊 Evaluation
 
@@ -254,16 +248,16 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [Laminar](https://github.com/lmnr-ai/lmnr)                       | ![](https://img.shields.io/github/stars/lmnr-ai/lmnr)                 | Open-source platform for tracing and evaluating AI agents                                             |
 | [Noveum Trace](https://github.com/Noveum/noveum-trace)           | ![](https://img.shields.io/github/stars/Noveum/noveum-trace)          | Python SDK for tracing LLM calls and agent workflows in the hosted Noveum platform                    |
 | [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay)    | ![](https://img.shields.io/github/stars/Continuum-AI-Corp/OrcaReplay) | Records a coding-agent run below the harness and replays it offline byte-for-byte                     |
-| [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) | ![](https://img.shields.io/github/stars/flik2002/openclaw-monitor)    | Open-source monitoring dashboard for OpenClaw AI agents — token usage, session tracking, 7-day trends |
 | [Bifrost](https://github.com/maximhq/bifrost)                    | ![](https://img.shields.io/github/stars/maximhq/bifrost)              | OpenAI-compatible LLM gateway with multi-provider routing, failover, and tracing                      |
 
 ### 🚀 Deployment
 
-| Name                                                 | Stars                                                            | Description                                                            |
-| ---------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                               |
-| [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                    |
-| [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm) |
+| Name                                                 | Stars                                                            | Description                                                                                       |
+| ---------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                                                          |
+| [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                                               |
+| [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm)                            |
+| [Warren](https://github.com/jayminwest/warren)       | ![](https://img.shields.io/github/stars/jayminwest/warren)       | Runs coding agents with isolation, lifecycle management, spend limits, recovery, and Git delivery |
 
 ### 🔒 Security & Governance
 
@@ -274,12 +268,12 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [Presidio](https://github.com/data-privacy-stack/presidio)                        | ![](https://img.shields.io/github/stars/data-privacy-stack/presidio)        | PII detection, redaction, and anonymization across text, images, and structured data       |
 | [Guardrails AI](https://github.com/guardrails-ai/guardrails)                      | ![](https://img.shields.io/github/stars/guardrails-ai/guardrails)           | Output validation and guardrails for LLM responses                                         |
 | [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails)                      | ![](https://img.shields.io/github/stars/NVIDIA-NeMo/Guardrails)             | Programmable guardrails for LLM-based conversational systems                               |
-| [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP)                         | ![](https://img.shields.io/github/stars/nishant6118/Polaxis-SDK-MCP)        | Pre-execution runtime firewall for AI agents - 7-layer threat detection and spend controls |
 | [sofagent](https://github.com/KongFangXun/sofagent)                               | ![](https://img.shields.io/github/stars/KongFangXun/sofagent)               | Commit-time audit harness for coding agents - git-diff rules, HMAC audit trail, rollback   |
 | [hermes-jailbench](https://github.com/hermes-labs-ai/hermes-jailbench)            | ![](https://img.shields.io/github/stars/hermes-labs-ai/hermes-jailbench)    | Deterministic jailbreak regression benchmark for known-pattern attacks                     |
 | [LintLang](https://github.com/hermes-labs-ai/lintlang)                            | ![](https://img.shields.io/github/stars/hermes-labs-ai/lintlang)            | Zero-LLM static analysis for agent configs, tool descriptions, and prompts                 |
 | [Little Canary](https://github.com/hermes-labs-ai/little-canary)                  | ![](https://img.shields.io/github/stars/hermes-labs-ai/little-canary)       | Sacrificial-canary prompt-injection preflight (block / flag / pass)                        |
 | [AffixIO](https://github.com/AffixIO/SDK)                                         | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Policy gate for agent tool calls with signed allow or deny decisions, verified offline     |
+| [Dark-Moon](https://github.com/ASCIT31/Dark-Moon)                                 | ![](https://img.shields.io/github/stars/ASCIT31/Dark-Moon)                  | Autonomous AI pentest CLI/SDK with 50 specialist agents and an OWASP LLM Top 10 agent      |
 
 ### 🔌 Protocols
 
@@ -344,15 +338,6 @@ Join the conversation and stay updated on AI agent developments.
 
 ---
 
-## 🚀 Contributors
-
-A huge thank you to all our [amazing contributors](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)!
-
-Your contributions make this project better every day.
-
-⭐ A special shoutout to all our [stargazers](https://github.com/NipunaRanasinghe/awesome-ai-agents/stargazers) for your support!
-**Star this repository** to stay updated and help grow the community of AI enthusiasts!
-
 ## Contributing
 
 Your contributions are welcome! Here's how to get started:
@@ -365,4 +350,13 @@ Your contributions are welcome! Here's how to get started:
   - Includes a brief description and link.
 - Submit a pull request with a clear description of your changes.
 
-For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide.
+For more details, see the [CONTRIBUTING.md](CONTRIBUTING.md) guide. Newer projects that don't yet meet the adoption bar can go in [EMERGING.md](EMERGING.md).
+
+## Footnotes
+
+A huge thank you to all our [amazing contributors](https://github.com/NipunaRanasinghe/awesome-ai-agents/graphs/contributors)!
+
+Your contributions make this project better every day.
+
+⭐ A special shoutout to all our [stargazers](https://github.com/NipunaRanasinghe/awesome-ai-agents/stargazers) for your support!
+**Star this repository** to stay updated and help grow the community of AI enthusiasts!
