@@ -136,6 +136,7 @@ Agents designed for specific tasks or industries.
 | [Sno Station](https://github.com/sno-ai/sno-station)         | ![](https://img.shields.io/github/stars/sno-ai/sno-station)        | Runs Codex, Claude Code and Cursor as one team, with handoff at usage limits     |
 | [Codeman](https://github.com/Ark0N/Codeman)                  | ![](https://img.shields.io/github/stars/Ark0N/Codeman)             | Self-hosted control panel for running Claude Code, Codex and other coding agents |
 | [Albatross](https://github.com/morganlinton/Albatross)       | ![](https://img.shields.io/github/stars/morganlinton/Albatross)    | Terminal coding agent with transparent routing across local and hosted models    |
+| [Operator OSS](https://github.com/iishyfishyy/operator-oss)  | ![](https://img.shields.io/github/stars/iishyfishyy/operator-oss)  | Runs parallel Claude Code or Codex sessions from one screen in Git worktrees     |
 
 ### 🔬 Research Agents
 
