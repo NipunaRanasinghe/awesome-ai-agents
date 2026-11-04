@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-04
+
+- Added [Codeman](https://github.com/Ark0N/Codeman) to 💻 Coding Agents
+
 ## 2026-11-02
 
 - Added [Sno Station](https://github.com/sno-ai/sno-station) to 💻 Coding Agents
