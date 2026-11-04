@@ -138,6 +138,7 @@ Agents designed for specific tasks or industries.
 | [Albatross](https://github.com/morganlinton/Albatross)       | ![](https://img.shields.io/github/stars/morganlinton/Albatross)    | Terminal coding agent with transparent routing across local and hosted models    |
 | [Operator OSS](https://github.com/iishyfishyy/operator-oss)  | ![](https://img.shields.io/github/stars/iishyfishyy/operator-oss)  | Runs parallel Claude Code or Codex sessions from one screen in Git worktrees     |
 | [omk](https://github.com/dmae97/omk)                         | ![](https://img.shields.io/github/stars/dmae97/omk)                | Multi-agent coding CLI that switches models mid-session and gates goals on tests |
+| [Aster](https://github.com/Zfinix/aster)                     | ![](https://img.shields.io/github/stars/Zfinix/aster)              | Open-source agent harness for software engineering work                          |
 
 ### 🔬 Research Agents
 
