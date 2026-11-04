@@ -134,6 +134,7 @@ Agents designed for specific tasks or industries.
 | [Benzi](https://github.com/oooscoos/Benzi)                   | ![](https://img.shields.io/github/stars/oooscoos/Benzi)            | Compiles a codebase into a queryable index so coding agents read less raw source |
 | [3code](https://github.com/capocasa/3code)                   | ![](https://img.shields.io/github/stars/capocasa/3code)            | Coding agent designed to keep model costs low                                    |
 | [Sno Station](https://github.com/sno-ai/sno-station)         | ![](https://img.shields.io/github/stars/sno-ai/sno-station)        | Runs Codex, Claude Code and Cursor as one team, with handoff at usage limits     |
+| [Codeman](https://github.com/Ark0N/Codeman)                  | ![](https://img.shields.io/github/stars/Ark0N/Codeman)             | Self-hosted control panel for running Claude Code, Codex and other coding agents |
 
 ### 🔬 Research Agents
 
