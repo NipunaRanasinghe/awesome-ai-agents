@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-11-04
 
 - Added [Codeman](https://github.com/Ark0N/Codeman) to 💻 Coding Agents
+- Added [Albatross](https://github.com/morganlinton/Albatross) to 💻 Coding Agents
 
 ## 2026-11-02
 
