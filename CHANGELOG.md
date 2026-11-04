@@ -7,6 +7,7 @@ Entries added to or removed from the list, generated automatically from README a
 - Added [Codeman](https://github.com/Ark0N/Codeman) to 💻 Coding Agents
 - Added [Albatross](https://github.com/morganlinton/Albatross) to 💻 Coding Agents
 - Added [Operator OSS](https://github.com/iishyfishyy/operator-oss) to 💻 Coding Agents
+- Added [omk](https://github.com/dmae97/omk) to 💻 Coding Agents
 
 ## 2026-11-02
 
