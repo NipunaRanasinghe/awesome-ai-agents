@@ -315,6 +315,7 @@ Key research papers, benchmarks, and surveys on AI agents.
 | [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi)                | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi)           | Social intelligence benchmark for multi-agent systems                                                  |
 | [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) | ![](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap) | Benchmark for writing orchestration prompts in multi-agent systems, 110 scenarios across 10 topologies |
 | [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)                | ![](https://img.shields.io/github/stars/TIGER-AI-Lab/ClawBench)           | Live-web browser-agent benchmark with 283 tasks across 163 real websites                               |
+| [WebsiteBench](https://github.com/TIGER-AI-Lab/WebsiteBench)          | ![](https://img.shields.io/github/stars/TIGER-AI-Lab/WebsiteBench)        | Benchmarks full-stack website reconstruction from browser exploration; complete task bundles required. |
 
 ---
 
