@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-11-08
 
 - Added [BAXY](https://github.com/REDSOULTM/BAXY) to Emerging
+- Added [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) to Emerging
 
 ## 2026-11-04
 
