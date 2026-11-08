@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-08
+
+- Added [BAXY](https://github.com/REDSOULTM/BAXY) to Emerging
+
 ## 2026-11-04
 
 - Added [Codeman](https://github.com/Ark0N/Codeman) to 💻 Coding Agents
