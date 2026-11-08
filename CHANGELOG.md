@@ -2,9 +2,25 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-08
+
+- Added [BAXY](https://github.com/REDSOULTM/BAXY) to Emerging
+- Added [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) to Emerging
+
+## 2026-11-04
+
+- Added [Codeman](https://github.com/Ark0N/Codeman) to 💻 Coding Agents
+- Added [Albatross](https://github.com/morganlinton/Albatross) to 💻 Coding Agents
+- Added [Operator OSS](https://github.com/iishyfishyy/operator-oss) to 💻 Coding Agents
+- Added [omk](https://github.com/dmae97/omk) to 💻 Coding Agents
+- Added [Aster](https://github.com/Zfinix/aster) to 💻 Coding Agents
+
 ## 2026-11-02
 
 - Added [Sno Station](https://github.com/sno-ai/sno-station) to 💻 Coding Agents
+- Added [Swarms](https://github.com/kyegomez/swarms) to 🌟 Core Frameworks
+- Added [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) to 🌐 Web & Computer Use Agents
+- Added [Warren](https://github.com/jayminwest/warren) to 🚀 Deployment
 
 ## 2026-11-01
 

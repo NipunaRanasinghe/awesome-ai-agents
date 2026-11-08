@@ -102,6 +102,7 @@ Frameworks for building and managing AI agents.
 | [Raven](https://github.com/EverMind-AI/Raven)                              | ![](https://img.shields.io/github/stars/EverMind-AI/Raven)                | Plans a complex task as a DAG and runs it across built-in and third-party agents, with a self-evolving loop that installs only verified changes                                |
 | [Markus](https://github.com/markus-global/markus)                          | ![](https://img.shields.io/github/stars/markus-global/markus)             | Platform for building and running teams of AI agents with roles, task delegation, and persistent memory                                                                        |
 | [LazyMind](https://github.com/LazyAGI/LazyMind)                            | ![](https://img.shields.io/github/stars/LazyAGI/LazyMind)                 | Self-hosted AI Skill Runtime with persisted workflow state and artifacts                                                                                                       |
+| [Swarms](https://github.com/kyegomez/swarms)                               | ![](https://img.shields.io/github/stars/kyegomez/swarms)                  | Multi-agent orchestration framework for building and running agent swarms                                                                                                      |
 
 [agentlas-stars]: https://img.shields.io/github/stars/agentlas-ai/Agentlas-OS
 
@@ -133,6 +134,11 @@ Agents designed for specific tasks or industries.
 | [Benzi](https://github.com/oooscoos/Benzi)                   | ![](https://img.shields.io/github/stars/oooscoos/Benzi)            | Compiles a codebase into a queryable index so coding agents read less raw source |
 | [3code](https://github.com/capocasa/3code)                   | ![](https://img.shields.io/github/stars/capocasa/3code)            | Coding agent designed to keep model costs low                                    |
 | [Sno Station](https://github.com/sno-ai/sno-station)         | ![](https://img.shields.io/github/stars/sno-ai/sno-station)        | Runs Codex, Claude Code and Cursor as one team, with handoff at usage limits     |
+| [Codeman](https://github.com/Ark0N/Codeman)                  | ![](https://img.shields.io/github/stars/Ark0N/Codeman)             | Self-hosted control panel for running Claude Code, Codex and other coding agents |
+| [Albatross](https://github.com/morganlinton/Albatross)       | ![](https://img.shields.io/github/stars/morganlinton/Albatross)    | Terminal coding agent with transparent routing across local and hosted models    |
+| [Operator OSS](https://github.com/iishyfishyy/operator-oss)  | ![](https://img.shields.io/github/stars/iishyfishyy/operator-oss)  | Runs parallel Claude Code or Codex sessions from one screen in Git worktrees     |
+| [omk](https://github.com/dmae97/omk)                         | ![](https://img.shields.io/github/stars/dmae97/omk)                | Multi-agent coding CLI that switches models mid-session and gates goals on tests |
+| [Aster](https://github.com/Zfinix/aster)                     | ![](https://img.shields.io/github/stars/Zfinix/aster)              | Open-source agent harness for software engineering work                          |
 
 ### 🔬 Research Agents
 
@@ -156,19 +162,20 @@ Agents designed for specific tasks or industries.
 
 ### 🌐 Web & Computer Use Agents
 
-| Name                                                            | Stars                                                                | Description                                                                                                      |
-| --------------------------------------------------------------- | -------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| [Browser Use](https://github.com/browser-use/browser-use)       | ![](https://img.shields.io/github/stars/browser-use/browser-use)     | Make websites accessible for AI agents, automate tasks with ease                                                 |
-| [NanoBrowser](https://github.com/nanobrowser/nanobrowser)       | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)     | TypeScript-based AI browsing agent                                                                               |
-| [Firecrawl](https://github.com/firecrawl/firecrawl)             | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)         | Turn websites into LLM-ready markdown or structured data                                                         |
-| [Crawl4AI](https://github.com/unclecode/crawl4ai)               | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)          | Open-source LLM-friendly web crawler and scraper                                                                 |
-| [Stagehand](https://github.com/browserbase/stagehand)           | ![](https://img.shields.io/github/stars/browserbase/stagehand)       | AI browser automation framework with natural language and code                                                   |
-| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)         | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper) | X/Twitter data and action API (REST, MCP, webhooks) that agents call for search, monitoring, and posting         |
-| [Skyvern](https://github.com/Skyvern-AI/skyvern)                | ![](https://img.shields.io/github/stars/Skyvern-AI/skyvern)          | Browser automation agent using LLMs and computer vision to complete web workflows                                |
-| [Playwright MCP](https://github.com/microsoft/playwright-mcp)   | ![](https://img.shields.io/github/stars/microsoft/playwright-mcp)    | MCP server exposing Playwright browser automation to AI agents                                                   |
-| [Agent S](https://github.com/simular-ai/Agent-S)                | ![](https://img.shields.io/github/stars/simular-ai/Agent-S)          | Open framework for computer-use agents that operate desktop GUIs like a human                                    |
-| [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop) | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)   | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
-| [agent-qa](https://github.com/vostride/agent-qa)                | ![](https://img.shields.io/github/stars/vostride/agent-qa)           | Self-improving QA agent for natural-language web and mobile tests                                                |
+| Name                                                                      | Stars                                                                     | Description                                                                                                      |
+| ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| [Browser Use](https://github.com/browser-use/browser-use)                 | ![](https://img.shields.io/github/stars/browser-use/browser-use)          | Make websites accessible for AI agents, automate tasks with ease                                                 |
+| [NanoBrowser](https://github.com/nanobrowser/nanobrowser)                 | ![](https://img.shields.io/github/stars/nanobrowser/nanobrowser)          | TypeScript-based AI browsing agent                                                                               |
+| [Firecrawl](https://github.com/firecrawl/firecrawl)                       | ![](https://img.shields.io/github/stars/firecrawl/firecrawl)              | Turn websites into LLM-ready markdown or structured data                                                         |
+| [Crawl4AI](https://github.com/unclecode/crawl4ai)                         | ![](https://img.shields.io/github/stars/unclecode/crawl4ai)               | Open-source LLM-friendly web crawler and scraper                                                                 |
+| [Stagehand](https://github.com/browserbase/stagehand)                     | ![](https://img.shields.io/github/stars/browserbase/stagehand)            | AI browser automation framework with natural language and code                                                   |
+| [Xquik](https://github.com/Xquik-dev/x-twitter-scraper)                   | ![](https://img.shields.io/github/stars/Xquik-dev/x-twitter-scraper)      | X/Twitter data and action API (REST, MCP, webhooks) that agents call for search, monitoring, and posting         |
+| [Skyvern](https://github.com/Skyvern-AI/skyvern)                          | ![](https://img.shields.io/github/stars/Skyvern-AI/skyvern)               | Browser automation agent using LLMs and computer vision to complete web workflows                                |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp)             | ![](https://img.shields.io/github/stars/microsoft/playwright-mcp)         | MCP server exposing Playwright browser automation to AI agents                                                   |
+| [Agent S](https://github.com/simular-ai/Agent-S)                          | ![](https://img.shields.io/github/stars/simular-ai/Agent-S)               | Open framework for computer-use agents that operate desktop GUIs like a human                                    |
+| [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop)           | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)        | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
+| [agent-qa](https://github.com/vostride/agent-qa)                          | ![](https://img.shields.io/github/stars/vostride/agent-qa)                | Self-improving QA agent for natural-language web and mobile tests                                                |
+| [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) | ![](https://img.shields.io/github/stars/onehumanbeing/esp32-iphone-agent) | Lets a vision model operate a real iPhone through a $7 ESP32 using AirPlay and USB HID                           |
 
 ### 🗣️ Programming Language Agents
 
@@ -246,11 +253,12 @@ Tracing, monitoring, and debugging tools for agents in production.
 
 ### 🚀 Deployment
 
-| Name                                                 | Stars                                                            | Description                                                            |
-| ---------------------------------------------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------- |
-| [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                               |
-| [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                    |
-| [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm) |
+| Name                                                 | Stars                                                            | Description                                                                                       |
+| ---------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| [E2B](https://github.com/e2b-dev/E2B)                | ![](https://img.shields.io/github/stars/e2b-dev/E2B)             | Secure sandboxed environments for agents                                                          |
+| [Modal](https://github.com/modal-labs/modal-client)  | ![](https://img.shields.io/github/stars/modal-labs/modal-client) | Serverless runtime for AI workloads                                                               |
+| [Agent Barn](https://github.com/aai-labs/agent-barn) | ![](https://img.shields.io/github/stars/aai-labs/agent-barn)     | Control plane for AI agent teams on your own Kubernetes cluster (Helm)                            |
+| [Warren](https://github.com/jayminwest/warren)       | ![](https://img.shields.io/github/stars/jayminwest/warren)       | Runs coding agents with isolation, lifecycle management, spend limits, recovery, and Git delivery |
 
 ### 🔒 Security & Governance
 
