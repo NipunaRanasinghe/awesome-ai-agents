@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-11-09
 
 - Added [Aident Loadout](https://github.com/Aident-AI/aident-skill) to Emerging
+- Added [Cloud Alter Ego](https://github.com/SebastiaanBoon/cloud-alter-ego) to Emerging
 
 ## 2026-11-08
 
