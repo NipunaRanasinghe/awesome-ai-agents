@@ -159,6 +159,7 @@ Agents designed for specific tasks or industries.
 | [ShortGPT](https://github.com/RayVentura/ShortGPT)             | ![](https://img.shields.io/github/stars/RayVentura/ShortGPT)          | Short-form video generation agent                                                  |
 | [AI-town](https://github.com/a16z-infra/ai-town)               | ![](https://img.shields.io/github/stars/a16z-infra/ai-town)           | Virtual world simulation with AI agents                                            |
 | [NotFair](https://github.com/nowork-studio/notfair-plugin)     | ![](https://img.shields.io/github/stars/nowork-studio/notfair-plugin) | Open-source Claude Code agent skills for SEO, Google Ads, and Meta Ads management  |
+| [DESIGN:OS 3D Blender](https://github.com/jangtrinh/design-os-3d-blender) | ![](https://img.shields.io/github/stars/jangtrinh/design-os-3d-blender) | MCP server and agent skill for building parametric 3D parts in headless Blender    |
 
 ### 🌐 Web & Computer Use Agents
 
