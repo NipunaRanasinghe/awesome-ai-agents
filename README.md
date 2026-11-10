@@ -224,6 +224,7 @@ Tools and systems for managing AI agents.
 | [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API                |
 | [Busabase](https://github.com/busabase/busabase)                       | ![](https://img.shields.io/github/stars/busabase/busabase)               | Open-source agent workspace with auditable, permission-aware ChangeRequests             |
 | [SuperLocalMemory](https://github.com/qualixar/superlocalmemory)       | ![](https://img.shields.io/github/stars/qualixar/superlocalmemory)       | Local-first governed memory shared across Claude Code, Codex, Cursor and any MCP client |
+| [deja-vu](https://github.com/vshulcz/deja-vu)                          | ![](https://img.shields.io/github/stars/vshulcz/deja-vu)                 | Local cross-session memory, search, file recovery, and MCP server across 43 coding agents |
 
 ### 📊 Evaluation
 
