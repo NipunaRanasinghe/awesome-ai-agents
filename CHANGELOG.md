@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-12
+
+- Added [deja-vu](https://github.com/vshulcz/deja-vu) to 🧠 Memory
+
 ## 2026-11-09
 
 - Added [Aident Loadout](https://github.com/Aident-AI/aident-skill) to Emerging
