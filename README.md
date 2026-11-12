@@ -276,6 +276,7 @@ Tracing, monitoring, and debugging tools for agents in production.
 | [Little Canary](https://github.com/hermes-labs-ai/little-canary)                  | ![](https://img.shields.io/github/stars/hermes-labs-ai/little-canary)       | Sacrificial-canary prompt-injection preflight (block / flag / pass)                        |
 | [AffixIO](https://github.com/AffixIO/SDK)                                         | ![](https://img.shields.io/github/stars/AffixIO/SDK)                        | Policy gate for agent tool calls with signed allow or deny decisions, verified offline     |
 | [Dark-Moon](https://github.com/ASCIT31/Dark-Moon)                                 | ![](https://img.shields.io/github/stars/ASCIT31/Dark-Moon)                  | Autonomous AI pentest CLI/SDK with 50 specialist agents and an OWASP LLM Top 10 agent      |
+| [Memory Poisoning Lab](https://github.com/RishabhPande/memory-poison-lab) | ![](https://img.shields.io/github/stars/RishabhPande/memory-poison-lab) | Local memory-poisoning, defense and repair exercises with synthetic targets and a scripted agent |
 
 ### 🔌 Protocols
 
