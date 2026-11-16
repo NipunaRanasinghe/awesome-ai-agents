@@ -134,6 +134,11 @@ Agents designed for specific tasks or industries.
 | [Benzi](https://github.com/oooscoos/Benzi)                   | ![](https://img.shields.io/github/stars/oooscoos/Benzi)            | Compiles a codebase into a queryable index so coding agents read less raw source |
 | [3code](https://github.com/capocasa/3code)                   | ![](https://img.shields.io/github/stars/capocasa/3code)            | Coding agent designed to keep model costs low                                    |
 | [Sno Station](https://github.com/sno-ai/sno-station)         | ![](https://img.shields.io/github/stars/sno-ai/sno-station)        | Runs Codex, Claude Code and Cursor as one team, with handoff at usage limits     |
+| [Codeman](https://github.com/Ark0N/Codeman)                  | ![](https://img.shields.io/github/stars/Ark0N/Codeman)             | Self-hosted control panel for running Claude Code, Codex and other coding agents |
+| [Albatross](https://github.com/morganlinton/Albatross)       | ![](https://img.shields.io/github/stars/morganlinton/Albatross)    | Terminal coding agent with transparent routing across local and hosted models    |
+| [Operator OSS](https://github.com/iishyfishyy/operator-oss)  | ![](https://img.shields.io/github/stars/iishyfishyy/operator-oss)  | Runs parallel Claude Code or Codex sessions from one screen in Git worktrees     |
+| [omk](https://github.com/dmae97/omk)                         | ![](https://img.shields.io/github/stars/dmae97/omk)                | Multi-agent coding CLI that switches models mid-session and gates goals on tests |
+| [Aster](https://github.com/Zfinix/aster)                     | ![](https://img.shields.io/github/stars/Zfinix/aster)              | Open-source agent harness for software engineering work                          |
 
 ### 🔬 Research Agents
 
@@ -219,6 +224,7 @@ Tools and systems for managing AI agents.
 | [Screenpipe](https://github.com/screenpipe/screenpipe)                 | ![](https://img.shields.io/github/stars/screenpipe/screenpipe)           | Source-available screen/audio history for agents via MCP and a local API                |
 | [Busabase](https://github.com/busabase/busabase)                       | ![](https://img.shields.io/github/stars/busabase/busabase)               | Open-source agent workspace with auditable, permission-aware ChangeRequests             |
 | [SuperLocalMemory](https://github.com/qualixar/superlocalmemory)       | ![](https://img.shields.io/github/stars/qualixar/superlocalmemory)       | Local-first governed memory shared across Claude Code, Codex, Cursor and any MCP client |
+| [deja-vu](https://github.com/vshulcz/deja-vu)                          | ![](https://img.shields.io/github/stars/vshulcz/deja-vu)                 | Local cross-session memory, search, file recovery, and MCP server for 43 coding agents  |
 
 ### 📊 Evaluation
 
