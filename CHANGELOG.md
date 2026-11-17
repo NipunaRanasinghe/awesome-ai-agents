@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-17
+
+- Added [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) to 💻 Coding Agents
+
 ## 2026-11-16
 
 - Added [Breatic](https://github.com/orime-org/breatic) to Emerging
