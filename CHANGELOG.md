@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-18
+
+- Added [Agent Substrate](https://github.com/agent-substrate/substrate) to 🚀 Deployment
+
 ## 2026-11-17
 
 - Added [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) to 💻 Coding Agents
