@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-19
+
+- Added [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) to Emerging
+
 ## 2026-11-18
 
 - Added [Agent Substrate](https://github.com/agent-substrate/substrate) to 🚀 Deployment
