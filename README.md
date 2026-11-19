@@ -298,19 +298,19 @@ Key research papers, benchmarks, and surveys on AI agents.
 
 ### 📄 Papers
 
-| Title                                                                                | Link                                      | Description                                                                                                                            |
-| ------------------------------------------------------------------------------------ | ----------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------- |
-| The Rise of LLM-Based Agents                                                         | [arXiv](https://arxiv.org/abs/2309.07864) | Comprehensive survey on LLM-based agents                                                                                               |
-| Tool Learning with Foundation Models                                                 | [arXiv](https://arxiv.org/abs/2304.08354) | Tool usage in AI agents                                                                                                                |
-| Multi-Agent Collaboration                                                            | [arXiv](https://arxiv.org/abs/2308.08262) | Collaboration in multi-agent systems                                                                                                   |
-| Large Language Model based Multi-Agents                                              | [arXiv](https://arxiv.org/abs/2312.01845) | Survey of progress and challenges                                                                                                      |
-| Agentic AI Systems                                                                   | [arXiv](https://arxiv.org/abs/2401.08231) | Components and applications of agentic AI                                                                                              |
-| A Survey on LLM-based Autonomous Agents                                              | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents                                                                                                         |
-| OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents              | [arXiv](https://arxiv.org/abs/2504.16918) | Four-agent pipeline with bandit scheduling turns optimization problems into solver code                                                |
-| Training Agents to Evolve with Their Harness (HAT)                                   | [arXiv](https://arxiv.org/abs/2608.15763) | Harness-aware training for a live-commerce agent, with evaluation on changing skills, tools, prompts, and hooks                        |
-| The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses                | [SSRN](https://ssrn.com/abstract=7186738) | Control strategies, agentic RL, termination and recovery, skills, and harnesses around the agent loop                                  |
-| AgonAlpha: Autonomous Alpha Discovery via Prompt Economy and Scalable Agentic Search | [arXiv](https://arxiv.org/abs/2608.11250) | Alpha-mining agents with an adversarial reviewer that re-runs and can veto; 17 SPECTACULAR alphas from 60 WorldQuant BRAIN submissions |
-| AutoSR: Automatic Symbolic Regression by Searching Research States                   | [arXiv](https://arxiv.org/abs/2608.16876) | Proposer and reviewer agents search research states; recovers 3 cp3-bench equations that no published system solved                    |
+| Title                                                                   | Link                                      | Description                                                                                                     |
+| ----------------------------------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
+| The Rise of LLM-Based Agents                                            | [arXiv](https://arxiv.org/abs/2309.07864) | Comprehensive survey on LLM-based agents                                                                        |
+| Tool Learning with Foundation Models                                    | [arXiv](https://arxiv.org/abs/2304.08354) | Tool usage in AI agents                                                                                         |
+| Multi-Agent Collaboration                                               | [arXiv](https://arxiv.org/abs/2308.08262) | Collaboration in multi-agent systems                                                                            |
+| Large Language Model based Multi-Agents                                 | [arXiv](https://arxiv.org/abs/2312.01845) | Survey of progress and challenges                                                                               |
+| Agentic AI Systems                                                      | [arXiv](https://arxiv.org/abs/2401.08231) | Components and applications of agentic AI                                                                       |
+| A Survey on LLM-based Autonomous Agents                                 | [arXiv](https://arxiv.org/abs/2308.11432) | Focus on autonomous LLM agents                                                                                  |
+| OptimAI: Optimization from Natural Language Using LLM-Powered AI Agents | [arXiv](https://arxiv.org/abs/2504.16918) | Four-agent pipeline with bandit scheduling turns optimization problems into solver code                         |
+| Training Agents to Evolve with Their Harness (HAT)                      | [arXiv](https://arxiv.org/abs/2608.15763) | Harness-aware training for a live-commerce agent, with evaluation on changing skills, tools, prompts, and hooks |
+| The Agent Loop: A Survey of Control Strategies, Skills, and Harnesses   | [SSRN](https://ssrn.com/abstract=7186738) | Control strategies, agentic RL, termination and recovery, skills, and harnesses around the agent loop           |
+| AgonAlpha: Autonomous Alpha Discovery                                   | [arXiv](https://arxiv.org/abs/2608.11250) | Alpha-mining agents with an adversarial reviewer that re-runs and can veto results                              |
+| AutoSR: Automatic Symbolic Regression by Searching Research States      | [arXiv](https://arxiv.org/abs/2608.16876) | Proposer and reviewer agents that search research states for symbolic regression                                |
 
 ### 📊 Benchmarks
 
@@ -320,7 +320,7 @@ Key research papers, benchmarks, and surveys on AI agents.
 | [SOTOPIA-π](https://github.com/sotopia-lab/sotopia-pi)                | ![](https://img.shields.io/github/stars/sotopia-lab/sotopia-pi)           | Social intelligence benchmark for multi-agent systems                                                  |
 | [PerspectiveGap](https://github.com/WhymustIhaveaname/PerspectiveGap) | ![](https://img.shields.io/github/stars/WhymustIhaveaname/PerspectiveGap) | Benchmark for writing orchestration prompts in multi-agent systems, 110 scenarios across 10 topologies |
 | [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench)                | ![](https://img.shields.io/github/stars/TIGER-AI-Lab/ClawBench)           | Live-web browser-agent benchmark with 283 tasks across 163 real websites                               |
-| [SciΠvot](https://github.com/AutoResearch-Factory/SciPIvot)           | ![](https://img.shields.io/github/stars/AutoResearch-Factory/SciPIvot)    | Benchmark of 248 research-judgment calls from real projects; 4 of 5 frontier models score below chance |
+| [SciΠvot](https://github.com/AutoResearch-Factory/SciPIvot)           | ![](https://img.shields.io/github/stars/AutoResearch-Factory/SciPIvot)    | Benchmark of 248 research-judgment calls from real research projects                                   |
 
 ---
 
