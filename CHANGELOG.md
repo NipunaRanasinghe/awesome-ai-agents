@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-11-20
 
 - Added [SciΠvot](https://github.com/AutoResearch-Factory/SciPIvot) to 📊 Benchmarks
+- Added [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) to 🔒 Security & Governance
 
 ## 2026-11-19
 
