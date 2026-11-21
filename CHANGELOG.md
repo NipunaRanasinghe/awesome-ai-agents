@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-21
+
+- Added [Oh My Android](https://github.com/ateymoori/oh-my-android) to 🌐 Web & Computer Use Agents
+
 ## 2026-11-20
 
 - Added [SciΠvot](https://github.com/AutoResearch-Factory/SciPIvot) to 📊 Benchmarks
