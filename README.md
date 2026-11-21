@@ -177,7 +177,7 @@ Agents designed for specific tasks or industries.
 | [UI-TARS Desktop](https://github.com/bytedance/UI-TARS-desktop)           | ![](https://img.shields.io/github/stars/bytedance/UI-TARS-desktop)        | GUI agent by ByteDance that controls desktop and browser via natural language, built on the UI-TARS vision model |
 | [agent-qa](https://github.com/vostride/agent-qa)                          | ![](https://img.shields.io/github/stars/vostride/agent-qa)                | Self-improving QA agent for natural-language web and mobile tests                                                |
 | [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) | ![](https://img.shields.io/github/stars/onehumanbeing/esp32-iphone-agent) | Lets a vision model operate a real iPhone through a $7 ESP32 using AirPlay and USB HID                           |
-| [Oh My Android](https://github.com/ateymoori/oh-my-android) | ![](https://img.shields.io/github/stars/ateymoori/oh-my-android) | macOS control panel for the Android Emulator with a built-in MCP server that lets AI agents see and drive the emulator |
+| [Oh My Android](https://github.com/ateymoori/oh-my-android)               | ![](https://img.shields.io/github/stars/ateymoori/oh-my-android)          | macOS app that runs the Android Emulator and exposes it to AI agents through a built-in MCP server               |
 
 ### 🗣️ Programming Language Agents
 
