@@ -12,7 +12,4 @@
 - [ ] The stars badge `owner/repo` matches the link URL
 - [ ] Added to the correct section
 - [ ] For `EMERGING.md` only: the row also has the `Section` and `Added` (YYYY-MM) columns, and the project meets the emerging rules in CONTRIBUTING.md (open-source license, submitted by the owner or a maintainer, 30+ days old with a commit in the last 30 days)
-
----
-
-⭐ If this list has been useful to you, consider starring the repo — it helps others discover it.
+- [ ] ⭐ Starred the repo (optional, helps others find the list)

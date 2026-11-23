@@ -2,6 +2,31 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-21
+
+- Added [Oh My Android](https://github.com/ateymoori/oh-my-android) to 🌐 Web & Computer Use Agents
+
+## 2026-11-20
+
+- Added [SciΠvot](https://github.com/AutoResearch-Factory/SciPIvot) to 📊 Benchmarks
+- Added [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) to 🔒 Security & Governance
+
+## 2026-11-19
+
+- Added [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) to Emerging
+
+## 2026-11-18
+
+- Added [Agent Substrate](https://github.com/agent-substrate/substrate) to 🚀 Deployment
+
+## 2026-11-17
+
+- Added [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) to 💻 Coding Agents
+
+## 2026-11-16
+
+- Added [Breatic](https://github.com/orime-org/breatic) to Emerging
+
 ## 2026-11-12
 
 - Added [deja-vu](https://github.com/vshulcz/deja-vu) to 🧠 Memory
