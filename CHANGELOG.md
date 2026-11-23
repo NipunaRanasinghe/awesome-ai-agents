@@ -6,6 +6,7 @@ Entries added to or removed from the list, generated automatically from README a
 
 - Added [YouTube MCP](https://github.com/tubeagentkit/youtube-mcp) to Emerging
 - Added [EvalShift](https://github.com/evalshift/evalshift-cli) to Emerging
+- Added [Lantern Works](https://github.com/connormatthewdouglas/agent-work-stack-deals) to Emerging
 
 ## 2026-11-21
 
