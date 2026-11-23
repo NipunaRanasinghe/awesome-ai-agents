@@ -5,6 +5,7 @@ Entries added to or removed from the list, generated automatically from README a
 ## 2026-11-23
 
 - Added [YouTube MCP](https://github.com/tubeagentkit/youtube-mcp) to Emerging
+- Added [EvalShift](https://github.com/evalshift/evalshift-cli) to Emerging
 
 ## 2026-11-21
 
