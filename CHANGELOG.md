@@ -2,6 +2,26 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-23
+
+- Added [YouTube MCP](https://github.com/tubeagentkit/youtube-mcp) to Emerging
+- Added [EvalShift](https://github.com/evalshift/evalshift-cli) to Emerging
+- Added [Lantern Works](https://github.com/connormatthewdouglas/agent-work-stack-deals) to Emerging
+- Added [Sillage](https://github.com/MarlBurroW/sillage) to Emerging
+
+## 2026-11-21
+
+- Added [Oh My Android](https://github.com/ateymoori/oh-my-android) to 🌐 Web & Computer Use Agents
+
+## 2026-11-20
+
+- Added [SciΠvot](https://github.com/AutoResearch-Factory/SciPIvot) to 📊 Benchmarks
+- Added [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) to 🔒 Security & Governance
+
+## 2026-11-19
+
+- Added [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) to Emerging
+
 ## 2026-11-18
 
 - Added [Agent Substrate](https://github.com/agent-substrate/substrate) to 🚀 Deployment
