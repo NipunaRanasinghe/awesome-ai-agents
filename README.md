@@ -178,6 +178,7 @@ Agents designed for specific tasks or industries.
 | [agent-qa](https://github.com/vostride/agent-qa)                          | ![](https://img.shields.io/github/stars/vostride/agent-qa)                | Self-improving QA agent for natural-language web and mobile tests                                                |
 | [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) | ![](https://img.shields.io/github/stars/onehumanbeing/esp32-iphone-agent) | Lets a vision model operate a real iPhone through a $7 ESP32 using AirPlay and USB HID                           |
 | [Oh My Android](https://github.com/ateymoori/oh-my-android)               | ![](https://img.shields.io/github/stars/ateymoori/oh-my-android)          | macOS app that runs the Android Emulator and exposes it to AI agents through a built-in MCP server               |
+| [Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server) | ![](https://img.shields.io/github/stars/firecrawl/firecrawl-mcp-server)   | Official Firecrawl MCP server for web search, scraping and crawling                                              |
 
 ### 🗣️ Programming Language Agents
 
