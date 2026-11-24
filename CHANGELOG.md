@@ -2,6 +2,94 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-24
+
+- Added [Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server) to 🌐 Web & Computer Use Agents
+
+## 2026-11-23
+
+- Added [YouTube MCP](https://github.com/tubeagentkit/youtube-mcp) to Emerging
+- Added [EvalShift](https://github.com/evalshift/evalshift-cli) to Emerging
+- Added [Lantern Works](https://github.com/connormatthewdouglas/agent-work-stack-deals) to Emerging
+- Added [Sillage](https://github.com/MarlBurroW/sillage) to Emerging
+
+## 2026-11-21
+
+- Added [Oh My Android](https://github.com/ateymoori/oh-my-android) to 🌐 Web & Computer Use Agents
+
+## 2026-11-20
+
+- Added [SciΠvot](https://github.com/AutoResearch-Factory/SciPIvot) to 📊 Benchmarks
+- Added [Agent Payment Node](https://github.com/nuanu-ai/agent-payment-node) to 🔒 Security & Governance
+
+## 2026-11-19
+
+- Added [sqlite-graph-memory](https://github.com/tonydzi/sqlite-graph-memory) to Emerging
+
+## 2026-11-18
+
+- Added [Agent Substrate](https://github.com/agent-substrate/substrate) to 🚀 Deployment
+
+## 2026-11-17
+
+- Added [Orchestrator](https://github.com/OrchestratorInc/agent-orchestrator) to 💻 Coding Agents
+
+## 2026-11-16
+
+- Added [Breatic](https://github.com/orime-org/breatic) to Emerging
+
+## 2026-11-12
+
+- Added [deja-vu](https://github.com/vshulcz/deja-vu) to 🧠 Memory
+
+## 2026-11-09
+
+- Added [Aident Loadout](https://github.com/Aident-AI/aident-skill) to Emerging
+- Added [Cloud Alter Ego](https://github.com/SebastiaanBoon/cloud-alter-ego) to Emerging
+
+## 2026-11-08
+
+- Added [BAXY](https://github.com/REDSOULTM/BAXY) to Emerging
+- Added [SUNGLASSES](https://github.com/sunglasses-dev/sunglasses) to Emerging
+
+## 2026-11-04
+
+- Added [Codeman](https://github.com/Ark0N/Codeman) to 💻 Coding Agents
+- Added [Albatross](https://github.com/morganlinton/Albatross) to 💻 Coding Agents
+- Added [Operator OSS](https://github.com/iishyfishyy/operator-oss) to 💻 Coding Agents
+- Added [omk](https://github.com/dmae97/omk) to 💻 Coding Agents
+- Added [Aster](https://github.com/Zfinix/aster) to 💻 Coding Agents
+
+## 2026-11-02
+
+- Added [Sno Station](https://github.com/sno-ai/sno-station) to 💻 Coding Agents
+- Added [Swarms](https://github.com/kyegomez/swarms) to 🌟 Core Frameworks
+- Added [ESP32 iPhone Agent](https://github.com/onehumanbeing/esp32-iphone-agent) to 🌐 Web & Computer Use Agents
+- Added [Warren](https://github.com/jayminwest/warren) to 🚀 Deployment
+
+## 2026-11-01
+
+- Added [NotFair](https://github.com/nowork-studio/notfair-plugin) to 🎨 Creative Agents
+- Added [AgentAssay](https://github.com/qualixar/agentassay) to Emerging
+- Added [AgentAssert](https://github.com/qualixar/agentassert-abc) to Emerging
+- Added [SuperLocalMemory](https://github.com/qualixar/superlocalmemory) to 🧠 Memory
+- Added [Dark-Moon](https://github.com/ASCIT31/Dark-Moon) to 🔒 Security & Governance
+- Moved [AutoNumerics](https://github.com/Daviddjddu/Autonumerics) to Emerging
+- Moved [BulkPublish](https://github.com/azeemkafridi/bulkpublish-api) to Emerging
+- Moved [CAJAL](https://github.com/Agnuxo1/CAJAL) to Emerging
+- Moved [Hivemoot Colony](https://github.com/hivemoot/colony) to Emerging
+- Moved [OIXA Protocol](https://github.com/ivoshemi-sys/oixa-protocol) to Emerging
+- Moved [OpenClaw Monitor](https://github.com/flik2002/openclaw-monitor) to Emerging
+- Moved [Polaxis](https://github.com/nishant6118/Polaxis-SDK-MCP) to Emerging
+- Moved [Portable Handoff](https://github.com/legoambarish/portable-handoff) to Emerging
+- Moved [Summoner](https://github.com/Summoner-Network/summoner-agents) to Emerging
+- Moved [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) to Emerging
+
+## 2026-10-31
+
+- Added [LazyMind](https://github.com/LazyAGI/LazyMind) to 🌟 Core Frameworks
+- Added [AgentSearch MCP](https://github.com/agentsearchhq-coder/agentsearch-mcp) to Emerging
+
 ## 2026-10-27
 
 - Added [Benzi](https://github.com/oooscoos/Benzi) to 💻 Coding Agents
