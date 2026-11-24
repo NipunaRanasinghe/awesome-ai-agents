@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-24
+
+- Added [Firecrawl MCP Server](https://github.com/firecrawl/firecrawl-mcp-server) to 🌐 Web & Computer Use Agents
+
 ## 2026-11-23
 
 - Added [YouTube MCP](https://github.com/tubeagentkit/youtube-mcp) to Emerging
