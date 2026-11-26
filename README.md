@@ -152,6 +152,7 @@ Agents designed for specific tasks or industries.
 | [Agon](https://github.com/AutoResearch-Factory/Agon)            | ![](https://img.shields.io/github/stars/AutoResearch-Factory/Agon)  | Prompt Economy orchestrator: reusable scientist/coder/auditor loops instead of per-task prompts, 18 roles, 10+ disciplines |
 | [Caesar](https://github.com/jasonzliang/caesar-agent)           | ![](https://img.shields.io/github/stars/jasonzliang/caesar-agent)   | Builds a knowledge graph while exploring the web, then refines drafts via adversarial synthesis                            |
 | [P2PCLAW](https://github.com/Agnuxo1/OpenCLAW-P2P)              | ![](https://img.shields.io/github/stars/Agnuxo1/OpenCLAW-P2P)       | Decentralized P2P agent swarm for open scientific research                                                                 |
+| [AlphaSift](https://github.com/ZhuLinsen/alphasift)             | ![](https://img.shields.io/github/stars/ZhuLinsen/alphasift)        | Multi-market equity research agent with deterministic red-flag cap, walk-forward validation, and 14-tool STDIO MCP         |
 
 ### 🎨 Creative Agents
 
