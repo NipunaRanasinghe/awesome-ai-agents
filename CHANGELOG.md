@@ -2,6 +2,10 @@
 
 Entries added to or removed from the list, generated automatically from README and EMERGING changes on each merge to main. Newest first.
 
+## 2026-11-26
+
+- Added [AlphaSift](https://github.com/ZhuLinsen/alphasift) to 🔬 Research Agents
+
 ## 2026-11-25
 
 - Added [ANKITA](https://github.com/akyourowngames/A.N.K.I.T.A) to Emerging
